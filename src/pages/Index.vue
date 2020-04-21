@@ -206,7 +206,7 @@
           <div class="col-10">
             <q-card-section>
               <q-toolbar-title class="q-ml-sm text-h6 text-start text-black">
-                Cuéntanos acerca de ti
+                Cuéntanos acerca deti
               </q-toolbar-title>
               <q-toolbar-title class="text-h6 text-black text-weight-light">
                 Sobre la empresa ó el proyecto
