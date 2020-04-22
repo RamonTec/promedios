@@ -2,35 +2,46 @@
   <div>
     <q-layout view="hhh lpR fff" class="shadow-2 rounded-borders">
       <q-header>
-        <div class="row q-ml-xl bg-primary">
-          <div class="col-4" style="margin-right: 285px !important">
+        <div class="row bg-primary">
+          <div class="col-xs-11 col-md-4" 
+              :style="($q.screen.lt.md) ? 'text-align: center; font-size: 100px; !important' : 'margin-left: 48px;'"
+              style="margin-right: 392px !important">
             <div>
-              <div>
-                <img class="q-mt-xl" src="../statics/pro/logo_promedios.png" style="max-width: 500px; height: 70px;">
-              </div>
+              <img class="q-mt-xl" src="../statics/pro/logo_promedios.png"
+              style="max-width: 500px; height: 70px;">
             </div>
-            <div class="text-h3">
+            <div class="text-h3"
+              :style="($q.screen.lt.sm) ? 'text-align: center; font-size: 30px;' : 'margin-top:30px;'"
+            >
               Somos la Fuerza
             </div>
-            <div class="text-h3 text-secondary">
+            <div class="text-h3 text-secondary"
+              :style="($q.screen.lt.sm) ? 'text-align: center; font-size: 30px;' : ''"
+            >
               de la innovación y
             </div>
-            <div class="text-h3 text-secondary">
+            <div class="text-h3 text-secondary"
+              :style="($q.screen.lt.sm) ? 'text-align: center; font-size: 30px;' : ''"
+            >
               transformación digital
             </div>
-            <div class="text-h6">
+            <div class="text-h6"
+              :style="($q.screen.lt.md) ? 'text-align: center; font-size: 20px;' : 'margin-top:30px;'"
+            >
               Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
               advertised as the most popular gun in American crime. do you believe that
               shit? It actually says that in the little book that comes whit it: the most popular.
             </div>
-            <div class="q-mt-xl">
+            <div class="q-mt-xl"
+              :style="($q.screen.lt.sm) ? 'margin-top: 10px;' : 'margin-top: 150px;'"
+            >
               <q-btn flat ><img src="../statics/pro/llamanos_ya.svg" style="max-width: 500px; height: 50px;"></q-btn>
             </div>
           </div>
-          <div class="col-6">
-            <div class="col-6 bg-positive" style="border-radius: 0px 0px 0px 50px; padding: 0px !important">
+          <div class="xs-hide sm-hide col-md-5">
+            <div class="bg-positive" style="border-radius: 0px 0px 0px 50px; padding: 0px !important">
               <img class="q-mt-xl" src="../statics/pro/cell_header_pm.png" 
-              style="max-width: 550px; height: 660px; padding-botton: -4px !important; margin-left: -180px !important">
+              style="max-width: 550px; height: 660px;margin-bottom: -7px !important; margin-left: -180px !important;">
             </div>
           </div>
         </div>

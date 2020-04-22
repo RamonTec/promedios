@@ -51,6 +51,7 @@ module.exports = function (/* ctx */) {
       all: false,
 
       config: {
+
         notify: {
           /* Notify defaults */
         },
@@ -66,6 +67,8 @@ module.exports = function (/* ctx */) {
       },
 
       components: [
+        'QTooltip',
+        'QResponsive',
         'QInput',
         'QBanner',
         'QLayout',
