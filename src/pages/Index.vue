@@ -1,167 +1,18 @@
-<style scoped>
-  section {
-    padding: 3rem 0;
-  }
-
-  /*
-  * 1. Tab Normal Effect
-  * 2. Tab Rotation Effect
-  */
-  .uix-tabs {
-    /* 
-    ---------------------------
-    1. Tab Normal Effect
-    ---------------------------
-    */
-    /* 
-    ---------------------------
-    2. Tab Rotation Effect
-    ---------------------------
-    */
-  }
-  .uix-tabs:not(.uix-tabs--rotation) {
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05), 0 1px 6px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 16px 16px rgba(0, 0, 0, 0.05), 8px 32px 32px rgba(0, 0, 0, 0.02), 8px 64px 64px rgba(0, 0, 0, 0.02);
-  }
-  .uix-tabs:not(.uix-tabs--rotation) .uix-tabs__marker {
-    background: #212121;
-    height: 2px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    transition: .1s ease-in-out;
-  }
-  .uix-tabs .uix-tabs__content {
-    display: none;
-    padding: 1.3125rem;
-    text-align: left;
-  }
-  .uix-tabs .uix-tabs__content.active {
-    display: block;
-  }
-  .uix-tabs .uix-tabs__nav > ul {
-    padding: 0;
-    margin: 0;
-  }
-  .uix-tabs .uix-tabs__nav > ul > li {
-    position: relative;
-    display: block;
-    transition: .1s ease-in-out;
-    list-style: none;
-    float: left;
-    box-shadow: inset 1px 0px 0px 0px #e6e6e6;
-    background: #f7f7f7;
-    min-width: 7.5rem;
-  }
-  .uix-tabs .uix-tabs__nav > ul > li > a {
-    position: relative;
-    padding: 0.625rem 1rem;
-    display: block;
-    text-align: center;
-  }
-  .uix-tabs .uix-tabs__nav > ul > li.active {
-    background: #fff;
-  }
-  .uix-tabs .uix-tabs__nav > ul::after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-  .uix-tabs.uix-tabs--center {
-    box-shadow: none;
-  }
-  .uix-tabs.uix-tabs--center .uix-tabs__nav > ul {
-    font-size: 0;
-    /*Fighting the Space Between Inline Block Elements*/
-    display: block;
-    width: 100%;
-    text-align: center;
-    /*require*/
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05), 0 1px 6px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 16px 16px rgba(0, 0, 0, 0.05), 8px 32px 32px rgba(0, 0, 0, 0.02), 8px 64px 64px rgba(0, 0, 0, 0.02);
-  }
-  .uix-tabs.uix-tabs--center .uix-tabs__nav > ul li {
-    font-size: 1rem;
-    /*Fighting the Space Between Inline Block Elements*/
-    display: inline-block;
-    /*require*/
-    float: none;
-  }
-  .uix-tabs.uix-tabs--rotation .uix-tabs__content {
-    position: relative;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05), 0 1px 6px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 16px 16px rgba(0, 0, 0, 0.05), 8px 32px 32px rgba(0, 0, 0, 0.02), 8px 64px 64px rgba(0, 0, 0, 0.02);
-  }
-  .uix-tabs.uix-tabs--rotation .uix-tabs__nav {
-    position: relative;
-    margin: 0;
-  }
-  .uix-tabs.uix-tabs--rotation .uix-tabs__nav > ul {
-    box-sizing: border-box;
-    position: relative;
-    width: 300px;
-    height: 300px;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-  }
-  .uix-tabs.uix-tabs--rotation .uix-tabs__nav > ul > li {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    background: none;
-    box-shadow: none;
-    z-index: 2;
-    top: 0;
-    left: 50%;
-    min-width: inherit;
-    /* Required */
-  }
-  .uix-tabs.uix-tabs--rotation .uix-tabs__nav > ul > li > a {
-    width: 80px;
-    height: 80px;
-    line-height: 60px;
-    background: #fff;
-    border-radius: 100%;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05), 0 1px 6px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 16px 16px rgba(0, 0, 0, 0.05), 8px 32px 32px rgba(0, 0, 0, 0.02), 8px 64px 64px rgba(0, 0, 0, 0.02);
-  }
-  .uix-tabs.uix-tabs--rotation .uix-tabs__nav > ul > li.active > a {
-    background: #212121;
-    color: #fff;
-  }
-
-  /* Center alignment */
-  .uix-t-c .uix-tabs.uix-tabs--rotation .uix-tabs__nav {
-    margin: 0 auto;
-  }
-
-  @media all and (max-width: 768px) {
-    .uix-tabs {
-      /* Tab Rotation Effect */
-    }
-    .uix-tabs:not(.uix-tabs--rotation) li {
-      width: 100% !important;
-    }
-    .uix-tabs.uix-tabs--rotation .uix-tabs__nav {
-      width: auto !important;
-    }
-  }
-
-</style>
 <template>
   <q-page>
     <div class="row">
-      <q-card flat class="col-4 bg-primary q-ml-xl q-mt-xl">
+      <q-card flat class="col-xs-12 col-4 bg-primary q-mt-xl" 
+      :style="($q.screen.lt.sm) ? 'text-align: center; font-size: 40px;' : ''">
         <q-card-section>
-          <q-toolbar-title class="q-ml-md text-h3">
+          <q-toolbar-title class="text-h3"
+          :style="($q.screen.lt.md) ? 'text-align: center; font-size: 30px;' : ''"
+          >
             Nuestros Servicios
           </q-toolbar-title>
         </q-card-section>
-        <q-card-section class="q-ml-md text-h6">
+        <q-card-section class="text-h6"
+        :style="($q.screen.lt.md) ? 'text-align: center; font-size: 20px;' : ''"
+        >
           Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
           advertised as the most popular gun in American crime. do you believe that
           shit? It actually says that in the little book that comes whit it: the most popular.
@@ -214,6 +65,9 @@
       </slide>
       <slide>
         <q-card flat class="row bg-primary justify-between my-card">
+          <q-card-section>
+            <img src="../statics/pro/servicio_6.svg" style="max-width: 500px; height: 250px;">
+          </q-card-section> 
           <q-card-section>
             <img src="../statics/pro/servicio_7.svg" style="max-width: 500px; height: 250px;">
           </q-card-section>

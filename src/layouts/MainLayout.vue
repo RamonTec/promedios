@@ -1,6 +1,6 @@
 <template>
   <div>
-    <q-layout view="hhh lpR fff" style="height: 400px" class="shadow-2 rounded-borders">
+    <q-layout view="hhh lpR fff" class="shadow-2 rounded-borders">
       <q-header>
         <q-card flat class="row q-ml-xl q-mt-xl bg-primary">
           <div class="col-7">
@@ -29,7 +29,7 @@
               
             </q-card-section>
           </div>
-        </q-card>
+        </div>
       </q-header>
       <q-page-container class="bg-primary text-white">
         <router-view/>
