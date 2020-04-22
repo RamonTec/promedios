@@ -383,10 +383,10 @@
               </div>
             <div class="row justify-center">
               <div class="col-11">
-                <q-input class="q-mt-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
-                <q-select class="q-mt-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
-                <q-select class="q-mt-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
-                <q-select class="q-mt-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
+                <q-input class="q-mt-sm" outlined v-model="text" label="Nombre de la empresa o poryecto" style="border-radius:10px" dense />
+                <q-select class="q-mt-sm" outlined v-model="text" label="Sector al que pertenece" style="border-radius:10px" dense />
+                <q-select class="q-mt-sm" outlined v-model="text" label="En que servicio estas interesado?" style="border-radius:10px" dense />
+                <q-select class="q-mt-sm" outlined v-model="text" label="Tipo de negocio o proyecto" style="border-radius:10px" dense />
               </div>
             </div>
             <div class="col-10">
@@ -400,22 +400,23 @@
               <div class="col-11">
                 <div class="row justify-center">
                   <div class="col-6">
-                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="Nombres" style="border-radius:10px" dense />
                   </div>
                   <div class="col-6">
-                    <q-input class="q-mt-sm " outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm " outlined v-model="text" label="Apellidos" style="border-radius:10px" dense />
                   </div>
                 </div>
                 <div class="row justify-center">
                   <div class="col-6">
-                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="E-Mail" style="border-radius:10px" dense />
                   </div>
                   <div class="col-6">
-                    <q-input class="q-mt-sm " outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm " outlined v-model="text" label="Celular" style="border-radius:10px" dense />
                   </div>
                 </div>
                 <div class="row">
                   <q-input
+                    label="Cuéntanos que expectativa tienes"
                     class="q-mt-sm col-12"
                     v-model="text"
                     outlined
