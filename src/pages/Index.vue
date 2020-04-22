@@ -1,157 +1,3 @@
-<style scoped>
-  section {
-    padding: 3rem 0;
-  }
-
-  /*
-  * 1. Tab Normal Effect
-  * 2. Tab Rotation Effect
-  */
-  .uix-tabs {
-    /* 
-    ---------------------------
-    1. Tab Normal Effect
-    ---------------------------
-    */
-    /* 
-    ---------------------------
-    2. Tab Rotation Effect
-    ---------------------------
-    */
-  }
-  .uix-tabs:not(.uix-tabs--rotation) {
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05), 0 1px 6px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 16px 16px rgba(0, 0, 0, 0.05), 8px 32px 32px rgba(0, 0, 0, 0.02), 8px 64px 64px rgba(0, 0, 0, 0.02);
-  }
-  .uix-tabs:not(.uix-tabs--rotation) .uix-tabs__marker {
-    background: #212121;
-    height: 2px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    transition: .1s ease-in-out;
-  }
-  .uix-tabs .uix-tabs__content {
-    display: none;
-    padding: 1.3125rem;
-    text-align: left;
-  }
-  .uix-tabs .uix-tabs__content.active {
-    display: block;
-  }
-  .uix-tabs .uix-tabs__nav > ul {
-    padding: 0;
-    margin: 0;
-  }
-  .uix-tabs .uix-tabs__nav > ul > li {
-    position: relative;
-    display: block;
-    transition: .1s ease-in-out;
-    list-style: none;
-    float: left;
-    box-shadow: inset 1px 0px 0px 0px #e6e6e6;
-    background: #f7f7f7;
-    min-width: 7.5rem;
-  }
-  .uix-tabs .uix-tabs__nav > ul > li > a {
-    position: relative;
-    padding: 0.625rem 1rem;
-    display: block;
-    text-align: center;
-  }
-  .uix-tabs .uix-tabs__nav > ul > li.active {
-    background: #fff;
-  }
-  .uix-tabs .uix-tabs__nav > ul::after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-  .uix-tabs.uix-tabs--center {
-    box-shadow: none;
-  }
-  .uix-tabs.uix-tabs--center .uix-tabs__nav > ul {
-    font-size: 0;
-    /*Fighting the Space Between Inline Block Elements*/
-    display: block;
-    width: 100%;
-    text-align: center;
-    /*require*/
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05), 0 1px 6px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 16px 16px rgba(0, 0, 0, 0.05), 8px 32px 32px rgba(0, 0, 0, 0.02), 8px 64px 64px rgba(0, 0, 0, 0.02);
-  }
-  .uix-tabs.uix-tabs--center .uix-tabs__nav > ul li {
-    font-size: 1rem;
-    /*Fighting the Space Between Inline Block Elements*/
-    display: inline-block;
-    /*require*/
-    float: none;
-  }
-  .uix-tabs.uix-tabs--rotation .uix-tabs__content {
-    position: relative;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05), 0 1px 6px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 16px 16px rgba(0, 0, 0, 0.05), 8px 32px 32px rgba(0, 0, 0, 0.02), 8px 64px 64px rgba(0, 0, 0, 0.02);
-  }
-  .uix-tabs.uix-tabs--rotation .uix-tabs__nav {
-    position: relative;
-    margin: 0;
-  }
-  .uix-tabs.uix-tabs--rotation .uix-tabs__nav > ul {
-    box-sizing: border-box;
-    position: relative;
-    width: 300px;
-    height: 300px;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-  }
-  .uix-tabs.uix-tabs--rotation .uix-tabs__nav > ul > li {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    background: none;
-    box-shadow: none;
-    z-index: 2;
-    top: 0;
-    left: 50%;
-    min-width: inherit;
-    /* Required */
-  }
-  .uix-tabs.uix-tabs--rotation .uix-tabs__nav > ul > li > a {
-    width: 80px;
-    height: 80px;
-    line-height: 60px;
-    background: #fff;
-    border-radius: 100%;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05), 0 1px 6px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05), 0 16px 16px rgba(0, 0, 0, 0.05), 8px 32px 32px rgba(0, 0, 0, 0.02), 8px 64px 64px rgba(0, 0, 0, 0.02);
-  }
-  .uix-tabs.uix-tabs--rotation .uix-tabs__nav > ul > li.active > a {
-    background: #212121;
-    color: #fff;
-  }
-
-  /* Center alignment */
-  .uix-t-c .uix-tabs.uix-tabs--rotation .uix-tabs__nav {
-    margin: 0 auto;
-  }
-
-  @media all and (max-width: 768px) {
-    .uix-tabs {
-      /* Tab Rotation Effect */
-    }
-    .uix-tabs:not(.uix-tabs--rotation) li {
-      width: 100% !important;
-    }
-    .uix-tabs.uix-tabs--rotation .uix-tabs__nav {
-      width: auto !important;
-    }
-  }
-
-</style>
 <template>
   <q-page>
     <div class="row">
@@ -236,6 +82,11 @@
       <hooper-navigation slot="hooper-addons"></hooper-navigation>
       
     </hooper>
+    </div>
+    <div class="row">
+      <div class="col-11" style="background: #2b3035; border-radius: 0 25px 25px 0; heigth: 120px">
+        <h1>aqui tienen q ir las tags en forma de rueda</h1>
+      </div>
     </div>
     <div class="row justify-center q-ml-xl q-mr-xl q-mt-xl">
       <div class="col q-gutter-xs">
@@ -383,10 +234,10 @@
               </div>
             <div class="row justify-center">
               <div class="col-11">
-                <q-input class="q-mt-sm" outlined v-model="text" label="Nombre de la empresa o poryecto" style="border-radius:10px" dense />
-                <q-select class="q-mt-sm" outlined v-model="text" label="Sector al que pertenece" style="border-radius:10px" dense />
-                <q-select class="q-mt-sm" outlined v-model="text" label="En que servicio estas interesado?" style="border-radius:10px" dense />
-                <q-select class="q-mt-sm" outlined v-model="text" label="Tipo de negocio o proyecto" style="border-radius:10px" dense />
+                <q-input class="q-mt-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
+                <q-select class="q-mt-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
+                <q-select class="q-mt-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
+                <q-select class="q-mt-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
               </div>
             </div>
             <div class="col-10">
@@ -400,23 +251,22 @@
               <div class="col-11">
                 <div class="row justify-center">
                   <div class="col-6">
-                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="Nombres" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
                   </div>
                   <div class="col-6">
-                    <q-input class="q-mt-sm " outlined v-model="text" label="Apellidos" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm " outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
                   </div>
                 </div>
                 <div class="row justify-center">
                   <div class="col-6">
-                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="E-Mail" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
                   </div>
                   <div class="col-6">
-                    <q-input class="q-mt-sm " outlined v-model="text" label="Celular" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm " outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
                   </div>
                 </div>
                 <div class="row">
                   <q-input
-                    label="Cuéntanos que expectativa tienes"
                     class="q-mt-sm col-12"
                     v-model="text"
                     outlined
@@ -440,7 +290,7 @@
     <q-banner class="bg-negative q-mt-xl">
       <q-card flat class="row justify-center bg-negative">
         <q-card-section class="col-gutter-xs col-2 q-mt-sm q-mb-sm q-ml-xl">
-          <img src="../statics/pro/logo.png" class="q-ml-xl" style="height: 60px;"></img>
+          <img src="../statics/pro/logo.png" class="" style="height: 60px;"></img>
         </q-card-section>
         <q-separator color="white" vertical inset />
         <q-card-section class="col-gutter-xs  col-3 q-mt-md q-mb-md text-h6">
