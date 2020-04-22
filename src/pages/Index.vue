@@ -237,11 +237,6 @@
       
     </hooper>
     </div>
-    <div class="row">
-      <div class="col-11" style="background: #2b3035; border-radius: 0 25px 25px 0; heigth: 120px">
-        <h1>aqui tienen q ir las tags en forma de rueda</h1>
-      </div>
-    </div>
     <div class="row justify-center q-ml-xl q-mr-xl q-mt-xl">
       <div class="col q-gutter-xs">
         <img src="../statics/pro/logo_1.png" style="max-width: 160px; height: 90px;">
