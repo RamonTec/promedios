@@ -321,7 +321,7 @@
 
     <div class="md-hide lx-hide lg-hide row justify-center">
       <div class="col-xs-12 col-sm-12 q-ml-xl">
-        <q-card flat bordered class="bg-white q-mr-xl q-mt-xl" style="border-radius:25px">
+        <q-card flat bordered class="bg-white q-mr-xl" style="border-radius:25px">
           <div class="col-xs-10">
 
             <q-card-section>
