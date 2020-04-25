@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <div class="row">
-      <q-card flat class="col-4 bg-primary q-ml-xl q-mt-xl">
+      <q-card flat class="col-xs-12 col-sm-12 col-md-4 bg-primary q-ml-xl q-mt-xl">
         <q-card-section>
           <q-toolbar-title class="q-ml-md text-h3">
             Nuestros Servicios
@@ -14,112 +14,123 @@
         </q-card-section>
       </q-card>
     </div>
+
     <div class="row justify-center">
-      <hooper class="col-11" :infiniteScroll="true" :itemsToShow="5.75" :itemsToSlide="3" :autoPlay="true" :playSpeed="3000" style="height: 380px;">
+      <hooper class="col-xs-12 col-md-11" :infiniteScroll="true" :itemsToShow="5.75" :itemsToSlide="3" :autoPlay="true" :playSpeed="3000" style="height: 280px;">
+        <img src="" alt="">
       <slide>
-        <q-card flat class="row bg-primary justify-between my-card">
-          <q-card-section>
-            <img src="../statics/pro/servicio_1.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-        </q-card>
+        <div class="row bg-primary justify-between">
+          <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="max-width: 500px; height: 250px;">
+        </div>
       </slide>
       <slide>
-        <q-card flat class="row bg-primary justify-between my-card">
-          <q-card-section>
-            <img src="../statics/pro/servicio_2.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-        </q-card>
+        <div class="row bg-primary justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_2.svg" style="max-width: 500px; height: 250px;">
+        </div>
       </slide>
       <slide>
-        <q-card flat class="row bg-primary justify-between my-card">
-          <q-card-section>
-            <img src="../statics/pro/servicio_3.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-        </q-card>
+        <div class="row bg-primary justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_3.svg" style="max-width: 500px; height: 250px;">
+        </div>
       </slide>
       <slide>
-        <q-card flat class="row bg-primary justify-between my-card">
-          <q-card-section>
-            <img src="../statics/pro/servicio_4.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-        </q-card>
+        <div class="row bg-primary justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_4.svg" style="max-width: 500px; height: 250px;">
+        </div>
       </slide>
       <slide>
-        <q-card flat class="row bg-primary justify-between my-card">
-          <q-card-section>
-            <img src="../statics/pro/servicio_5.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-        </q-card>
+        <div class="row bg-primary justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_5.svg" style="max-width: 500px; height: 250px;">
+        </div>
       </slide>
       <slide>
-        <q-card flat class="row bg-primary justify-between my-card">
-          <q-card-section>
-            <img src="../statics/pro/servicio_6.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-        </q-card>
+        <div class="row bg-primary justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_6.svg" style="max-width: 500px; height: 250px;">
+        </div>
       </slide>
       <slide>
-        <q-card flat class="row bg-primary justify-between my-card">
-          <q-card-section>
-            <img src="../statics/pro/servicio_7.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-        </q-card>
+        <div class="row bg-primary justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_7.svg" style="max-width: 500px; height: 250px;">
+        </div>
       </slide>
       <slide>
-        <q-card flat class="row bg-primary justify-between my-card">
-          <q-card-section>
-            <img src="../statics/pro/servicio_8.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-        </q-card>
+        <div class="row bg-primary justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_8.svg" style="max-width: 500px; height: 250px;">
+        </div>
       </slide>
       <slide>
-        <q-card flat class="row bg-primary justify-between my-card">
-          <q-card-section>
-            <img src="../statics/pro/servicio_9.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-        </q-card>
+        <div class="row bg-primary justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_9.svg" style="max-width: 500px; height: 250px;">
+        </div>
       </slide>
       <hooper-navigation slot="hooper-addons"></hooper-navigation>
       
     </hooper>
     </div>
+
     <div class="row">
       <div class="col-11" style="background: #2b3035; border-radius: 0 25px 25px 0; heigth: 120px">
         <h1>aqui tienen q ir las tags en forma de rueda</h1>
       </div>
     </div>
-    <div class="row justify-center q-ml-xl q-mr-xl q-mt-xl">
-      <div class="col q-gutter-xs">
+
+    <div class="row justify-center">
+    <hooper class="xs-hide col-md-11" :infiniteScroll="true" :itemsToShow="5.75" :itemsToSlide="3" :autoPlay="true" :playSpeed="3000" style="height: 280px;">
+    
+    <slide>
+      <div class="col-xs-12  q-gutter-xs">
         <img src="../statics/pro/logo_1.png" style="max-width: 160px; height: 90px;">
       </div>
-      <div class="col q-gutter-xs">
+    </slide>
+
+    <slide>
+<div class="col-xs-12  q-gutter-xs">
         <img src="../statics/pro/logo_2.png" style="max-width: 160px; height: 90px;">
       </div>
-      <div class="col q-gutter-xs">
+    </slide>
+    <slide>
+<div class="col-xs-12  q-gutter-xs">
         <img src="../statics/pro/logo_3.png" style="max-width: 160px; height: 90px;">
       </div>
-      <div class="col q-gutter-xs">
+    </slide>
+    <slide>
+<div class="col-xs-12  q-gutter-xs">
         <img src="../statics/pro/logo_4.png" style="max-width: 160px; height: 90px;">
       </div>
-      <div class="col q-gutter-xs">
+    </slide>
+    <slide>
+<div class="col-xs-12  q-gutter-xs">
         <img src="../statics/pro/logo_5.png" style="max-width: 160px; height: 90px;">
       </div>
-      <div class="col q-gutter-xs">
+    </slide>
+    <slide>
+<div class="col-xs-12  q-gutter-xs">
         <img src="../statics/pro/logo_6.png" style="max-width: 160px; height: 90px;">
       </div>
-      <div class="col q-gutter-xs">
+    </slide>
+    <slide>
+<div class="col-xs-12  q-gutter-xs">
         <img src="../statics/pro/logo_7.png" style="max-width: 160px; height: 90px;">
       </div>
-      <div class="col q-gutter-xs">
+    </slide>
+    <slide>
+<div class="col-xs-12  q-gutter-xs">
         <img src="../statics/pro/logo_8.png" style="max-width: 160px; height: 90px;">
       </div>
-      <div class="col q-gutter-xs">
+    </slide>
+    <slide>
+      <div class="col-xs-12 q-gutter-xs">
         <img src="../statics/pro/logo_9.png" style="max-width: 160px; height: 90px;">
       </div>
+    </slide>
+      
+
+    </hooper>
     </div>
+
     <div class="row justify-around">
-      <div class="col-8">
-        <div class="row">
+      <div class="col-md-8">
+        <div class="xs-hide sm-hide row">
           <q-card flat class="bg-primary q-ml-xl q-mt-xl">
             <q-card-section>
               <q-toolbar-title class="q-ml-md text-h2">
@@ -133,7 +144,7 @@
             </q-card-section>
           </q-card>
         </div>
-        <div class="row">
+        <div class="xs-hide sm-hide row">
           <q-card flat class="bg-primary">
             <q-card-section class="q-ml-xl">
               <q-toolbar-title class="q-ml-xl text-h4">
@@ -142,7 +153,7 @@
             </q-card-section>
           </q-card>
         </div>
-        <div class="row">
+        <div class="xs-hide sm-hide row">
           <q-card flat class="bg-primary">
             <q-card-section class="q-ml-xl">
               <q-toolbar-title class="q-ml-xl text-h6">
@@ -150,14 +161,14 @@
               </q-toolbar-title>
             </q-card-section>
           </q-card>
-          <q-card flat class="bg-primary">
+          <q-card flat class="xs-hide sm-hide bg-primary">
             <q-card-section class="q-ml-xl">
               <img class="q-ml-xl" src="../statics/pro/flecha.svg" style="max-width: 360px; height: 100px;">
             </q-card-section>
           </q-card>
         </div>
-        <div class="row">
-          <q-card flat class="bg-primary q-ml-xl q-mt-md">
+        <div class="xs-hide row">
+          <q-card flat class="col-xs-5 bg-primary q-ml-xl q-mt-md">
             <q-card-section>
               <q-toolbar-title class="q-ml-md text-h3">
                 <q-img class="q-mr-sm" src="../statics/pro/col.svg" style="max-width: 40px; height: 20px;"></q-img>Bogotá
@@ -188,7 +199,7 @@
           </q-card>
           <q-card flat class="bg-primary q-ml-xl q-mt-md">
             <q-card-section>
-              <q-toolbar-title class="q-ml-md text-h3">
+              <q-toolbar-title class="col-sm-5 q-ml-md text-h3">
                 <q-img class="q-mr-sm" src="../statics/pro/cad.svg" style="max-width: 40px; height: 20px;"></q-img>Montreal
               </q-toolbar-title>
             </q-card-section>
@@ -217,10 +228,10 @@
           </q-card>
         </div>
       </div>
-      <div class="col-4 q-mt-xl">
+
+      <div class="xs-hide sm-hide col-md-4 q-mt-xl">
         <div class="row q-mt-xl"></div>
         <div class="row q-mt-xs"></div>
-        <div class="row"></div>
         <q-card flat bordered class="bg-white q-mr-xl q-mt-xl" style="border-radius:25px">
               <div class="col-10">
                 <q-card-section>
@@ -234,10 +245,10 @@
               </div>
             <div class="row justify-center">
               <div class="col-11">
-                <q-input class="q-mt-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
-                <q-select class="q-mt-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
-                <q-select class="q-mt-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
-                <q-select class="q-mt-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
+                <q-input class="q-mt-sm" outlined v-model="text" label="Nombre de la empresa ó proyecto" style="border-radius:10px" dense />
+                <q-select class="q-mt-sm" outlined v-model="text" label="Sector al que pertenece" style="border-radius:10px" dense />
+                <q-select class="q-mt-sm" outlined v-model="text" label="En que servicio estas interesado?" style="border-radius:10px" dense />
+                <q-select class="q-mt-sm" outlined v-model="text" label="Tipo de negocio ó proyecto" style="border-radius:10px" dense />
               </div>
             </div>
             <div class="col-10">
@@ -251,18 +262,18 @@
               <div class="col-11">
                 <div class="row justify-center">
                   <div class="col-6">
-                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="Nombres" style="border-radius:10px" dense />
                   </div>
                   <div class="col-6">
-                    <q-input class="q-mt-sm " outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm " outlined v-model="text" label="Apellidos" style="border-radius:10px" dense />
                   </div>
                 </div>
                 <div class="row justify-center">
                   <div class="col-6">
-                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="E - Mail" style="border-radius:10px" dense />
                   </div>
                   <div class="col-6">
-                    <q-input class="q-mt-sm " outlined v-model="text" label="Outlined" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm " outlined v-model="text" label="Celular" style="border-radius:10px" dense />
                   </div>
                 </div>
                 <div class="row">
@@ -270,6 +281,7 @@
                     class="q-mt-sm col-12"
                     v-model="text"
                     outlined
+                    label="Cuéntanos que expectativa tienes"
                     type="textarea"
                   />
                 </div>
@@ -284,6 +296,100 @@
               </div>
             </div>
           </q-card>
+      </div>
+      
+    </div>
+
+    <div class="md-hide lx-hide lg-hide row justify-center">
+      <div class="row justify-center">
+        <q-card flat class="col-xs-12 col-sm-12 text-center bg-primary q-mt-xl">
+          <q-card-section>
+            <q-toolbar-title class="text-h6">
+              ¿Listo para entrar en la <br> transformación digital?
+            </q-toolbar-title>
+          </q-card-section>
+        </q-card>
+        <q-card flat class="col-xs-12 col-sm-12 text-center bg-primary">
+          <q-card-section>
+            <q-toolbar-title class="text-h6">
+              Solo tendras exito si crees que puedes! <br> Trabajemos juntos para ser más grandes.
+            </q-toolbar-title>
+          </q-card-section>
+        </q-card>
+      </div>
+    </div>
+
+    <div class="md-hide lx-hide lg-hide row justify-center">
+      <div class="col-xs-12 col-sm-12 q-ml-xl">
+        <q-card flat bordered class="bg-white q-mr-xl q-mt-xl" style="border-radius:25px">
+          <div class="col-xs-10">
+
+            <q-card-section>
+              <q-toolbar-title class="q-ml-sm text-h6 text-start text-black">
+                Cuéntanos acerca de ti
+              </q-toolbar-title>
+              <q-toolbar-title class="text-h6 text-black text-weight-light">
+                Sobre la empresa ó el proyecto
+              </q-toolbar-title>
+            </q-card-section>
+          </div>
+
+          <div class="row justify-center">
+            <div class="col-11">
+              <q-input class="q-mt-sm" outlined v-model="text" label="Nombre de la empresa ó proyecto" style="border-radius:10px" dense />
+              <q-select class="q-mt-sm" outlined v-model="text" label="Sector al que pertenece" style="border-radius:10px" dense />
+              <q-select class="q-mt-sm" outlined v-model="text" label="En que servicio esta interesado?" style="border-radius:10px" dense />
+              <q-select class="q-mt-sm" outlined v-model="text" label="Tipo de negocio ó proyecto" style="border-radius:10px" dense />
+            </div>
+          </div>
+
+          <div class="col-10">
+            <q-card-section>
+                <q-toolbar-title class="text-h6 text-black text-weight-light">
+                  Datos de contacto
+                </q-toolbar-title>
+              </q-card-section>
+          </div>
+
+          <div class="row justify-center">
+
+            <div class="col-11">
+              <div class="row justify-center">
+                <div class="col-6">
+                  <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="Nombres" style="border-radius:10px" dense />
+                </div>
+                <div class="col-6">
+                  <q-input class="q-mt-sm " outlined v-model="text" label="Apellidos" style="border-radius:10px" dense />
+                </div>
+              </div>
+              <div class="row justify-center">
+                <div class="col-6">
+                  <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="E - Mail" style="border-radius:10px" dense />
+                </div>
+                <div class="col-6">
+                  <q-input class="q-mt-sm " outlined v-model="text" label="Celular" style="border-radius:10px" dense />
+                </div>
+              </div>
+              <div class="row">
+                <q-input
+                  class="q-mt-sm col-12"
+                  v-model="text"
+                  outlined
+                  label="Cuéntanos que expectativa tienes"
+                  type="textarea"
+                />
+              </div>
+              <div class="row">
+                <div class="col-4 q-my-md">
+                  <q-btn color="positive" label="Enviar" size="lg" class="full-width"></q-btn>
+                </div>
+                <div class="col-7 offset-1 q-my-md">
+                  <span style="color:#000">Los datos ingresados serán tratados de manera confidencial como lo dispone la ley habeas data.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </q-card>
       </div>
     </div>
     
