@@ -269,13 +269,13 @@ section {
             <div class="container uix-t-c">
                     <div class="row justify-between">
                         <div class="col-12">
-                                <div class="uix-tabs uix-tabs--rotation" data-rotation="true" data-rotation-display="9" data-rotation-radius="130" data-rotation-wrapper-angle="90">
+                                <div class="uix-tabs uix-tabs--rotation" data-rotation="true" data-rotation-display="9" data-rotation-radius="130" data-rotation-wrapper-angle="130">
                                   <div class="row">
                                     <div class="col-5">
                                     <div class="uix-tabs__nav">
                                       <ul>
                                         <div>
-                                          <img src="../statics/pro/pro_med.png" style="width: 120px; height: 120px; position:relative; top:60px; left:75px; transform: rotate(270deg)">
+                                          <img src="../statics/pro/pro_med.png" style="width: 120px; height: 120px; position:relative; top:60px; left:75px; transform: rotate(231deg)">
                                         </div>
                                         <li class="active"><a href="javascript:void(0);">C</a></li>
                                         <li><a href="javascript:void(0);">A-W</a></li>
