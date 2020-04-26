@@ -51,6 +51,19 @@
           </div>
         </q-card>
 
+        <div class="row md-hide lg-hide xl-hide">
+          <q-card-section class="col-xs-10 col-sm-12 text-h5">
+            <span>Somos la Fuerza</span> <br>
+            <span class="text-secondary">de la innovación y</span> <br>
+            <span class="text-secondary">transformación digital</span>
+          </q-card-section>
+          <q-card-section class="col-xs-10 col-sm-12 text-caption">
+            Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
+            advertised as the most popular gun in American crime. do you believe that
+            shit? It actually says that in the little book that comes whit it: the most popular.
+          </q-card-section>
+        </div>
+
       </q-header>
       <q-page-container class="bg-primary text-white">
         <router-view/>

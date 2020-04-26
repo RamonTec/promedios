@@ -221,7 +221,7 @@ section {
 
     
 
-    <div class="img_group row justify-center">
+    <div class="img_group xs-hide sm-hide row justify-center">
 
       <div class="row bg-none">
       <div class="xs-hide sm-hide q-ml-md q-mt-xl">
@@ -238,7 +238,7 @@ section {
       </div>
     </div>
 
-    <div class="row lg-hide xl-hide md-hide">
+    <div class="row xs-hide sm-hide lg-hide xl-hide md-hide">
       <div class="col-xs-12 col-sm-12 col-md-4 q-mt-xl">
         <div>
           <span class="q-ml-md text-h4">
@@ -305,6 +305,141 @@ section {
       
     </hooper>
     </div>
+
+    <div class="row sm-hide lg-hide xl-hide md-hide">
+      <div class="col-xs-12 col-sm-12 col-md-4 q-mt-xl">
+        <div>
+          <span class="q-ml-md text-h4">
+            Nuestros Servicios
+          </span>
+        </div>
+        <div class="q-ml-md text-h6">
+          <span>
+            Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
+          advertised as the most popular gun in American crime. do you believe that
+          shit? It actually says that in the little book that comes whit it: the most popular.
+          </span>
+        </div>
+      </div>
+    </div>
+
+      <hooper class="col-xs-12 sm-hide lg-hide md-hide xl-hide" :infiniteScroll="true" :itemsToShow="1" :itemsToSlide="1" :autoPlay="true" :playSpeed="3000" style="height: 380px;">
+      <slide>
+        <div class="row bg-none justify-between">
+          <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <slide>
+        <div class="row bg-none justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_2.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <slide>
+        <div class="row bg-none justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_3.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <slide>
+        <div class="row bg-none justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_4.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <slide>
+        <div class="row bg-none justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_5.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <slide>
+        <div class="row bg-none justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_6.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <slide>
+        <div class="row bg-none justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_7.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <slide>
+        <div class="row bg-none justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_8.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <slide>
+        <div class="row bg-none justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_9.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <hooper-navigation slot="hooper-addons"></hooper-navigation>
+      
+    </hooper>
+
+    <div class="row lg-hide xs-hide xl-hide md-hide">
+      <div class="col-xs-12 col-sm-12 col-md-4 q-mt-xl">
+        <div>
+          <span class="q-ml-md text-h4">
+            Nuestros Servicios
+          </span>
+        </div>
+        <div class="q-ml-md text-h6">
+          <span>
+            Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
+          advertised as the most popular gun in American crime. do you believe that
+          shit? It actually says that in the little book that comes whit it: the most popular.
+          </span>
+        </div>
+      </div>
+    </div>
+
+      <hooper class="xs-hide col-sm-12 md-hide lg-hide xl-hide" :infiniteScroll="true" :itemsToShow="2" :itemsToSlide="1" :autoPlay="true" :playSpeed="3000" style="height: 380px;">
+      <slide>
+        <div class="row bg-none justify-between">
+          <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <slide>
+        <div class="row bg-none justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_2.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <slide>
+        <div class="row bg-none justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_3.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <slide>
+        <div class="row bg-none justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_4.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <slide>
+        <div class="row bg-none justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_5.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <slide>
+        <div class="row bg-none justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_6.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <slide>
+        <div class="row bg-none justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_7.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <slide>
+        <div class="row bg-none justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_8.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <slide>
+        <div class="row bg-none justify-between my-card">
+          <img class="col-xs-12" src="../statics/pro/servicio_9.svg" style="max-width: 500px; height: 250px;">
+        </div>
+      </slide>
+      <hooper-navigation slot="hooper-addons"></hooper-navigation>
+      
+    </hooper>
+    
 
     <div class="xs-hide sm-hide row q-mt-xl">
       <div class="col-11" style="background: #2b3035; border-radius: 0 25px 25px 0; heigth: 120px">
