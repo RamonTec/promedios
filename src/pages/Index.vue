@@ -238,7 +238,7 @@ section {
       </div>
     </div>
 
-    <div class="row  lg-hide xl-hide md-hide">
+    <div class="row lg-hide xl-hide md-hide">
       <div class="col-xs-12 col-sm-12 col-md-4 q-mt-xl">
         <div>
           <span class="q-ml-md text-h4">
@@ -255,7 +255,7 @@ section {
       </div>
     </div>
 
-      <hooper class="col-xs-12  col-md-11" :infiniteScroll="true" :itemsToShow="5.75" :itemsToSlide="3" :autoPlay="true" :playSpeed="3000" style="height: 380px;">
+      <hooper class="xs-hide col-md-11" :infiniteScroll="true" :itemsToShow="5" :itemsToSlide="3" :autoPlay="true" :playSpeed="3000" style="height: 380px;">
       <slide>
         <div class="row bg-none justify-between">
           <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="max-width: 500px; height: 250px;">
@@ -473,7 +473,7 @@ section {
     </div>
 
     <div class="row justify-center">
-    <hooper class="xs-hide col-md-11" :infiniteScroll="true" :itemsToShow="5.75" :itemsToSlide="3" :autoPlay="true" :playSpeed="3000" style="height: 180px;">
+    <hooper class="xs-hide sm-hide col-md-11" :infiniteScroll="true" :itemsToShow="5.75" :itemsToSlide="3" :autoPlay="true" :playSpeed="3000" style="height: 180px;">
     
     <slide>
       <div class="col-xs-12  q-gutter-xs">
