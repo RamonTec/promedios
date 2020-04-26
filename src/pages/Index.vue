@@ -238,7 +238,7 @@ section {
       </div>
     </div>
 
-    <div class="row lg-hide xl-hide md-hide">
+    <div class="row sm-hide xs-hide lg-hide xl-hide md-hide">
       <div class="col-xs-12 col-sm-12 col-md-4 q-mt-xl">
         <div>
           <span class="q-ml-md text-h4">
@@ -255,7 +255,7 @@ section {
       </div>
     </div>
 
-      <hooper class="col-xs-12 col-md-11" :infiniteScroll="true" :itemsToShow="5.75" :itemsToSlide="3" :autoPlay="true" :playSpeed="3000" style="height: 380px;">
+      <hooper class="col-xs-12 sm-hide xs-hide col-md-11" :infiniteScroll="true" :itemsToShow="5.75" :itemsToSlide="3" :autoPlay="true" :playSpeed="3000" style="height: 380px;">
       <slide>
         <div class="row bg-none justify-between">
           <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="max-width: 500px; height: 250px;">
@@ -306,7 +306,7 @@ section {
     </hooper>
     </div>
 
-    <div class="row q-mt-xl">
+    <div class="xs-hide sm-hide row q-mt-xl">
       <div class="col-11" style="background: #2b3035; border-radius: 0 25px 25px 0; heigth: 120px">
        <!-- Content 02
         ====================================================== -->
@@ -347,6 +347,88 @@ section {
                         <q-btn outline style="color: #fdfdfd;" label="Optimización de Procesos" class="col-3" size="md" no-caps />
                         <q-btn outline style="color: #fdfdfd;" label="Canales de Comunicación" class="col-3" size="md" no-caps />
                         <q-btn outline style="color: #fdfdfd;" label="Asesoria Especializada" class="col-3" size="md" no-caps />
+                      </div>
+                    </div>
+                    <div class="uix-tabs__content">
+                        <p>This is the 2nd tab.</p>
+                        <p>This is the 2nd tab.</p>
+                        <p>This is the 2nd tab.</p>
+                    </div>
+                    <div class="uix-tabs__content">
+                        <p>And this is the 3rd tab.</p>
+                    </div>    
+                    <div class="uix-tabs__content">
+                        <p>And this is the 4th tab.</p>
+                    </div>  
+                    <div class="uix-tabs__content">
+                        <p>And this is the 5th tab.</p>
+                    </div>  
+                      <div class="uix-tabs__content">
+                        <p>And this is the 5th tab.</p>
+                    </div>  
+                      <div class="uix-tabs__content">
+                        <p>And this is the 5th tab.</p>
+                    </div>  
+                      <div class="uix-tabs__content">
+                        <p>And this is the 5th tab.</p>
+                    </div>  
+                      <div class="uix-tabs__content">
+                        <p>And this is the 5th tab.</p>
+                    </div>  
+                  </div>
+                  </div>
+                </div>                  
+              </div>
+            </div>
+                  <!-- .row end -->
+            
+                  
+          </div>
+          <!-- .container end -->
+ 
+        </section> 
+      </div>
+    </div>
+
+    <div class="row justify-center q-mt-xl">
+      <div class="col-xs-12 col-sm-12 md-hide lg-hide lx-hide" style="background: #2b3035;">
+       <!-- Content 02
+        ====================================================== -->
+        <section class="uix-spacing--m">
+          <div class="container uix-t-c">
+            <div class="row justify-center">
+              <div class="col-xs-12 col-sm-12">
+                <div class="uix-tabs uix-tabs--rotation" data-rotation="true" data-rotation-display="9" data-rotation-radius="130" data-rotation-wrapper-angle="130">
+                  <div class="row justify-center">
+                    <div class="col-xs-9 col-sm-9">
+                    <div class="uix-tabs__nav">
+                      <ul>
+                        <div>
+                          <img src="../statics/pro/pro_med.png" style="width: 120px; height: 120px; position:relative; top:60px; left:75px; transform: rotate(231deg)">
+                        </div>
+                        <li class="active"><a href="javascript:void(0);">C</a></li>
+                        <li><a href="javascript:void(0);">A-W</a></li>
+                        <li><a href="javascript:void(0);">E-C</a></li>
+                        <li><a href="javascript:void(0);">S</a></li>
+                        <li><a href="javascript:void(0);">A</a></li>
+                        <li><a href="javascript:void(0);">S</a></li>
+                        <li><a href="javascript:void(0);">M-D</a></li>
+                        <li><a href="javascript:void(0);">B</a></li>
+                        <li><a href="javascript:void(0);">3-D</a></li>
+                      </ul>
+                    </div><!-- /.uix-tabs__nav -->
+                  </div>
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="q-mt-xl q-ml-md uix-tabs__content active">
+                      <span class="text-h4">Consultoria</span>
+                      <p class="text-body1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, natus eos facere ducimus voluptas neque optio, possimus sapiente vitae quibusdam fuga quae quam maxime adipisci. Facilis veritatis dolor voluptatum nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis iure corrupti numquam unde voluptatem commodi labore aspernatur molestiae vitae et laboriosam provident fugiat aut, sit excepturi quia quisquam, odio sunt.</p>
+                      <div class="row justify-center">
+                        <q-btn outline style="color: #fdfdfd;" label="Transformación Digital" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Automatización de Procesos" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Digitalización de Procesos" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Optimización de Procesos" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Canales de Comunicación" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Asesoria Especializada" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
                       </div>
                     </div>
                     <div class="uix-tabs__content">
