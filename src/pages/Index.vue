@@ -238,7 +238,7 @@ section {
       </div>
     </div>
 
-    <div class="row sm-hide xs-hide lg-hide xl-hide md-hide">
+    <div class="row  lg-hide xl-hide md-hide">
       <div class="col-xs-12 col-sm-12 col-md-4 q-mt-xl">
         <div>
           <span class="q-ml-md text-h4">
@@ -255,7 +255,7 @@ section {
       </div>
     </div>
 
-      <hooper class="col-xs-12 sm-hide xs-hide col-md-11" :infiniteScroll="true" :itemsToShow="5.75" :itemsToSlide="3" :autoPlay="true" :playSpeed="3000" style="height: 380px;">
+      <hooper class="col-xs-12  col-md-11" :infiniteScroll="true" :itemsToShow="5.75" :itemsToSlide="3" :autoPlay="true" :playSpeed="3000" style="height: 380px;">
       <slide>
         <div class="row bg-none justify-between">
           <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="max-width: 500px; height: 250px;">
@@ -789,7 +789,7 @@ section {
       </div>
     </div>
     
-    <q-banner class="bg-negative q-mt-xl">
+    <q-banner class="xs-hide sm-hide bg-negative q-mt-xl">
       <q-card flat class="row justify-center bg-negative">
         <q-card-section class="col-gutter-xs col-2 q-mt-sm q-mb-sm q-ml-xl">
           <img src="../statics/pro/logo.png" class="" style="height: 60px;"></img>
@@ -800,6 +800,18 @@ section {
         </q-card-section>
       </q-card>
     </q-banner>
+
+    <q-banner class="row justify-center md-hide xl-hide lg-hide bg-negative q-mt-xl">
+      <div class="col-xs-12 col-sm-12">
+        <div class="col-xs-12 col-sm-12 q-mt-sm q-mb-sm">
+          <img src="../statics/pro/logo.png" style="height: 50px;"></img>
+        </div>
+        <div class="col-xs-12 col-sm-12 q-mt-md q-mb-md">
+          2020 Todos los derechos reservados.
+        </div>
+      </div>
+    </q-banner>
+
   </q-page>
 </template>
 
