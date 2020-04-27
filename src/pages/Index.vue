@@ -257,86 +257,103 @@ section {
     <div class="img_group xs-hide sm-hide row justify-start">
 
       <div class="row justify-start bg-none">
-      <div class="xs-hide sm-hide q-ml-md q-mt-xl">
-        <q-card-section>
-          <q-toolbar-title class="texto1 q-ml-sm text-h4">
-            Nuestros Servicios
-          </q-toolbar-title>
-        </q-card-section>
-        <q-card-section class="texto3 q-ml-sm text-h6">
-          Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is <br>
-          advertised as the most popular gun in American crime. do you believe that <br>
-          shit? It actually says that in the little book that comes whit it: the most popular.
-        </q-card-section>
-      </div>
-    </div>
-
-    <div class="row xs-hide sm-hide lg-hide xl-hide md-hide">
-      <div class="col-xs-12 col-sm-12 col-md-4 q-mt-xl">
-        <div>
-          <span class="texto1 q-ml-md text-h4">
-            Nuestros Servicios
-          </span>
-        </div>
-        <div class="texto3 q-ml-md text-h6">
-          <span>
-            Now that there is the Tec-9, a crappy spray gun from South Miami. <br> This gun  is
-          advertised as the most popular gun in American crime. do you believe that
-          shit? It actually says that in the little book that comes whit it: the most popular.
-          </span>
+        <div class="xs-hide sm-hide q-ml-md q-mt-xl">
+          <q-card-section>
+            <q-toolbar-title class="texto1 q-ml-sm text-h4">
+              Nuestros Servicios
+            </q-toolbar-title>
+          </q-card-section>
+          <q-card-section class="texto3 q-ml-sm text-h6">
+            Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is <br>
+            advertised as the most popular gun in American crime. do you believe that <br>
+            shit? It actually says that in the little book that comes whit it: the most popular.
+          </q-card-section>
         </div>
       </div>
-    </div>
 
-      <hooper class="q-ml-xl xs-hide col-md-11" :infiniteScroll="true" :itemsToShow="5" :itemsToSlide="3" :autoPlay="true" :playSpeed="3000" style="height: 380px;">
-      <slide>
-        <div class="row bg-none justify-between">
-          <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="max-width: 500px; height: 250px;">
+      <div class="row xs-hide sm-hide lg-hide xl-hide md-hide">
+        <div class="col-xs-12 col-sm-12 col-md-4 q-mt-xl">
+          <div>
+            <span class="texto1 q-ml-md text-h4">
+              Nuestros Servicios
+            </span>
+          </div>
+          <div class="texto3 q-ml-md text-h6">
+            <span>
+              Now that there is the Tec-9, a crappy spray gun from South Miami. <br> This gun  is
+            advertised as the most popular gun in American crime. do you believe that
+            shit? It actually says that in the little book that comes whit it: the most popular.
+            </span>
+          </div>
         </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_2.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_3.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_4.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_5.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_6.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_7.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_8.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_9.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <hooper-navigation slot="hooper-addons"></hooper-navigation>
+      </div>
+
       
-    </hooper>
+      
+      <q-carousel
+        swipeable
+        class="bg-transparent q-ml-xl q-mr-xl"
+        animated
+        v-model="slide"
+        infinite
+        autoplay
+        ref="carousel"
+      >
+
+      <q-carousel-slide :name="1">
+        <div class="row bg-none justify-between">
+          <q-card-section class="bg-none">
+            <img src="../statics/pro/servicio_1.svg" style="max-width: 500px; height: 250px;">
+          </q-card-section>
+          <q-card-section>
+            <img src="../statics/pro/servicio_2.svg" style="max-width: 500px; height: 250px;">
+          </q-card-section>
+          <q-card-section>
+            <img src="../statics/pro/servicio_3.svg" style="max-width: 500px; height: 250px;">
+          </q-card-section>
+          <q-card-section>
+            <img src="../statics/pro/servicio_4.svg" style="max-width: 500px; height: 250px;">
+          </q-card-section>
+          <q-card-section>
+            <img src="../statics/pro/servicio_5.svg" style="max-width: 500px; height: 250px;">
+          </q-card-section>
+          <q-card-section>
+            <img src="../statics/pro/servicio_6.svg" style="max-width: 500px; height: 250px;">
+          </q-card-section>
+          <div class="row bg-none my-card">
+          <q-card-section>
+            <img src="../statics/pro/servicio_6.svg" style="max-width: 500px; height: 250px;">
+          </q-card-section> 
+          <q-card-section>
+            <img src="../statics/pro/servicio_7.svg" style="max-width: 500px; height: 250px;">
+          </q-card-section>
+          <q-card-section>
+            <img src="../statics/pro/servicio_8.svg" style="max-width: 500px; height: 250px;">
+          </q-card-section>
+          <q-card-section>
+            <img src="../statics/pro/servicio_9.svg" style="max-width: 500px; height: 250px;">
+          </q-card-section>
+        </div>
+        </div>
+        <div>
+          <q-btn
+            push dense color="white" text-color="black" class="q-ml-md q-mr-sm" icon="arrow_left"
+            @click="$refs.carousel.previous()"
+          />
+          <q-btn
+            push dense color="white" text-color="black" icon="arrow_right"
+            @click="$refs.carousel.next()"
+          />
+        </div>
+      </q-carousel-slide>
+
+    </q-carousel>
+      
+            
+
+      
+      
+    
     </div>
 
     <div class="row sm-hide lg-hide xl-hide md-hide">
@@ -350,8 +367,8 @@ section {
         <div class="texto3 q-ml-md text-h6">
           <span>
             Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
-          advertised as the most popular gun in American crime. do you believe that
-          shit? It actually says that in the little book that comes whit it: the most popular.
+            advertised as the most popular gun in American crime. do you believe that
+            shit? It actually says that in the little book that comes whit it: the most popular.
           </span>
         </div>
         </q-card-sectio>
@@ -404,7 +421,6 @@ section {
           <img class="col-xs-12" src="../statics/pro/servicio_9.svg" style="max-width: 500px; height: 250px;">
         </div>
       </slide>
-      <hooper-navigation slot="hooper-addons"></hooper-navigation>
       
     </hooper>
 
