@@ -451,7 +451,7 @@ section {
               <div class="col-12">
                 <div class="uix-tabs uix-tabs--rotation" data-rotation="true" data-rotation-display="9" data-rotation-radius="130" data-rotation-wrapper-angle="130">
                   <div class="row">
-                    <div class="col-5">
+                    <div class="col-5 q-mt-xl">
                     <div class="uix-tabs__nav">
                       <ul>
                         <div>
@@ -471,8 +471,16 @@ section {
                   </div>
                   <div class="col-6">
                     <div class="uix-tabs__content active">
-                      <span class="text-h4">Consultoria</span>
-                      <p class="text-body1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, natus eos facere ducimus voluptas neque optio, possimus sapiente vitae quibusdam fuga quae quam maxime adipisci. Facilis veritatis dolor voluptatum nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis iure corrupti numquam unde voluptatem commodi labore aspernatur molestiae vitae et laboriosam provident fugiat aut, sit excepturi quia quisquam, odio sunt.</p>
+                      <span class="text-h4 text-weight-bold" style="color: #2bfdb1;">Consultoria</span>
+                      <p class="text-body1 q-mt-md">
+                        El mundo hoy esta en un inminente cambio, por eso, es necesario
+                        re-inventarnos. La innovación en los modelos de negocio actuales son la clave
+                        para llevarlos y entrar en la transformación digital y dirigirlos al éxito,
+                        debemos enfocar la tecnología como un facilitador entre negocios y usuarios;
+                        Operar un negocio digital se ha convertido en un gran reto para las empresas
+                        y más en un mundo tan cambiante como al día de hoy. 
+                      </p>
+                      <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
                       <div class="row justify-between">
                         <q-btn outline style="color: #fdfdfd;" label="Transformación Digital" class="col-3" size="md" no-caps />
                         <q-btn outline style="color: #fdfdfd;" label="Digitalización de Procesos" class="col-3" size="md" no-caps />
@@ -485,32 +493,131 @@ section {
                       </div>
                     </div>
                     <div class="uix-tabs__content">
-                        <p>This is the 2nd tab.</p>
-                        <p>This is the 2nd tab.</p>
-                        <p>This is the 2nd tab.</p>
+                      <span class="text-h4 text-weight-bold" style="color: #429dff;">Api Whatsapp</span>
+                      <p class="text-body1 q-mt-md">
+                        Whatsapp hoy en día es el medio de comunicación numero uno en el mundo,
+                        de aquí parte el desarrollo de procesos y aplicativos integrados a este para
+                        lograr diferentes objetivos a través de él.
+                      </p>
+                      <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                      <div class="row justify-between">
+                        <q-btn outline style="color: #fdfdfd;" label="Puentes de comunicación" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Comunicación directa" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Integranción de Procesos" class="col-3" size="md" no-caps />
+                      </div>
+                      <div class="row justify-between q-mt-md">
+                        <q-btn outline style="color: #fdfdfd;" label="Venta Simplificada" class="col-3" size="md" no-caps />
+                      </div>
                     </div>
                     <div class="uix-tabs__content">
-                        <p>And this is the 3rd tab.</p>
-                    </div>    
+                      <span class="text-h4 text-weight-bold" style="color: #ff4343;">E-Commerce</span>
+                      <p class="text-body1 q-mt-md">
+                        El cambio que vive el mundo el día de hoy esta impulsando el comercio
+                        electrónico, vemos los crecientes indices y la constante tendencia que esta
+                        llevando el mercado a la compra de productos y servicios en internet, sumando
+                        el alcance en ventas que se logra tener gracias a los clientes que acuden a él. 
+                      </p>
+                      <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                      <div class="row justify-between">
+                        <q-btn outline style="color: #fdfdfd;" label="Automatización de Ventas" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Aumento de Ventas" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Ventas por Conversiones" class="col-3" size="md" no-caps />
+                      </div>
+                    </div> 
                     <div class="uix-tabs__content">
-                        <p>And this is the 4th tab.</p>
-                    </div>  
+                      <span class="text-h4 text-weight-bold" style="color: #48ffe0;">Sistemas</span>
+                      <p class="text-body1 q-mt-md">
+                        Los sistemas hoy en día son la fuente de la transformación digital, quienes
+                        permiten desarrollar los entornos digitales que conocemos hoy en día, y nos
+                        permiten alcanzar el éxito al lograr toda esta evolución con el único fin de
+                        construir productos que realmente respondan a problemas y necesidades
+                        globales que puedan ser innovadoras en el mercado.
+                      </p>
+                      <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                      <div class="row justify-between">
+                        <q-btn outline style="color: #fdfdfd;" label="Transformación Digital" class="col-3 q-mt-md" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Digitalización de Procesos" class="col-3 q-mt-md" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Automatización de Procesos" class="col-3 q-mt-md" size="md" no-caps />
+                      </div>
+                      <div class="row justify-between">
+                        <q-btn outline style="color: #fdfdfd;" label="Optimazación de Procesos" class="col-3 q-mt-md" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Arquitectura de información" class="col-3 q-mt-md" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Flujo de Información" class="col-3 q-mt-md" size="md" no-caps />
+                      </div>
+                    </div>
                     <div class="uix-tabs__content">
-                        <p>And this is the 5th tab.</p>
-                    </div>  
+                      <span class="text-h4 text-weight-bold" style="color: #be43ff;">Apps</span>
+                      <p class="text-body1 q-mt-md">
+                        Las Aplicaciones móviles juegan un papel importante en nuestras vidas, hoy
+                        en día pasamos gran parte de nuestro tiempo en ella y nos facilitan la vida, he
+                        aquí el éxito de este modelo y el futuro en el. 
+                      </p>
+                      <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                      <div class="row justify-between">
+                        <q-btn outline style="color: #fdfdfd;" label="Android" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="IOS" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Hibridas" class="col-3" size="md" no-caps />
+                      </div>
+                      <div class="row justify-between">
+                        <q-btn outline style="color: #fdfdfd;" label="Nativas" class="col-3 q-mt-md" size="md" no-caps />
+                      </div>
+                    </div>   
+                    <div class="uix-tabs__content">
+                      <span class="text-h4 text-weight-bold" style="color: #ff45fb;">Servidores</span>
+                      <p class="text-body1 q-mt-md">
+                        Todo proyecto digital necesita un lugar en donde vivir 
+                      </p>
+                      <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                      <div class="row justify-between">
+                        <q-btn outline style="color: #fdfdfd;" label="Administración" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Monitoreo" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Cloud" class="col-3" size="md" no-caps />
+                      </div>
+                      <div class="row justify-between">
+                        <q-btn outline style="color: #fdfdfd;" label="Dedicados" class="col-3 q-mt-md" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Hosting" class="col-3 q-mt-md" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Hosting" class="col-3 q-mt-md" size="md" no-caps />
+                      </div>
+                    </div>   
+                    <div class="uix-tabs__content">
+                      <span class="text-h4 text-weight-bold" style="color: #ffad4a;">Marketing Digital</span>
+                      <p class="text-body1 q-mt-md">
+                        Las campañas de marketing digital juegan un papel importante en la
+                        transformación digital, son la herramienta que nos permite llegar a neutros
+                        clientes objetivos, y hacen parte del ecosistema tecnológico para lograr todas
+                        nuestras metas y objetivos
+                      </p>
+                      <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                      <div class="row justify-center">
+                        <q-btn outline style="color: #fdfdfd;" label="FacebookAdd" class="col-3 q-mr-md" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="GoogleAdd" class="col-3" size="md" no-caps />
+                      </div>
+                    </div>   
                       <div class="uix-tabs__content">
-                        <p>And this is the 5th tab.</p>
-                    </div>  
-                      <div class="uix-tabs__content">
-                        <p>And this is the 5th tab.</p>
-                    </div>  
-                      <div class="uix-tabs__content">
-                        <p>And this is the 5th tab.</p>
-                    </div>  
-                      <div class="uix-tabs__content">
-                        <p>And this is the 5th tab.</p>
-                    </div>  
-                  </div>
+                        <span class="text-h4 text-weight-bold" style="color: #ffad4a;">Branding</span>
+                        <p class="text-body1 q-mt-md">
+                          La forma como el mundo te ve y te percibe es decisivo
+                        </p>
+                        <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                        <div class="row justify-between">
+                          <q-btn outline style="color: #fdfdfd;" label="Diseño Publicitario" class="col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd;" label="Construcción de Marca" class="col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd;" label="Portafolio Grafico" class="col-3" size="md" no-caps />
+                        </div>
+                      </div>    
+                     <div class="uix-tabs__content">
+                        <span class="text-h4 text-weight-bold" style="color: #45ff45;">3D</span>
+                        <p class="text-body1 q-mt-md">
+                          Llegar una a impacto publicitario mas alto es la mejor opción
+                        </p>
+                        <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                        <div class="row justify-between">
+                          <q-btn outline style="color: #fdfdfd;" label="Modelado" class="col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd;" label="Render" class="col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd;" label="Animación" class="col-3" size="md" no-caps />
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>                  
               </div>
@@ -535,7 +642,7 @@ section {
               <div class="col-xs-12 col-sm-12">
                 <div class="uix-tabs uix-tabs--rotation" data-rotation="true" data-rotation-display="9" data-rotation-radius="130" data-rotation-wrapper-angle="130">
                   <div class="row justify-center">
-                    <div class="col-xs-9 col-sm-9">
+                    <div class="col-xs-8 col-sm-9">
                     <div class="uix-tabs__nav">
                       <ul>
                         <div>
@@ -553,10 +660,19 @@ section {
                       </ul>
                     </div><!-- /.uix-tabs__nav -->
                   </div>
-                  <div class="col-xs-12 col-sm-12">
-                    <div class="q-mt-xl q-ml-md uix-tabs__content active">
-                      <span class="text-h4">Consultoria</span>
-                      <p class="text-body1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, natus eos facere ducimus voluptas neque optio, possimus sapiente vitae quibusdam fuga quae quam maxime adipisci. Facilis veritatis dolor voluptatum nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis iure corrupti numquam unde voluptatem commodi labore aspernatur molestiae vitae et laboriosam provident fugiat aut, sit excepturi quia quisquam, odio sunt.</p>
+                  <div class="col-xs-12 col-sm-12">                   
+
+                    <div class="q-mt-xl uix-tabs__content active">
+                      <span class="text-h4 text-weight-bold" style="color: #2bfdb1;">Consultoria</span>
+                      <p class="text-body1 q-mt-md">
+                        El mundo hoy esta en un inminente cambio, por eso, es necesario
+                        re-inventarnos. La innovación en los modelos de negocio actuales son la clave
+                        para llevarlos y entrar en la transformación digital y dirigirlos al éxito,
+                        debemos enfocar la tecnología como un facilitador entre negocios y usuarios;
+                        Operar un negocio digital se ha convertido en un gran reto para las empresas
+                        y más en un mundo tan cambiante como al día de hoy. 
+                      </p>
+                      <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
                       <div class="row justify-center">
                         <q-btn outline style="color: #fdfdfd;" label="Transformación Digital" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
                         <q-btn outline style="color: #fdfdfd;" label="Automatización de Procesos" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
@@ -566,32 +682,129 @@ section {
                         <q-btn outline style="color: #fdfdfd;" label="Asesoria Especializada" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
                       </div>
                     </div>
-                    <div class="uix-tabs__content">
-                        <p>This is the 2nd tab.</p>
-                        <p>This is the 2nd tab.</p>
-                        <p>This is the 2nd tab.</p>
+                    <div class="q-mt-xl q-ml uix-tabs__content">
+                      <span class="text-h4 q-mt-xl text-weight-bold" style="color: #429dff;">Api Whatsapp</span>
+                      <p class="text-body1 q-mt-md">
+                        Whatsapp hoy en día es el medio de comunicación numero uno en el mundo,
+                        de aquí parte el desarrollo de procesos y aplicativos integrados a este para
+                        lograr diferentes objetivos a través de él.
+                      </p>
+                      <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                      <div class="row justify-center">
+                        <q-btn outline style="color: #fdfdfd;" label="Puentes de comunicación" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Comunicación directa" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Integranción de Procesos" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Venta Simplificada" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                      </div>
                     </div>
-                    <div class="uix-tabs__content">
-                        <p>And this is the 3rd tab.</p>
-                    </div>    
-                    <div class="uix-tabs__content">
-                        <p>And this is the 4th tab.</p>
-                    </div>  
-                    <div class="uix-tabs__content">
-                        <p>And this is the 5th tab.</p>
-                    </div>  
-                      <div class="uix-tabs__content">
-                        <p>And this is the 5th tab.</p>
-                    </div>  
-                      <div class="uix-tabs__content">
-                        <p>And this is the 5th tab.</p>
-                    </div>  
-                      <div class="uix-tabs__content">
-                        <p>And this is the 5th tab.</p>
-                    </div>  
-                      <div class="uix-tabs__content">
-                        <p>And this is the 5th tab.</p>
-                    </div>  
+                    <div class="q-mt-xl uix-tabs__content">
+                      <span class="text-h4 text-weight-bold" style="color: #ff4343;">E-Commerce</span>
+                      <p class="text-body1 q-mt-md">
+                        El cambio que vive el mundo el día de hoy esta impulsando el comercio
+                        electrónico, vemos los crecientes indices y la constante tendencia que esta
+                        llevando el mercado a la compra de productos y servicios en internet, sumando
+                        el alcance en ventas que se logra tener gracias a los clientes que acuden a él. 
+                      </p>
+                      <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                      <div class="row justify-center">
+                        <q-btn outline style="color: #fdfdfd;" label="Automatización de Ventas" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Aumento de Ventas" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                      </div>
+                      <div class="row justify-center">
+                        <q-btn outline style="color: #fdfdfd;" label="Ventas por Conversiones" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                      </div>
+                    </div> 
+                    <div class="q-mt-xl uix-tabs__content">
+                      <span class="text-h4 text-weight-bold" style="color: #48ffe0;">Sistemas</span>
+                      <p class="text-body1 q-mt-md">
+                        Los sistemas hoy en día son la fuente de la transformación digital, quienes
+                        permiten desarrollar los entornos digitales que conocemos hoy en día, y nos
+                        permiten alcanzar el éxito al lograr toda esta evolución con el único fin de
+                        construir productos que realmente respondan a problemas y necesidades
+                        globales que puedan ser innovadoras en el mercado.
+                      </p>
+                      <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                      <div class="row justify-center">
+                        <q-btn outline style="color: #fdfdfd;" label="Transformación Digital" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Digitalización de Procesos" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Automatización de Procesos" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Optimazación de Procesos" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Arquitectura de información" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Flujo de Información" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                      </div>
+                    </div>
+                    <div class="q-mt-xl uix-tabs__content">
+                      <span class="text-h4 text-weight-bold" style="color: #be43ff;">Apps</span>
+                      <p class="text-body1 q-mt-md">
+                        Las Aplicaciones móviles juegan un papel importante en nuestras vidas, hoy
+                        en día pasamos gran parte de nuestro tiempo en ella y nos facilitan la vida, he
+                        aquí el éxito de este modelo y el futuro en el. 
+                      </p>
+                      <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                      <div class="row justify-center">
+                        <q-btn outline style="color: #fdfdfd;" label="Android" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="IOS" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Hibridas" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Nativas" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                      </div>
+                    </div>   
+                    <div class="q-mt-xl uix-tabs__content">
+                      <span class="text-h4 text-weight-bold" style="color: #ff45fb;">Servidores</span>
+                      <p class="text-body1 q-mt-md">
+                        Todo proyecto digital necesita un lugar en donde vivir 
+                      </p>
+                      <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                      <div class="row justify-center">
+                        <q-btn outline style="color: #fdfdfd;" label="Administración" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Monitoreo" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Cloud" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Dedicados" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Hosting" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Hosting" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                      </div>
+                    </div>   
+                    <div class="q-mt-xl uix-tabs__content">
+                      <span class="text-h4 text-weight-bold" style="color: #ffad4a;">Marketing Digital</span>
+                      <p class="text-body1 q-mt-md">
+                        Las campañas de marketing digital juegan un papel importante en la
+                        transformación digital, son la herramienta que nos permite llegar a neutros
+                        clientes objetivos, y hacen parte del ecosistema tecnológico para lograr todas
+                        nuestras metas y objetivos
+                      </p>
+                      <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                      <div class="row justify-center">
+                        <q-btn outline style="color: #fdfdfd;" label="FacebookAdd" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="GoogleAdd" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                      </div>
+                    </div>   
+                      <div class="q-mt-xl uix-tabs__content">
+                        <span class="text-h4 text-weight-bold" style="color: #ffad4a;">Branding</span>
+                        <p class="text-body1 q-mt-md">
+                          La forma como el mundo te ve y te percibe es decisivo
+                        </p>
+                        <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                        <div class="row justify-center">
+                          <q-btn outline style="color: #fdfdfd;" label="Diseño Publicitario" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd;" label="Construcción de Marca" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        </div>
+                        <div class="row justify-center">
+                          <q-btn outline style="color: #fdfdfd;" label="Portafolio Grafico" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        </div>
+                      </div>    
+                     <div class="q-mt-xl uix-tabs__content">
+                        <span class="text-h4 text-weight-bold" style="color: #45ff45;">3D</span>
+                        <p class="text-body1 q-mt-md">
+                          Llegar una a impacto publicitario mas alto es la mejor opción
+                        </p>
+                        <span class="text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                        <div class="row justify-center">
+                          <q-btn outline style="color: #fdfdfd;" label="Modelado" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd;" label="Render" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        </div>
+                        <div class="row justify-center">
+                          <q-btn outline style="color: #fdfdfd;" label="Animación" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        </div>
+                      </div>  
                   </div>
                   </div>
                 </div>                  
