@@ -13,6 +13,13 @@ const routes = [
     /* children: [
       { path: '', component: () => import('pages/Index.vue') }
     ] */
+  },
+  {
+    path: '/politicas',
+    component: () => import('layouts/Politicas.vue'),
+    /* children: [
+      { path: '', component: () => import('pages/Index.vue') }
+    ] */
   }
 ]
 

@@ -1140,22 +1140,28 @@ section {
     <q-banner class="xs-hide sm-hide bg-negative q-mt-xl">
       <q-card flat class="row justify-center bg-negative">
         <q-card-section class="col-gutter-xs col-2 q-mt-sm q-mb-sm q-ml-xl">
-          <img src="../statics/pro/logo.png" class="" style="height: 60px;"></img>
+          <img src="../statics/pro/logo.png" class="" style="height: 60px;"/>
         </q-card-section>
         <q-separator color="white" vertical inset />
         <q-card-section class="col-gutter-xs  col-3 q-mt-md q-mb-md text-h6">
           2020 Todos los derechos reservados.
+          <router-link style="text-decoration: none;" :to="{ path:'/Politicas' }">
+            <q-btn class="text-white text-h6" stretch flat label="Terminos y Condiciones" />
+          </router-link>
         </q-card-section>
       </q-card>
     </q-banner>
 
     <q-banner class="row justify-center md-hide xl-hide lg-hide bg-negative q-mt-xl">
-      <div class="col-xs-12 col-sm-12">
-        <div class="col-xs-12 col-sm-12 q-mt-sm q-mb-sm">
-          <img src="../statics/pro/logo.png" style="height: 50px;"></img>
+      <div class="col-xs-10 col-sm-10">
+        <div class="text-center col-xs-12 col-sm-12 q-mt-sm q-mb-sm">
+          <img src="../statics/pro/logo.png" style="height: 50px;"/>
         </div>
-        <div class="col-xs-12 col-sm-12 q-mt-md q-mb-md">
+        <div class="text-center col-xs-10 col-sm-10 q-mt-md q-mb-md">
           2020 Todos los derechos reservados.
+          <router-link style="text-decoration: none;" :to="{ path:'/Politicas' }">
+            <q-btn class="text-white text-caption" stretch flat label="Terminos y Condiciones" />
+          </router-link>
         </div>
       </div>
     </q-banner>
