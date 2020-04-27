@@ -1,3 +1,28 @@
+<style scoped>
+
+@font-face {
+   font-family: Nexa-Bold;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../css/font/Nexa-Bold.ttf);
+}
+
+.texto1{
+  font-family: Nexa-Bold;
+}
+
+@font-face {
+   font-family: open-sans;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../css/font/OpenSans-SemiBold.ttf);
+}
+
+.texto3{
+  font-family: open-sans;
+}
+
+</style>
 <template>
   <div>
     <q-layout view="hhh lpR fff" style="height: 400px" class="shadow-2 rounded-borders">
@@ -10,12 +35,12 @@
                 <img src="../statics/pro/logo_promedios.png" style="max-width: 500px; height: 70px;">
               </div>
             </q-card-section>
-            <q-card-section class="text-h3">
+            <q-card-section class="texto1 text-h3">
               <span>Somos la Fuerza</span> <br>
               <span class="text-secondary">de la innovación y</span> <br>
               <span class="text-secondary">transformación digital</span>
             </q-card-section>
-            <q-card-section class="xs-hide sm-hide text-h6" style="max-width:60%">
+            <q-card-section class="texto3 xs-hide sm-hide text-h6" style="max-width:60%">
               Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
               advertised as the most popular gun in American crime. do you believe that
               shit? It actually says that in the little book that comes whit it: the most popular.
@@ -52,12 +77,12 @@
         </q-card>
 
         <div class="row md-hide lg-hide xl-hide">
-          <q-card-section class="col-xs-10 col-sm-12 text-h5">
+          <q-card-section class="texto1 col-xs-10 col-sm-12 text-h5">
             <span>Somos la Fuerza</span> <br>
             <span class="text-secondary">de la innovación y</span> <br>
             <span class="text-secondary">transformación digital</span>
           </q-card-section>
-          <q-card-section class="col-xs-10 col-sm-12 text-caption">
+          <q-card-section class="texto3 col-xs-10 col-sm-12">
             Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
             advertised as the most popular gun in American crime. do you believe that
             shit? It actually says that in the little book that comes whit it: the most popular.
