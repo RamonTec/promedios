@@ -285,79 +285,13 @@ section {
             </span>
           </div>
         </div>
-      </div>
-
-      
-      
-      <q-carousel
-        swipeable
-        class="bg-transparent q-ml-xl q-mr-xl"
-        animated
-        v-model="slide"
-        infinite
-        autoplay
-        ref="carousel"
-      >
-
-      <q-carousel-slide :name="1">
-        <div class="row bg-none justify-between">
-          <q-card-section class="bg-none">
-            <img src="../statics/pro/servicio_1.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-          <q-card-section>
-            <img src="../statics/pro/servicio_2.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-          <q-card-section>
-            <img src="../statics/pro/servicio_3.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-          <q-card-section>
-            <img src="../statics/pro/servicio_4.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-          <q-card-section>
-            <img src="../statics/pro/servicio_5.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-          <q-card-section>
-            <img src="../statics/pro/servicio_6.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-          <div class="row bg-none my-card">
-          <q-card-section>
-            <img src="../statics/pro/servicio_6.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section> 
-          <q-card-section>
-            <img src="../statics/pro/servicio_7.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-          <q-card-section>
-            <img src="../statics/pro/servicio_8.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-          <q-card-section>
-            <img src="../statics/pro/servicio_9.svg" style="max-width: 500px; height: 250px;">
-          </q-card-section>
-        </div>
-        </div>
-        <div>
-          <q-btn
-            push dense color="white" text-color="black" class="q-ml-md q-mr-sm" icon="arrow_left"
-            @click="$refs.carousel.previous()"
-          />
-          <q-btn
-            push dense color="white" text-color="black" icon="arrow_right"
-            @click="$refs.carousel.next()"
-          />
-        </div>
-      </q-carousel-slide>
-
-    </q-carousel>
-      
-            
-
-      
-      
+      </div>    
     
     </div>
 
     <div class="row sm-hide lg-hide xl-hide md-hide">
       <div class="col-xs-12 col-sm-12 col-md-4 q-mt-xl">
-        <q-card-sectio>
+        <q-card-section>
           <div>
           <span class="texto1 q-ml-md text-h5">
             Nuestros Servicios
@@ -370,58 +304,9 @@ section {
             shit? It actually says that in the little book that comes whit it: the most popular.
           </span>
         </div>
-        </q-card-sectio>
+        </q-card-section>
       </div>
     </div>
-
-      <hooper class="col-xs-12 sm-hide lg-hide md-hide xl-hide" :infiniteScroll="true" :itemsToShow="1" :itemsToSlide="1" :autoPlay="true" :playSpeed="3000" style="height: 380px;">
-      <slide>
-        <div class="row bg-none justify-between">
-          <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_2.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_3.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_4.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_5.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_6.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_7.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_8.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_9.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      
-    </hooper>
 
     <div class="row lg-hide xs-hide xl-hide md-hide">
       <div class="col-xs-12 col-sm-12 col-md-4 q-mt-xl">
@@ -444,56 +329,59 @@ section {
       </div>
     </div>
 
-      <hooper class="xs-hide col-sm-12 md-hide lg-hide xl-hide" :infiniteScroll="true" :itemsToShow="2" :itemsToSlide="1" :autoPlay="true" :playSpeed="3000" style="height: 380px;">
+      <hooper :settings="hooperSettings" ref="carousel" @slide="updateCarousel" class="col-sm-12" style="height: 380px;">
       <slide>
-        <div class="row bg-none justify-between">
+        <div class="row bg-transparent justify-between">
           <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="max-width: 500px; height: 250px;">
         </div>
       </slide>
       <slide>
-        <div class="row bg-none justify-between my-card">
+        <div class="row bg-transparent justify-between my-card">
           <img class="col-xs-12" src="../statics/pro/servicio_2.svg" style="max-width: 500px; height: 250px;">
         </div>
       </slide>
       <slide>
-        <div class="row bg-none justify-between my-card">
+        <div class="row bg-transparent justify-between my-card">
           <img class="col-xs-12" src="../statics/pro/servicio_3.svg" style="max-width: 500px; height: 250px;">
         </div>
       </slide>
       <slide>
-        <div class="row bg-none justify-between my-card">
+        <div class="row bg-transparent justify-between my-card">
           <img class="col-xs-12" src="../statics/pro/servicio_4.svg" style="max-width: 500px; height: 250px;">
         </div>
       </slide>
       <slide>
-        <div class="row bg-none justify-between my-card">
+        <div class="row bg-transparent justify-between my-card">
           <img class="col-xs-12" src="../statics/pro/servicio_5.svg" style="max-width: 500px; height: 250px;">
         </div>
       </slide>
       <slide>
-        <div class="row bg-none justify-between my-card">
+        <div class="row bg-transparent justify-between my-card">
           <img class="col-xs-12" src="../statics/pro/servicio_6.svg" style="max-width: 500px; height: 250px;">
         </div>
       </slide>
       <slide>
-        <div class="row bg-none justify-between my-card">
+        <div class="row bg-transparent justify-between my-card">
           <img class="col-xs-12" src="../statics/pro/servicio_7.svg" style="max-width: 500px; height: 250px;">
         </div>
       </slide>
       <slide>
-        <div class="row bg-none justify-between my-card">
+        <div class="row bg-transparent justify-between my-card">
           <img class="col-xs-12" src="../statics/pro/servicio_8.svg" style="max-width: 500px; height: 250px;">
         </div>
       </slide>
       <slide>
-        <div class="row bg-none justify-between my-card">
+        <div class="row bg-transparent justify-between my-card">
           <img class="col-xs-12" src="../statics/pro/servicio_9.svg" style="max-width: 500px; height: 250px;">
         </div>
       </slide>
-      <hooper-navigation slot="hooper-addons"></hooper-navigation>
-      
     </hooper>
-    
+    <div class="row q-ml-xl">
+      <div class="col-10">
+        <q-btn color="white" text-color="black" icon="mdi-arrow-left" @click.prevent="slidePrev" style="height:50px;border-radius:10px;"></q-btn>
+        <q-btn class="q-ml-sm" color="white" text-color="black" icon="mdi-arrow-right" @click.prevent="slideNext" style="height:50px;border-radius:10px;"></q-btn> 
+      </div>
+    </div>
 
     <div class="xs-hide sm-hide row q-mt-xl">
       <div class="col-11" style="background: #2b3035; border-radius: 0 25px 25px 0; heigth: 120px">
@@ -714,16 +602,20 @@ section {
     </div>
 
     <div class="row justify-center q-mt-xl">
-      <div class="col-xs-12 col-sm-10 md-hide lg-hide lx-hide" style="background: #2b3035;">
+      <div class="xs-hide col-sm-12 md-hide lg-hide lx-hide" style="background: #2b3035;">
        <!-- Content 02
         ====================================================== -->
         <section class="uix-spacing--m">
           <div class="uix-t-c">
             <div class="row justify-center">
               <div class="col-xs-10 col-sm-10">
-                <div class="uix-tabs uix-tabs--rotation" data-rotation="true" data-rotation-display="9" data-rotation-radius="130" data-rotation-wrapper-angle="130">
+                <div class="uix-tabs uix-tabs--rotation" 
+                data-rotation="true" 
+                data-rotation-display="9" 
+                data-rotation-radius="130" 
+                data-rotation-wrapper-angle="130">
                   <div class="row justify-center">
-                    <div class="col-xs-9 q-mr-xl col-sm-9">
+                    <div class="col-xs-10 col-sm-9">
                     <div class="uix-tabs__nav">
                       <ul>
                         <div>
@@ -1295,7 +1187,7 @@ section {
 </template>
 
 <script>
-
+require("../../node_modules/@mdi/font/css/materialdesignicons.css");
 import { Hooper, Slide, Navigation as HooperNavigation} from 'hooper';
 import $ from 'jquery'
 
@@ -1318,7 +1210,37 @@ export default {
       color6: false,
       color7: false,
       color8: false,
-      color9: true
+      color9: true,
+      text:"",
+      hooperSettings: {
+      infiniteScroll: true,
+      centerMode: true,
+      autoPlay: true,
+      playSpeed: 3000,
+      breakpoints: {
+          2400: {
+              itemsToShow: 5
+          },
+          1800: {
+              itemsToShow: 5
+          },
+          1500: {
+              itemsToShow: 5
+          },
+          1100: {
+              itemsToShow: 5
+          },
+          764: {
+              itemsToShow: 3
+          },
+          420: {
+              itemsToShow: 2
+          },
+          0: {
+              itemsToShow: 1
+          }
+        }
+      }  
     }
   },
   mounted(){
@@ -1545,6 +1467,17 @@ export default {
       
       
   } ) ( $ );
+  },
+    methods: {
+    slidePrev() {
+      this.$refs.carousel.slidePrev();
+    },
+    slideNext() {
+      this.$refs.carousel.slideNext();
+    },
+    updateCarousel(payload) {
+      this.myCarouselData = payload.currentSlide;
+    }
   }
 }
 </script>
