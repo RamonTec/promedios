@@ -602,7 +602,7 @@ section {
     </div>
 
     <div class="row justify-center q-mt-xl">
-      <div class="xs-hide col-sm-12 md-hide lg-hide lx-hide" style="background: #2b3035;">
+      <div class="uix-tabs--rotationxs-hide col-sm-12 md-hide lg-hide lx-hide" style="background: #2b3035;">
        <!-- Content 02
         ====================================================== -->
         <section class="uix-spacing--m">
