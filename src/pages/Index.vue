@@ -184,8 +184,7 @@ section {
 
 					&.active > a {
 						border: none;
-						background: #2bfdb1;
-						color: #fff;
+            color: white;
 					}
 				}
 			}
@@ -512,15 +511,42 @@ section {
                         <div>
                           <img src="../statics/pro/pro_med.png" style="width: 120px; height: 120px; position:relative; top:60px; left:75px; transform: rotate(231deg)">
                         </div>
-                        <li class="active"><a href="javascript:void(0);">C</a></li>
-                        <li><a href="javascript:void(0);">A-W</a></li>
-                        <li><a href="javascript:void(0);">E-C</a></li>
-                        <li><a href="javascript:void(0);">S</a></li>
-                        <li><a href="javascript:void(0);">A</a></li>
-                        <li><a href="javascript:void(0);">S</a></li>
-                        <li><a href="javascript:void(0);">M-D</a></li>
-                        <li><a href="javascript:void(0);">B</a></li>
-                        <li><a href="javascript:void(0);">3-D</a></li>
+                        
+                        <li class="active a" v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = true;">
+                          <a href="javascript:void(0);" :style=" color9 == true ? 'background-color: #2bfdb1;' : 'background-color: #2b3035;' ">C</a>
+                        </li>
+
+                        <li v-on:click="color1 = true; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;">
+                          <a href="javascript:void(0);" :style=" color1 == true ? 'background-color: #429dff;' : 'background-color: #2b3035;' ">A-W</a>
+                        </li>
+
+                        <li v-on:click="color1 = false; color2 = true; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;" >
+                          <a href="javascript:void(0); text-whtie" :style=" color2 == true ? 'background-color: #ff4343;' : 'background-color: #2b3035;' ">E-C</a>
+                        </li>
+
+                        <li v-on:click="color1 = false; color2 = false; color3 = true; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;">
+                          <a href="javascript:void(0); text-whtie" :style=" color3 == true ? 'background-color: #48ffe0;' : 'background-color: #2b3035;' ">S</a>
+                        </li>
+
+                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = true; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;">
+                          <a href="javascript:void(0); text-whtie" :style=" color4 == true ? 'background-color: #be43ff;' : 'background-color: #2b3035;' ">A</a>
+                        </li>
+
+                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = true; color6 = false; color7 = false; color8 = false; color9 = false;">
+                          <a href="javascript:void(0); text-whtie" :style=" color5 == true ? 'background-color: #ff45fb;' : 'background-color: #2b3035;' ">S</a>
+                        </li>
+
+                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = true; color7 = false; color8 = false; color9 = false;">
+                          <a href="javascript:void(0); text-whtie" :style=" color6 == true ? 'background-color: #ffad4a;' : 'background-color: #2b3035;' ">M-D</a>
+                        </li>
+
+                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = true; color8 = false; color9 = false;">
+                          <a href="javascript:void(0); text-whtie" :style=" color7 == true ? 'background-color: #f0c54f;' : 'background-color: #2b3035;' ">B</a>
+                        </li>
+
+                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = true; color9 = false;">
+                          <a href="javascript:void(0); text-whtie" :style=" color8 == true ? 'background-color: #45ff45;' : 'background-color: #2b3035;' ">3-D</a>
+                        </li>
                       </ul>
                     </div><!-- /.uix-tabs__nav -->
                   </div>
@@ -649,7 +675,7 @@ section {
                       </div>
                     </div>   
                       <div class="uix-tabs__content">
-                        <span class="texto1 text-h4 text-weight-bold" style="color: #ffad4a;">Branding</span>
+                        <span class="texto1 text-h4 text-weight-bold" style="color: #f0c54f;">Branding</span>
                         <p class="texto3 q-mt-md">
                           La forma como el mundo te ve y te percibe es decisivo
                         </p>
@@ -688,13 +714,13 @@ section {
     </div>
 
     <div class="row justify-center q-mt-xl">
-      <div class="col-xs-12 col-sm-12 md-hide lg-hide lx-hide" style="background: #2b3035;">
+      <div class="col-xs-12 col-sm-10 md-hide lg-hide lx-hide" style="background: #2b3035;">
        <!-- Content 02
         ====================================================== -->
         <section class="uix-spacing--m">
           <div class="uix-t-c">
             <div class="row justify-center">
-              <div class="col-xs-10 col-sm-12">
+              <div class="col-xs-10 col-sm-10">
                 <div class="uix-tabs uix-tabs--rotation" data-rotation="true" data-rotation-display="9" data-rotation-radius="130" data-rotation-wrapper-angle="130">
                   <div class="row justify-center">
                     <div class="col-xs-9 q-mr-xl col-sm-9">
@@ -703,15 +729,41 @@ section {
                         <div>
                           <img src="../statics/pro/pro_med.png" style="width: 120px; height: 120px; position:relative; top:60px; left:75px; transform: rotate(231deg)">
                         </div>
-                        <li class="active"><a href="javascript:void(0);">C</a></li>
-                        <li><a href="javascript:void(0);">A-W</a></li>
-                        <li><a href="javascript:void(0);">E-C</a></li>
-                        <li><a href="javascript:void(0);">S</a></li>
-                        <li><a href="javascript:void(0);">A</a></li>
-                        <li><a href="javascript:void(0);">S</a></li>
-                        <li><a href="javascript:void(0);">M-D</a></li>
-                        <li><a href="javascript:void(0);">B</a></li>
-                        <li><a href="javascript:void(0);">3-D</a></li>
+                        <li class="active a" v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = true;">
+                          <a href="javascript:void(0);" :style=" color9 == true ? 'background-color: #2bfdb1;' : 'background-color: #2b3035;' ">C</a>
+                        </li>
+
+                        <li v-on:click="color1 = true; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;">
+                          <a href="javascript:void(0);" :style=" color1 == true ? 'background-color: #429dff;' : 'background-color: #2b3035;' ">A-W</a>
+                        </li>
+
+                        <li v-on:click="color1 = false; color2 = true; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;" >
+                          <a href="javascript:void(0); text-whtie" :style=" color2 == true ? 'background-color: #ff4343;' : 'background-color: #2b3035;' ">E-C</a>
+                        </li>
+
+                        <li v-on:click="color1 = false; color2 = false; color3 = true; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;">
+                          <a href="javascript:void(0); text-whtie" :style=" color3 == true ? 'background-color: #48ffe0;' : 'background-color: #2b3035;' ">S</a>
+                        </li>
+
+                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = true; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;">
+                          <a href="javascript:void(0); text-whtie" :style=" color4 == true ? 'background-color: #be43ff;' : 'background-color: #2b3035;' ">A</a>
+                        </li>
+
+                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = true; color6 = false; color7 = false; color8 = false; color9 = false;">
+                          <a href="javascript:void(0); text-whtie" :style=" color5 == true ? 'background-color: #ff45fb;' : 'background-color: #2b3035;' ">S</a>
+                        </li>
+
+                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = true; color7 = false; color8 = false; color9 = false;">
+                          <a href="javascript:void(0); text-whtie" :style=" color6 == true ? 'background-color: #ffad4a;' : 'background-color: #2b3035;' ">M-D</a>
+                        </li>
+
+                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = true; color8 = false; color9 = false;">
+                          <a href="javascript:void(0); text-whtie" :style=" color7 == true ? 'background-color: #f0c54f;' : 'background-color: #2b3035;' ">B</a>
+                        </li>
+
+                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = true; color9 = false;">
+                          <a href="javascript:void(0); text-whtie" :style=" color8 == true ? 'background-color: #45ff45;' : 'background-color: #2b3035;' ">3-D</a>
+                        </li>
                       </ul>
                     </div><!-- /.uix-tabs__nav -->
                   </div>
@@ -1137,8 +1189,8 @@ section {
     </div>
 
     <div class="md-hide lx-hide lg-hide row justify-center">
-      <div class="col-xs-12 col-sm-12 q-ml-xl">
-        <q-card flat bordered class="bg-white q-mr-xl" style="border-radius:25px">
+      <div class="col-xs-10 col-sm-10">
+        <q-card flat bordered class="bg-white" style="border-radius:25px">
           <div class="col-xs-10">
 
             <q-card-section>
@@ -1257,7 +1309,16 @@ export default {
   },
   data () {
     return {
-      slide: 1
+      slide: 1,
+      color1: false,
+      color2: false,
+      color3: false,
+      color4: false,
+      color5: false,
+      color6: false,
+      color7: false,
+      color8: false,
+      color9: true
     }
   },
   mounted(){
