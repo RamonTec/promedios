@@ -253,7 +253,7 @@ section {
 
     
 
-    <div class="img_group xs-hide sm-hide row justify-start">
+    <div class="img_group row justify-start">
 
       <div class="row justify-start bg-none">
         <div class="xs-hide sm-hide q-ml-md q-mt-xl">
@@ -268,6 +268,25 @@ section {
             shit? It actually says that in the little book that comes whit it: the most popular.
           </q-card-section>
         </div>
+
+      <div class="md-hide lg-hide xl-hide col-xs-12 col-sm-12 col-md-4 q-mt-xl">
+        <q-card-section>
+          <div>
+            <span class="texto1 q-ml-md text-h4">
+              Nuestros Servicios
+            </span>
+          </div>
+        </q-card-section>
+        <q-card-section>
+          <div class="texto3 q-ml-md text-h6">
+            <span>
+              Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
+            advertised as the most popular gun in American crime. do you believe that
+            shit? It actually says that in the little book that comes whit it: the most popular.
+            </span>
+          </div>
+        </q-card-section>
+      </div>
       </div>
           <hooper :settings="hooperSettings" ref="carousel" @slide="updateCarousel" class="col-sm-12" style="height: 380px;">
           <slide>
@@ -392,7 +411,7 @@ section {
       
     </hooper> -->
 
-    <div class="row lg-hide xl-hide md-hide">
+    <!-- <div class="row lg-hide xl-hide md-hide">
       <div class="col-xs-12 col-sm-12 col-md-4 q-mt-xl">
         <q-card-section>
           <div>
@@ -411,9 +430,9 @@ section {
           </div>
         </q-card-section>
       </div>
-    </div>
+    </div> -->
 
-      <hooper :settings="hooperSettings" ref="carousel" @slide="updateCarousel" class="col-sm-12 lg-hide xl-hide md-hide" style="height: 380px;">
+      <!-- <hooper :settings="hooperSettings" ref="carousel" @slide="updateCarousel" class="col-sm-12 lg-hide xl-hide md-hide" style="height: 380px;">
       <slide>
         <div class="row bg-transparent justify-between">
           <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="max-width: 500px; height: 250px;">
@@ -460,12 +479,12 @@ section {
         </div>
       </slide>
     </hooper>
-    <div class="row q-ml-xl lg-hide xl-hide md-hide">
+    <div class="row q-ml-xl ">
       <div class="col-10">
         <q-btn color="white" text-color="black" icon="mdi-arrow-left" @click.prevent="slidePrev" style="height:50px;border-radius:10px;"></q-btn>
         <q-btn class="q-ml-sm" color="white" text-color="black" icon="mdi-arrow-right" @click.prevent="slideNext" style="height:50px;border-radius:10px;"></q-btn> 
       </div>
-    </div>
+    </div> -->
 
     <div class="xs-hide sm-hide row q-mt-xl">
       <div class="col-11" style="background: #2b3035; border-radius: 0 25px 25px 0; heigth: 120px">
