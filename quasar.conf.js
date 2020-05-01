@@ -93,7 +93,8 @@ module.exports = function (/* ctx */) {
         'QCarouselSlide',
         'QSeparator',
         'QSelect',
-        'QField'
+        'QField',
+        'QSelect'
       ],
 
       directives: [

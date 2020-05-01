@@ -49,10 +49,21 @@
               <q-btn class="q-mt-md" style="background: none; border: 2.7px solid #2bfdb1; border-radius: 5px;height: 50px; width: 210px; font-size: 1.2em; font-weight:bold" >LLAMANOS YA!</q-btn>
             </q-card-section>
           </div>
-          <div class="col-xs-1 col-md-1 q-mt-xl" style="z-index:100"><img src="../statics/pro/cell_header_pm.png" style="width: 550px; height: 612px;"></div>
+          <div class="col-xs-1 col-md-1 q-mt-xl" style="z-index:100">
+            
+            <img src="../statics/pro/cell_header_pm.png" style="width: 550px; height: 612px;">
+          </div>
+          
           <div class="col-xs-4 col-md-5">
-            <q-card-section class="" style="background: #439dff; position:relative; top:-50px; height: 709px; border-radius:0 0 0 50px; width: 90%; margin-left:64px">
-              
+            
+            <q-card-section style="background: #439dff; position:relative; top:-50px; height: 709px; border-radius:0 0 0 50px; width: 90%; margin-left:64px">
+              <div class="row justify-center q-mt-xl q-ml-xl">
+                <q-select bg-color="primary" label-color="white" outlined v-model="model" :options="options" label="ES">
+                  <template v-slot:prepend>
+                    <q-icon name="img:/statics/pro/col.svg" />
+                  </template>
+                </q-select>
+              </div>
             </q-card-section>
           </div>
         </q-card>
@@ -114,7 +125,8 @@ export default {
   },
   data () {
     return {
-      slide: 1
+      slide: 1,
+      model: null,
     }
   }
 }
