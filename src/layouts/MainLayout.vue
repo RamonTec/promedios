@@ -58,14 +58,25 @@
             
             <q-card-section style="background: #439dff; position:relative; top:-50px; height: 709px; border-radius:0 0 0 50px; width: 90%; margin-left:64px">
               <div class="row justify-center q-mt-xl q-ml-xl">
-                <q-select bg-color="primary" label-color="white" outlined v-model="model" :options="options" label="ES">
+                <q-select 
+                  dark
+                  class="q-ml-md" 
+                  color="white" 
+                  bg-color="primary" 
+                  label-color="white" 
+                  outlined
+                  v-model="model" 
+                  :options="options"
+                  >
                   <template v-slot:prepend>
-                    <q-icon name="img:/statics/pro/col.svg" />
+                    <q-icon v-if="model == null" name="img:/statics/pro/col.svg" />
+                    <q-icon v-if="!model == '' && model.label == 'ES'" name="img:/statics/pro/col.svg" />
+                    <q-icon v-if="!model == '' && model.label == 'CAN'" name="img:/statics/pro/cad.svg" />
                   </template>
                 </q-select>
               </div>
             </q-card-section>
-          </div>
+          </div>  
         </q-card>
 
         <q-card flat class="row q-mt-xl bg-primary">
@@ -127,7 +138,22 @@ export default {
     return {
       slide: 1,
       model: null,
+      options: [
+        {
+          label: 'ES',
+          value: 'ES',
+          name: 'img:/statics/pro/col.svg'
+        },
+        {
+          label: 'CAN',
+          value: 'CAN',
+          name: 'img:/statics/pro/can.svg'
+        }
+      ]
     }
+  },
+  created() {
+    console.log(this.model)
   }
 }
 </script>
