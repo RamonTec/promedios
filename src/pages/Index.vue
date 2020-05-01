@@ -581,7 +581,7 @@ section {
                 data-rotation-radius="130" 
                 data-rotation-wrapper-angle="130">
                   <div class="row justify-center">
-                    <div class="col-xs-10 col-sm-9">
+                    <div class="col-xs-10 col-sm-6">
                     <div class="uix-tabs__nav">
                       <ul>
                         <div>
@@ -895,7 +895,7 @@ section {
         </div>
 
         <div class="xs-hide row" style="margin-top:20px;">
-          <div class="col-xs-5 col-sm-5 col-md-5 q-ml-xl">
+          <div class="col-xs-5 col-sm-6 col-md-6">
             <q-card-section class="texto1">
               <q-item>
                 <q-item-section side>
@@ -959,7 +959,7 @@ section {
             </q-card-section>
           </div>
 
-          <div class="col-xs-5 col-sm-5 col-md-5 q-ml-xl">
+          <div class="col-xs-5 col-sm-6 col-md-6">
             <q-card-section class="texto1">
               <q-item>
                 <q-item-section side>
@@ -1249,7 +1249,7 @@ export default {
               itemsToShow: 4
           },
           764: {
-              itemsToShow: 3
+              itemsToShow: 2
           },
           420: {
               itemsToShow: 2
