@@ -7,7 +7,6 @@
   url("../statics/pro/Group9.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-color: #c7c5c5;
 }
@@ -20,7 +19,6 @@
   url("../statics/pro/Group11.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-color: #c7c5c5;
 }
@@ -258,7 +256,7 @@ section {
       <div class="row justify-start bg-none">
         <div class="xs-hide sm-hide q-ml-md q-mt-xl">
           <q-card-section>
-            <q-toolbar-title class="texto1 q-ml-sm text-h4">
+            <q-toolbar-title class="texto1 q-ml-sm text-h2">
               Nuestros Servicios
             </q-toolbar-title>
           </q-card-section>
@@ -288,203 +286,68 @@ section {
         </q-card-section>
       </div>
       </div>
-          <hooper :settings="hooperSettings" ref="carousel" @slide="updateCarousel" class="col-sm-12" style="height: 380px;">
-          <slide>
-            <div class="row bg-none justify-between">
-              <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="max-width: 500px; height: 250px;">
-            </div>
-          </slide>
-          <slide>
-            <div class="row bg-none justify-between my-card">
-              <img class="col-xs-12" src="../statics/pro/servicio_2.svg" style="max-width: 500px; height: 250px;">
-            </div>
-          </slide>
-          <slide>
-            <div class="row bg-none justify-between my-card">
-              <img class="col-xs-12" src="../statics/pro/servicio_3.svg" style="max-width: 500px; height: 250px;">
-            </div>
-          </slide>
-          <slide>
-            <div class="row bg-none justify-between my-card">
-              <img class="col-xs-12" src="../statics/pro/servicio_4.svg" style="max-width: 500px; height: 250px;">
-            </div>
-          </slide>
-          <slide>
-            <div class="row bg-none justify-between my-card">
-              <img class="col-xs-12" src="../statics/pro/servicio_5.svg" style="max-width: 500px; height: 250px;">
-            </div>
-          </slide>
-          <slide>
-            <div class="row bg-none justify-between my-card">
-              <img class="col-xs-12" src="../statics/pro/servicio_6.svg" style="max-width: 500px; height: 250px;">
-            </div>
-          </slide>
-          <slide>
-            <div class="row bg-none justify-between my-card">
-              <img class="col-xs-12" src="../statics/pro/servicio_7.svg" style="max-width: 500px; height: 250px;">
-            </div>
-          </slide>
-          <slide>
-            <div class="row bg-none justify-between my-card">
-              <img class="col-xs-12" src="../statics/pro/servicio_8.svg" style="max-width: 500px; height: 250px;">
-            </div>
-          </slide>
-          <slide>
-            <div class="row bg-none justify-between my-card">
-              <img class="col-xs-12" src="../statics/pro/servicio_9.svg" style="max-width: 500px; height: 250px;">
-            </div>
-          </slide>
-        </hooper>
-        <div class="row q-ml-xl q-mb-md">
-          <div class="col-12">
-            <q-btn color="white" text-color="black" icon="mdi-arrow-left" @click.prevent="slidePrev" style="height:50px;border-radius:10px;"></q-btn>
-            <q-btn class="q-ml-sm" color="white" text-color="black" icon="mdi-arrow-right" @click.prevent="slideNext" style="height:50px;border-radius:10px;"></q-btn> 
+
+      <hooper :settings="hooperSettings" ref="carousel" @slide="updateCarousel" class="row justify-between q-ml-sm col-md-12 col-sm-12" style="height: 450px;">
+        <slide>
+          <div class="row bg-none justify-between">
+            <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="width: 600px; height: 350px;">
           </div>
+        </slide>
+        <slide>
+          <div class="row bg-none">
+            <img class="col-xs-12" src="../statics/pro/servicio_2.svg" style="max-width: 500px; height: 350px;">
+          </div>
+        </slide>
+        <slide>
+          <div class="row bg-none justify-between">
+            <img class="col-xs-12" src="../statics/pro/servicio_3.svg" style="max-width: 500px; height: 350px;">
+          </div>
+        </slide>
+        <slide>
+          <div class="row bg-none justify-between">
+            <img class="col-xs-12" src="../statics/pro/servicio_4.svg" style="max-width: 500px; height: 350px;">
+          </div>
+        </slide>
+        <slide>
+          <div class="row bg-none justify-between">
+            <img class="col-xs-12" src="../statics/pro/servicio_5.svg" style="max-width: 500px; height: 350px;">
+          </div>
+        </slide>
+        <slide>
+          <div class="row bg-none justify-between">
+            <img class="col-xs-12" src="../statics/pro/servicio_6.svg" style="max-width: 500px; height: 350px;">
+          </div>
+        </slide>
+        <slide>
+          <div class="row bg-none justify-between">
+            <img class="col-xs-12" src="../statics/pro/servicio_7.svg" style="max-width: 500px; height: 350px;">
+          </div>
+        </slide>
+        <slide>
+          <div class="row bg-none justify-between">
+            <img class="col-xs-12" src="../statics/pro/servicio_8.svg" style="max-width: 500px; height: 350px;">
+          </div>
+        </slide>
+        <slide>
+          <div class="row bg-none justify-between my-card">
+            <img class="col-xs-12" src="../statics/pro/servicio_9.svg" style="max-width: 500px; height: 350px;">
+          </div>
+        </slide>
+      </hooper>
+
+        
+
+      <div class="xs-hide sm-hide row q-mb-md">
+        <div class="col-12 q-ml-xl" style="margin-left:40px;">
+          <q-btn icon="img:/statics/pro/flecha_right.svg" color="white" text-color="black" @click.prevent="slidePrev" style="height:50px;border-radius:10px;">
+            
+          </q-btn>
+          <q-btn icon="img:/statics/pro/flecha_left.svg" class="q-ml-sm" color="white" text-color="black" @click.prevent="slideNext" style="height:50px;border-radius:10px;"></q-btn>
         </div>
+      </div> 
+
     </div>
 
-    <!-- <div class="row sm-hide lg-hide xl-hide md-hide">
-      <div class="col-xs-12 col-sm-12 col-md-4 q-mt-xl">
-        <q-card-section>
-          <div>
-          <span class="texto1 q-ml-md text-h5">
-            Nuestros Servicios
-          </span>
-        </div>
-        <div class="texto3 q-ml-md text-h6">
-          <span>
-            Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
-            advertised as the most popular gun in American crime. do you believe that
-            shit? It actually says that in the little book that comes whit it: the most popular.
-          </span>
-        </div>
-        </q-card-section>
-      </div>
-    </div> -->
-
-      <!-- <hooper ref="carousel" @slide="updateCarousel" class="col-xs-12 lg-hide md-hide xl-hide" :infiniteScroll="true" :itemsToShow="1" :itemsToSlide="1" :autoPlay="true" :playSpeed="3000" style="height: 380px;">
-      <slide>
-        <div class="row bg-none justify-between">
-          <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_2.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_3.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_4.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_5.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_6.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_7.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_8.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-none justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_9.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      
-    </hooper> -->
-
-    <!-- <div class="row lg-hide xl-hide md-hide">
-      <div class="col-xs-12 col-sm-12 col-md-4 q-mt-xl">
-        <q-card-section>
-          <div>
-            <span class="texto1 q-ml-md text-h4">
-              Nuestros Servicios
-            </span>
-          </div>
-        </q-card-section>
-        <q-card-section>
-          <div class="texto3 q-ml-md text-h6">
-            <span>
-              Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
-            advertised as the most popular gun in American crime. do you believe that
-            shit? It actually says that in the little book that comes whit it: the most popular.
-            </span>
-          </div>
-        </q-card-section>
-      </div>
-    </div> -->
-
-      <!-- <hooper :settings="hooperSettings" ref="carousel" @slide="updateCarousel" class="col-sm-12 lg-hide xl-hide md-hide" style="height: 380px;">
-      <slide>
-        <div class="row bg-transparent justify-between">
-          <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-transparent justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_2.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-transparent justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_3.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-transparent justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_4.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-transparent justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_5.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-transparent justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_6.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-transparent justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_7.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-transparent justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_8.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-      <slide>
-        <div class="row bg-transparent justify-between my-card">
-          <img class="col-xs-12" src="../statics/pro/servicio_9.svg" style="max-width: 500px; height: 250px;">
-        </div>
-      </slide>
-    </hooper>
-    <div class="row q-ml-xl ">
-      <div class="col-10">
-        <q-btn color="white" text-color="black" icon="mdi-arrow-left" @click.prevent="slidePrev" style="height:50px;border-radius:10px;"></q-btn>
-        <q-btn class="q-ml-sm" color="white" text-color="black" icon="mdi-arrow-right" @click.prevent="slideNext" style="height:50px;border-radius:10px;"></q-btn> 
-      </div>
-    </div> -->
 
     <div class="xs-hide sm-hide row q-mt-xl">
       <div class="col-11" style="background: #2b3035; border-radius: 0 25px 25px 0; heigth: 120px">
@@ -496,7 +359,7 @@ section {
               <div class="col-12">
                 <div class="uix-tabs uix-tabs--rotation" data-rotation="true" data-rotation-display="9" data-rotation-radius="130" data-rotation-wrapper-angle="130">
                   <div class="row">
-                    <div class="col-5 q-mt-xl">
+                    <div class="col-5 q-mt-md q-mb-md">
                     <div class="uix-tabs__nav">
                       <ul>
                         <div>
@@ -940,8 +803,8 @@ section {
       </div>
     </div>
 
-    <!-- <div class="row justify-center">
-    <hooper class="xs-hide sm-hide col-md-11" :infiniteScroll="true" :itemsToShow="5.75" :itemsToSlide="3" :autoPlay="true" :playSpeed="3000" style="height: 180px;">
+    <div class="row justify-center">
+    <hooper class="xs-hide sm-hide col-md-11" :infiniteScroll="true" :itemsToShow="5.75" :itemsToSlide="3" :autoPlay="true" :playSpeed="4000" style="height: 180px;">
     
     <slide>
       <div class="col-xs-12  q-gutter-xs">
@@ -992,7 +855,7 @@ section {
       
 
     </hooper>
-    </div> -->
+    </div>
 
     <div class="img_group2 row justify-around">
       <div class="col-md-8">
@@ -1027,9 +890,12 @@ section {
               </q-toolbar-title>
             </q-card-section>
           </div>
-          <div class="xs-hide sm-hide">
-            <q-card-section class="q-ml-xl">
-              <img class="q-ml-xl" src="../statics/pro/flecha.svg" style="max-width: 360px; height: 100px;">
+          <div class="xs-hide sm-hide lg-hide">
+            <q-card-section>
+              <img 
+              :class="(!$q.screen.lt.md) ? 'q-ml-md' : 'q-ml-xl'" 
+              :style="($q.screen.lt.md) ? 'max-width: 240px; height: 100px;' : 'max-width: 340px; height: 100px;'  "
+              src="../statics/pro/flecha.svg">
             </q-card-section>
           </div>
         </div>
@@ -1102,7 +968,7 @@ section {
         <div class="row q-mt-xl"></div>
         <div class="row q-mt-xs"></div>
         <q-card flat bordered class="bg-white q-mr-xl q-mt-xl" style="border-radius:25px">
-              <div class="col-10">
+              <div class="col-md-12">
                 <q-card-section>
                   <q-toolbar-title class="texto1 q-ml-sm text-h6 text-start text-black">
                     Cuéntanos acerca de ti
@@ -1257,34 +1123,20 @@ section {
       </div>
     </div>
     
-    <q-banner class="xs-hide sm-hide bg-negative q-mt-xl">
-      <q-card flat class="row justify-center bg-negative">
-        <q-card-section class="col-gutter-xs col-2 q-mt-sm q-mb-sm q-ml-xl">
+    <div class="bg-negative row justify-center q-mt-xl">
+      <div class="">
+        <q-card-section class="col-gutter-xs col-xs-12 col-sm-12 col-md-2 q-mt-sm q-mb-sm">
           <img src="../statics/pro/logo.png" class="" style="height: 60px;"/>
         </q-card-section>
-        <q-separator color="white" vertical inset />
-        <q-card-section class="col-gutter-xs  col-3 q-mt-md q-mb-md text-h6">
-          2020 Todos los derechos reservados.
-          <router-link style="text-decoration: none;" :to="{ path:'/Politicas' }">
-            <q-btn class="text-white text-h6" stretch flat label="Terminos y Condiciones" />
-          </router-link>
-        </q-card-section>
-      </q-card>
-    </q-banner>
-
-    <q-banner class="row justify-center md-hide xl-hide lg-hide bg-negative q-mt-xl">
-      <div class="col-xs-10 col-sm-10">
-        <div class="text-center col-xs-12 col-sm-12 q-mt-sm q-mb-sm">
-          <img src="../statics/pro/logo.png" style="height: 50px;"/>
-        </div>
-        <div class="text-center col-xs-10 col-sm-10 q-mt-md q-mb-md">
-          2020 Todos los derechos reservados.
-          <router-link style="text-decoration: none;" :to="{ path:'/Politicas' }">
-            <q-btn class="text-white text-caption" stretch flat label="Terminos y Condiciones" />
-          </router-link>
-        </div>
       </div>
-    </q-banner>
+      <q-separator style="width:2px; height:35px; margin-top:30px;" class="xs-hide" color="white" vertical inset />
+      <div>
+        <q-card-section class="col-gutter-xs col-xs-12 col-sm-12 col-md-3 q-mb-md" style="margin-top:20px;">
+          2020 Todos los derechos reservados.
+        </q-card-section>
+      </div>
+    </div>
+
 
   </q-page>
 </template>
@@ -1318,20 +1170,20 @@ export default {
       hooperSettings: {
       infiniteScroll: true,
       centerMode: true,
-      autoPlay: true,
+      autoPlay: false,
       playSpeed: 3000,
       breakpoints: {
           2400: {
-              itemsToShow: 5
+              itemsToShow: 4
           },
           1800: {
-              itemsToShow: 5
+              itemsToShow: 4
           },
           1500: {
-              itemsToShow: 5
+              itemsToShow: 4
           },
           1100: {
-              itemsToShow: 5
+              itemsToShow: 4
           },
           764: {
               itemsToShow: 3
