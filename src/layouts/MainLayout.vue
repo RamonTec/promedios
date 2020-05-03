@@ -4,7 +4,7 @@
    font-family: Nexa-Bold;
    font-style: normal;
    font-weight: normal;
-   src: url(../css/font/Nexa-Bold.ttf);
+   src: url(../css/font/NexaBold.ttf.woff);
 }
 
 .texto1{
@@ -36,7 +36,7 @@
               </div>
             </q-card-section>
             <q-card-section class="texto1 text-h3">
-              <span>Somos la Fuerza</span> <br>
+              <span class="nexa-bold">Somos la Fuerza</span> <br>
               <span class="text-secondary">de la innovación y</span> <br>
               <span class="text-secondary">transformación digital</span>
             </q-card-section>
@@ -56,22 +56,24 @@
           
           <div class="col-xs-4 col-md-5">
             
-            <q-card-section style="background: #439dff; position:relative; top:-50px; height: 709px; border-radius:0 0 0 50px; width: 90%; margin-left:64px">
-              <div class="row justify-center q-mt-xl q-ml-xl">
+            <q-card-section style="background: #439dff; position:relative; top:-50px; height: 709px; border-radius:0 0 0 50px; width: 90%; left:64px">
+              <div class="row q-mt-xl">
                 <q-select 
                   dark
-                  class="q-ml-md" 
+                  class="col-3 offset-8" 
                   color="white" 
                   bg-color="primary" 
                   label-color="white" 
                   outlined
+                  style="max-width: 115px"
                   v-model="model" 
                   :options="options"
                   >
                   <template v-slot:prepend>
-                    <q-icon v-if="model == null" name="img:/statics/pro/col.svg" />
-                    <q-icon v-if="!model == '' && model.label == 'ES'" name="img:/statics/pro/col.svg" />
-                    <q-icon v-if="!model == '' && model.label == 'CAN'" name="img:/statics/pro/cad.svg" />
+                    <q-avatar>
+                      <img v-if="model.label === 'ES'"  style="width: 25px" src="../statics/pro/col.png"/>
+                      <img v-if="model.label === 'CAN'" style="width: 25px" src="../statics/pro/cad.png"/>
+                    </q-avatar>
                   </template>
                 </q-select>
               </div>
@@ -137,7 +139,10 @@ export default {
   data () {
     return {
       slide: 1,
-      model: null,
+      model:{
+        label: 'ES',
+        value: 'ES'
+      },
       options: [
         {
           label: 'ES',
@@ -149,7 +154,11 @@ export default {
           value: 'CAN',
           name: 'img:/statics/pro/can.svg'
         }
-      ]
+      ],
+      langImg: {
+        'ES': 'img:/statics/pro/col.svg',
+        'CAN': 'img:/statics/pro/cad.svg'
+      }
     }
   },
   created() {
