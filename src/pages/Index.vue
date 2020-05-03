@@ -16,7 +16,7 @@
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0)
     ),
-  url("../statics/pro/Group11.jpeg");
+  url("../statics/pro/Group11.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

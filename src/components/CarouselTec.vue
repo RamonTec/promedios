@@ -4,48 +4,48 @@
       <hooper class="xs-hide sm-hide col-md-11" :infiniteScroll="true" :itemsToShow="5.75" :itemsToSlide="3" :autoPlay="true" :playSpeed="4000" style="height: 180px;">
       
       <slide>
-        <div class="col-xs-12  q-gutter-xs">
+        <div class="col-xs-12 col-md-6">
           <img src="../statics/pro/logo_1.png" style="max-width: 160px; height: 90px;">
         </div>
       </slide>
 
       <slide>
-        <div class="col-xs-12  q-gutter-xs">
+        <div class="col-xs-12 col-md-6">
           <img src="../statics/pro/logo_2.png" style="max-width: 160px; height: 90px;">
         </div>
       </slide>
       <slide>
-        <div class="col-xs-12  q-gutter-xs">
+        <div class="col-xs-12 col-md-6">
           <img src="../statics/pro/logo_3.png" style="max-width: 160px; height: 90px;">
         </div>
       </slide>
       <slide>
-        <div class="col-xs-12  q-gutter-xs">
+        <div class="col-xs-12 col-md-6">
           <img src="../statics/pro/logo_4.png" style="max-width: 160px; height: 90px;">
         </div>
       </slide>
       <slide>
-        <div class="col-xs-12  q-gutter-xs">
+        <div class="col-xs-12 col-md-6">
           <img src="../statics/pro/logo_5.png" style="max-width: 160px; height: 90px;">
         </div>
       </slide>
       <slide>
-      <div class="col-xs-12  q-gutter-xs">
+      <div class="col-xs-12 col-md-6">
           <img src="../statics/pro/logo_6.png" style="max-width: 160px; height: 90px;">
         </div>
       </slide>
       <slide>
-      <div class="col-xs-12  q-gutter-xs">
+      <div class="col-xs-12 col-md-6">
           <img src="../statics/pro/logo_7.png" style="max-width: 160px; height: 90px;">
         </div>
       </slide>
       <slide>
-        <div class="col-xs-12  q-gutter-xs">
+        <div class="col-xs-12 col-md-6">
           <img src="../statics/pro/logo_8.png" style="max-width: 160px; height: 90px;">
         </div>
       </slide>
       <slide>
-        <div class="col-xs-12 q-gutter-xs">
+        <div class="col-xs-12 col-md-6">
           <img src="../statics/pro/logo_9.png" style="max-width: 160px; height: 90px;">
         </div>
       </slide>
