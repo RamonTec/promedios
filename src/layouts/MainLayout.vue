@@ -46,7 +46,7 @@
               shit? It actually says that in the little book that comes whit it: the most popular.
             </q-card-section>
             <q-card-section class="xs-hide sm-hide q-mt-xl">
-              <q-btn class="q-mt-md" style="background: none; border: 2.7px solid #2bfdb1; border-radius: 5px;height: 50px; width: 210px; font-size: 1.2em; font-weight:bold" >LLAMANOS YA!</q-btn>
+              <q-btn class="q-mt-md texto1" style="background: none; border: 2.7px solid #2bfdb1; border-radius: 5px;height: 50px; width: 210px; font-size: 1.2em;" >LLAMANOS YA!</q-btn>
             </q-card-section>
           </div>
           <div class="col-xs-1 col-md-1 q-mt-xl" style="z-index:100">
@@ -161,7 +161,7 @@
               advertised as the most popular gun in American crime. do you believe that
               shit? It actually says that in the little book that comes whit it: the most popular.</p>
             </div>
-            <q-btn class="q-mb-xl md-hide xl-hide lg-hide" style="background: none; border: 2.7px solid #2bfdb1; border-radius: 5px;height: 50px; width: 210px; font-size: 1.2em; font-weight:bold" >LLAMANOS YA!</q-btn>
+            <q-btn class="q-mb-xl md-hide xl-hide lg-hide texto1" style="background: none; border: 2.7px solid #2bfdb1; border-radius: 5px;height: 50px; width: 210px; font-size: 1.2em;" >LLAMANOS YA!</q-btn>
           </div>
           
         </q-card>
