@@ -65,7 +65,7 @@
                   bg-color="primary" 
                   label-color="white" 
                   outlined
-                  style="max-width: 115px"
+                  style="max-width: 120px; font-size:.8em"
                   v-model="model" 
                   :options="options"
                   >
@@ -117,7 +117,7 @@
                   bg-color="primary" 
                   label-color="white" 
                   outlined
-                  :style="this.$q.screen.sm ?  'width: 114px' :'width:100px; left:-20px; position: absolute'"
+                  :style="this.$q.screen.sm ?  'width: 120px;font-size:.8em; left:-20px; position: absolute' :'width:115px; left:-30px; position: absolute; font-size:.6em;'"
                   v-model="model" 
                   :options="options"
                   >
