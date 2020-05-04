@@ -75,6 +75,20 @@
                       <img v-if="model.label === 'CAN'" style="width: 25px" src="../statics/pro/cad.png"/>
                     </q-avatar>
                   </template>
+                  <template v-slot:option="scope">
+                    <q-item
+                      v-bind="scope.itemProps"
+                      v-on="scope.itemEvents"
+                    >
+                      <q-item-section avatar>
+                        <q-icon  :name="scope.opt.name" />
+                      </q-item-section>
+                      <q-item-section>
+                       <q-item-label v-html="scope.opt.label" />
+                        <!--<q-item-label caption>{{ scope.opt.description }}</q-item-label> -->
+                      </q-item-section>
+                    </q-item>
+                  </template>
                 </q-select>
               </div>
             </q-card-section>
@@ -112,6 +126,20 @@
                       <img v-if="model.label === 'ES'"  style="width: 25px" src="../statics/pro/col.png"/>
                       <img v-if="model.label === 'CAN'" style="width: 25px" src="../statics/pro/cad.png"/>
                     </q-avatar>
+                  </template>
+                  <template v-slot:option="scope">
+                    <q-item
+                      v-bind="scope.itemProps"
+                      v-on="scope.itemEvents"
+                    >
+                      <q-item-section avatar>
+                        <q-icon  :name="scope.opt.name" />
+                      </q-item-section>
+                      <q-item-section>
+                       <q-item-label v-html="scope.opt.label" />
+                        <!--<q-item-label caption>{{ scope.opt.description }}</q-item-label> -->
+                      </q-item-section>
+                    </q-item>
                   </template>
                 </q-select>
               </div>
@@ -174,7 +202,7 @@ export default {
         {
           label: 'CAN',
           value: 'CAN',
-          name: 'img:/statics/pro/can.svg'
+          name: 'img:/statics/pro/cad.svg'
         }
       ],
       langImg: {
