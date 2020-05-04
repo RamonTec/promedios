@@ -4,7 +4,7 @@
       rgba(0, 0, 0, 0.329),
       rgba(0, 0, 0, 0.5)
     ),
-  url("../statics/pro/Group9.jpeg");
+  url("../statics/pro/Groupo_1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -251,102 +251,128 @@ section {
 
     
 
-    <div class="img_group row justify-start">
-
-      <div class="row justify-start bg-none">
-        <div class="xs-hide sm-hide q-ml-md q-mt-xl">
-          <q-card-section>
-            <q-toolbar-title class="texto1 q-ml-sm text-h2">
-              Nuestros Servicios
-            </q-toolbar-title>
-          </q-card-section>
-          <q-card-section class="texto3 q-ml-sm text-h6">
-            Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is <br>
-            advertised as the most popular gun in American crime. do you believe that <br>
-            shit? It actually says that in the little book that comes whit it: the most popular.
-          </q-card-section>
-        </div>
-
-      <div class="md-hide lg-hide xl-hide col-xs-12 col-sm-12 col-md-4 q-mt-xl">
-        <q-card-section>
-          <div>
-            <span class="texto1 q-ml-md text-h4">
-              Nuestros Servicios
-            </span>
-          </div>
-        </q-card-section>
-        <q-card-section>
-          <div class="texto3 q-ml-md text-h6">
-            <span>
-              Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
-            advertised as the most popular gun in American crime. do you believe that
-            shit? It actually says that in the little book that comes whit it: the most popular.
-            </span>
-          </div>
-        </q-card-section>
-      </div>
-      </div>
-
-      <hooper :settings="hooperSettings" ref="carousel" @slide="updateCarousel" class="row justify-between col-md-12 col-sm-12" style="height: 450px;">
-        <slide>
-          <div class="row bg-none justify-between">
-            <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="width: 600px; height: 350px;">
-          </div>
-        </slide>
-        <slide>
-          <div class="row bg-none">
-            <img class="col-xs-12" src="../statics/pro/servicio_2.svg" style="max-width: 500px; height: 350px;">
-          </div>
-        </slide>
-        <slide>
-          <div class="row bg-none justify-between">
-            <img class="col-xs-12" src="../statics/pro/servicio_3.svg" style="max-width: 500px; height: 350px;">
-          </div>
-        </slide>
-        <slide>
-          <div class="row bg-none justify-between">
-            <img class="col-xs-12" src="../statics/pro/servicio_4.svg" style="max-width: 500px; height: 350px;">
-          </div>
-        </slide>
-        <slide>
-          <div class="row bg-none justify-between">
-            <img class="col-xs-12" src="../statics/pro/servicio_5.svg" style="max-width: 500px; height: 350px;">
-          </div>
-        </slide>
-        <slide>
-          <div class="row bg-none justify-between">
-            <img class="col-xs-12" src="../statics/pro/servicio_6.svg" style="max-width: 500px; height: 350px;">
-          </div>
-        </slide>
-        <slide>
-          <div class="row bg-none justify-between">
-            <img class="col-xs-12" src="../statics/pro/servicio_7.svg" style="max-width: 500px; height: 350px;">
-          </div>
-        </slide>
-        <slide>
-          <div class="row bg-none justify-between">
-            <img class="col-xs-12" src="../statics/pro/servicio_8.svg" style="max-width: 500px; height: 350px;">
-          </div>
-        </slide>
-        <slide>
-          <div class="row bg-none justify-between my-card">
-            <img class="col-xs-12" src="../statics/pro/servicio_9.svg" style="max-width: 500px; height: 350px;">
-          </div>
-        </slide>
-      </hooper>
-
+    <q-card dark square flat >
+      <q-card-section class="img_group">
+        <div class="row justify-start">
         
+          <div class="row justify-start bg-none">
+            <div class="xs-hide sm-hide q-ml-md q-mt-xl">
+              <div>
+                <q-toolbar-title class="texto1 q-ml-sm text-h2">
+                  Nuestros Servicios
+                </q-toolbar-title>
+              </div>
+              <div class="texto3 q-ml-sm text-h6">
+                Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is <br>
+                advertised as the most popular gun in American crime. do you believe that <br>
+                shit? It actually says that in the little book that comes whit it: the most popular.
+              </div>
+            </div>
 
-      <div class="xs-hide sm-hide row q-mb-md">
-        <div class="col-12 q-ml-xl" style="margin-left:40px;">
-          <q-btn icon="img:/statics/pro/flecha_right.svg" color="white" text-color="black" @click.prevent="slidePrev" style="height:50px;border-radius:10px;">
+            <div class="md-hide lg-hide xl-hide col-xs-12 col-sm-12 col-md-4 q-mt-xl">
+              <div>
+                <span class="texto1 q-ml-md text-h4">
+                  Nuestros Servicios
+                </span>
+              </div>
+              <div class="texto3 q-ml-md text-h6">
+                <span>
+                  Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
+                  advertised as the most popular gun in American crime. do you believe that
+                  shit? It actually says that in the little book that comes whit it: the most popular.
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <hooper :settings="hooperSettings" ref="carousel" pagination="fraction" @slide="updateCarousel" class="row q-ml-sm justify-between col-xs-12 col-md-12 col-sm-12" style="height: 500px;">
             
-          </q-btn>
-          <q-btn icon="img:/statics/pro/flecha_left.svg" class="q-ml-sm" color="white" text-color="black" @click.prevent="slideNext" style="height:50px;border-radius:10px;"></q-btn>
-        </div>
-      </div> 
+            <slide>
+              <div class="row bg-none justify-between">
+                <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="max-width:100%; height: 400px;">
+              </div>
+            </slide>
 
-    </div>
+            <slide>
+              <div class="row bg-none">
+                <img class="col-xs-12" src="../statics/pro/servicio_2.svg" style="max-width:100%; height: 400px;">
+              </div>
+            </slide>
+
+            <slide>
+              <div class="row bg-none justify-between">
+                <img class="col-xs-12" src="../statics/pro/servicio_3.svg" style="max-width:100%; height: 400px;">
+              </div>
+            </slide>
+
+            <slide>
+              <div class="row bg-none justify-between">
+                <img class="col-xs-12" src="../statics/pro/servicio_4.svg" style="max-width:100%; height: 400px;">
+              </div>
+            </slide>
+
+            <slide>
+              <div class="row bg-none justify-between">
+                <img class="col-xs-12" src="../statics/pro/servicio_5.svg" style="max-width:100%; height: 400px;">
+              </div>
+            </slide>
+
+            <slide>
+              <div class="row bg-none justify-between">
+                <img class="col-xs-12" src="../statics/pro/servicio_6.svg" style="max-width:100%; height: 400px;">
+              </div>
+            </slide>
+
+            <slide>
+              <div class="row bg-none justify-between">
+                <img class="col-xs-12" src="../statics/pro/servicio_7.svg" style="max-width:100%; height: 400px;">
+              </div>
+            </slide>
+
+            <slide>
+              <div class="row bg-none justify-between">
+                <img class="col-xs-12" src="../statics/pro/servicio_8.svg" style="max-width:100%; height: 400px;">
+              </div>
+            </slide>
+
+            <slide>
+              <div class="row bg-none justify-between my-card">
+                <img class="col-xs-12" src="../statics/pro/servicio_9.svg" style="max-width:100%; height: 400px;">
+              </div>
+            </slide>
+
+          </hooper>
+
+          <div class="row xs-hide sm-hide q-ml-md q-mb-md" style="margin-top:-30px;">
+            <div class="col-5 q-ml-md">
+              <q-btn color="white" text-color="black" @click.prevent="slidePrev" style="height:50px;border-radius:10px;">
+                <q-img src="../statics/pro/flecha_right.svg" style="width:20px; height:45px; margin-top:-2px;"></q-img>
+              </q-btn>
+            </div>
+            <div class="col-2" click.prevent="slideNext">
+              <q-btn class="q-ml-sm" color="white" text-color="black" @click.prevent="slideNext" style="height:50px;border-radius:10px;">
+                <q-img src="../statics/pro/flecha_left.svg" style="width:20px; height:45px; margin-top:-2px;"></q-img>
+              </q-btn>
+            </div>
+          </div>
+
+          <div class="row md-hide lg-hide xl-hide q-mb-md" style="margin-top:-30px;">
+            <div class="col-5 q-ml-md" @click.prevent="slidePrev">
+              <q-btn color="white" text-color="black" @click.prevent="slidePrev" style="height:50px;border-radius:10px;">
+                <q-img src="../statics/pro/flecha_right.svg" style="width:20px; height:45px; margin-top:-2px;"></q-img>
+              </q-btn>
+            </div>
+            <div class="col-2" click.prevent="slideNext">
+              <q-btn class="q-ml-sm" color="white" text-color="black" @click.prevent="slideNext" style="height:50px;border-radius:10px;">
+                <q-img src="../statics/pro/flecha_left.svg" style="width:20px; height:45px; margin-top:-2px;"></q-img>
+              </q-btn>
+            </div>
+          </div>
+
+        </div>
+      </q-card-section>
+    </q-card>
+
 
 
     <CarouselServicios></CarouselServicios>    
@@ -383,6 +409,7 @@ export default {
   },
   data () {
     return {
+      ipad: false,
       slide: 1,
       color1: false,
       color2: false,
@@ -395,34 +422,115 @@ export default {
       color9: true,
       text:"",
       hooperSettings: {
-      infiniteScroll: true,
+      mouseDrag: false,
+      wheelControl: false,
+      touchDrag: false,
+      wheelControl: false,
+      trimWhiteSpace: true,
+      keysControl: false,
+      pagination: 'fraction',
+      infiniteScroll: false,
       centerMode: false,
       autoPlay: false,
       playSpeed: 3000,
       breakpoints: {
           2400: {
-              itemsToShow: 7
+              itemsToShow: 6.2
           },
           1800: {
-              itemsToShow: 6
+              itemsToShow: 5.2
           },
           1500: {
-              itemsToShow: 5
+              itemsToShow: 4.4
+          },
+          1400: {
+            itemsToShow: 4.2
+          },
+          1345: {
+            itemsToShow: 3.7
+          },
+          1297:{
+            itemsToShow: 3.6
+          },
+          1238: {
+            itemsToShow: 3.4
           },
           1100: {
-              itemsToShow: 4
+              itemsToShow: 3.2
+          },
+          1024: {
+            itemsToShow: 2.8
+          },
+          1002: {
+            itemsToShow: 2.8
+          },
+          993: {
+            itemsToShow: 2.7
+          },
+          882: {
+              itemsToShow: 2.5
+          },
+          768: {
+            itemsToShow: 2.1
           },
           764: {
-              itemsToShow: 2
+              itemsToShow: 2.2
+          },
+          762: {
+            itemsToShow: 2.2
+          },
+          714:{
+            itemsToShow: 2.1
+          },
+          668: {
+              itemsToShow: 1.8
+          },
+          649: {
+              itemsToShow: 1.8
+          },
+          531: {
+            itemsToShow: 1.5
+          },
+          500: {
+              itemsToShow: 1.4
+          },
+          492: {
+              itemsToShow: 1.3
           },
           420: {
-              itemsToShow: 2
+              itemsToShow: 1.2
+          },
+          411: {
+              itemsToShow: 1.2
+          },
+          375: {
+              itemsToShow: 1
           },
           0: {
               itemsToShow: 1
           }
         }
       }  
+    }
+  },
+  created() {
+    this.medida = screen.width
+    this.getMedida()
+  },
+  methods: {
+    getMedida(){
+      if(this.medida == 1024){
+        this.ipad = true
+      }
+    },
+    slidePrev() {
+      this.$refs.carousel.slidePrev();
+    },
+    slideNext() {
+      this.$refs.carousel.slideNext();
+    },
+    updateCarousel(payload) {
+      this.myCarouselData = payload.currentSlide;
     }
   }
 }

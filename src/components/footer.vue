@@ -4,7 +4,7 @@
       rgba(0, 0, 0, 0.329),
       rgba(0, 0, 0, 0.5)
     ),
-  url("../statics/pro/Group9.jpeg");
+  url("../statics/pro/Groupo_1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

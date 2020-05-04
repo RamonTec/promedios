@@ -62,6 +62,9 @@ module.exports = function (/* ctx */) {
           negative: "#1a1d25",
           info: "#31CCEC",
           warning: "#F2C037"
+        },
+        screen: {
+          bodyClasses: true // <<< add this
         }
       },
 
@@ -94,7 +97,8 @@ module.exports = function (/* ctx */) {
         'QSeparator',
         'QSelect',
         'QField',
-        'QSelect'
+        'QSelect',
+        'QResponsive'
       ],
 
       directives: [

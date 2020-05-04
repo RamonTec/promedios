@@ -4,7 +4,7 @@
       rgba(0, 0, 0, 0.329),
       rgba(0, 0, 0, 0.5)
     ),
-  url("../statics/pro/Group9.jpeg");
+  url("../statics/pro/Groupo_1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,33 +93,50 @@ $primary-text-color2: #474747;
   <div>
     <div class="img_group2 row justify-around">
       <div class="col-md-7">
-        <div class="xs-hide sm-hide row">
-          <div class="col-md-12 bg-none q-mt-xl">
-            <q-card-section>
-              <q-toolbar-title class="texto1 q-ml-md text-h2" style="white-space: initial; line-height: 50pt;">
-                Listo para entrar en la
-                transformación digital?
-              </q-toolbar-title>
-            </q-card-section>
+        <div>
+          <div class="xs-hide sm-hide row">
+            <div class="col-md-12 bg-none q-mt-xl">
+              <q-card-section>
+                <q-toolbar-title class="texto1 q-ml-md text-h2" 
+                :style=" 
+                this.$q.screen.width == 1024 ? 
+                'word-break: normal; line-height: 50pt;' : 'white-space: initial; line-height: 50pt;' "
+                >
+                  Listo para entrar en la
+                  transformación digital?
+                </q-toolbar-title>
+              </q-card-section>
+            </div>
           </div>
         </div>
         <div class="xs-hide sm-hide row">
           <div class="col-md-10">
             <q-card-section class="q-ml-xl">
-              <q-toolbar-title class="texto2 text-h4" style="white-space: initial; line-height: 20pt;">
+              <q-toolbar-title class="texto2 text-h4" 
+              :style=" 
+              this.$q.screen.width == 1024 ? 
+              'white-space: initial; line-height: 25pt;' : 'white-space: initial; line-height: 20pt;' "
+              >
                 Solo tendras exito si crees que puedes!
               </q-toolbar-title>
             </q-card-section>
           </div>
           <div class="col-md-10">
             <q-card-section class="texto3 q-ml-sm">
-              <q-toolbar-title class="q-ml-xl" style="white-space: initial; line-height: 20pt;">
+              <q-toolbar-title class="q-ml-xl" 
+              :style=" 
+              this.$q.screen.width == 1024 ? 
+              'white-space: initial; line-height: 20pt; margin-top:-10px;' : 'white-space: initial; line-height: 20pt;' "
+              >
                 Trabajemos juntos para ser más grandes.
               </q-toolbar-title>
             </q-card-section>
             <q-card-section class="col-md-1">
               <img 
-              style="width: 40%; height: 150%; margin-left:85%; margin-top:-50px;"
+              :style=" 
+              this.$q.screen.width == 1024 ? 
+              'width: 40%; height: 150%; margin-left:85%; margin-top:-40px;' : 'width: 40%; height: 150%; margin-left:85%; margin-top:-50px;' "
+
               src="../statics/pro/flecha.svg">
             </q-card-section>
           </div>
@@ -129,7 +146,7 @@ $primary-text-color2: #474747;
         </div>
 
         <div class="xs-hide row q-ml-xl" style="margin-top:5px;">
-          <div class="col-xs-5 col-sm-6 col-md-6">
+          <div class="col-xs-5 col-sm-6 col-md-5">
             <q-card-section class="texto1">
               <q-item>
                 <q-item-section side>
@@ -193,7 +210,7 @@ $primary-text-color2: #474747;
             </q-card-section>
           </div>
 
-          <div class="col-xs-5 col-sm-6 col-md-6">
+          <div class="col-xs-5 col-sm-6 col-md-5">
             <q-card-section class="texto1">
               <q-item>
                 <q-item-section side>
@@ -202,7 +219,11 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h3" style="white-space: initial;">Montreal</span>
+                  <span class="text-h3" 
+                  :style=" 
+                  this.$q.screen.width == 1024 ? 
+                  'font-size:40px; white-space: initial;' : 'white-space: initial;' "
+                  >Montreal</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -226,8 +247,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" style="white-space: initial; line-height: 25px;">hola@promediosdigitales
-                    .com</span>
+                  <span class="text-h6" style="white-space: initial; line-height: 25px;">hola@promedios digitales.com</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -260,8 +280,12 @@ $primary-text-color2: #474747;
         </div>
       </div>
 
-      <div class="xs-hide sm-hide col-md-3 q-mt-md q-ml-xl q-mb-xl" style="margin-top:150px; width: 420px;">
-        <q-card flat bordered class="col-xs-11 col-sm-11 bg-white" style="border-radius:15px;">
+      <div class="xs-hide sm-hide col-md-3 q-mt-md q-mb-xl" 
+      :style=" 
+      this.$q.screen.width == 1024 ? 
+      'margin-top:150px; width: 350px; margin-left:18 px;' : 'margin-top:150px; width: 420px;' "
+      >
+        <q-card flat bordered class="col-xs-11 col-sm-4 bg-white" style="border-radius:15px;">
           <div class="col-xs-10 col-sm-10">
             <q-card-section class="q-ml-sm">
               <span class="texto1 text-black" style="font-size:20px;">Cuéntanos acerca de ti</span> <br>
@@ -405,7 +429,16 @@ $primary-text-color2: #474747;
 
 <script>
 export default {
-  name: 'Formulario'
+  name: 'Formulario',
+  data(){
+    return{
+      ipad: false,
+      media: 0
+    }
+  },
+  created(){
+    console.log(this.$q.screen.width)
+  }
 }
 </script>
 
