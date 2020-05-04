@@ -179,7 +179,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" style="white-space: initial; line-height: 25px;">hola@promediosdigitales
+                  <span class="text-h6" style="word-break: break-all;white-space: initial; line-height: 25px;">hola@promediosdigitales
                     .com</span>
                 </q-item-section>
               </q-item>                
@@ -247,7 +247,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" style="white-space: initial; line-height: 25px;">hola@promedios digitales.com</span>
+                  <span class="text-h6" style="word-break: break-all;white-space: initial; line-height: 25px;">hola@promedios digitales.com</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
