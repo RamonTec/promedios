@@ -344,7 +344,7 @@ $primary-text-color2: #474747;
                     </q-btn>
                   </div>
                   <div class="col-xs-6 q-mt-md texto3">
-                    <p class="text-grey-9" style="line-height: 15px; font-size:12px;">Los datos ingresados serán tratados de manera confidencial como lo dispone la ley habeas data.</p>
+                    <p class="text-grey-7" style="line-height: 15px; font-size:12px;">Los datos ingresados serán tratados de manera confidencial como lo dispone la ley habeas data.</p>
                   </div>
                 </div>
               </div>
@@ -420,7 +420,7 @@ $primary-text-color2: #474747;
                     <q-btn color="positive" label="Enviar" size="lg"  class="full-width"></q-btn>
                   </div>
                   <div class="col-xs-6 q-mt-md texto3">
-                    <p class="text-grey-8" style="line-height: 1em; font-size:12px;">Los datos ingresados serán tratados de manera confidencial como lo dispone la ley habeas data.</p>
+                    <p class="text-grey-7" style="line-height: 1em; font-size:12px;">Los datos ingresados serán tratados de manera confidencial como lo dispone la ley habeas data.</p>
                   </div>
                 </div>
               </div>
