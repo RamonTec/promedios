@@ -65,7 +65,7 @@
                   bg-color="primary" 
                   label-color="white" 
                   outlined
-                  style="max-width: 115px"
+                  style="max-width: 120px; font-size:.8em"
                   v-model="model" 
                   :options="options"
                   >
@@ -117,7 +117,7 @@
                   bg-color="primary" 
                   label-color="white" 
                   outlined
-                  :style="this.$q.screen.sm ?  'width: 114px' :'width:100px; left:-20px; position: absolute'"
+                  :style="this.$q.screen.sm ?  'width: 120px;font-size:.8em; left:-20px; position: absolute' :'width:115px; left:-30px; position: absolute; font-size:.6em;'"
                   v-model="model" 
                   :options="options"
                   >
@@ -154,9 +154,7 @@
           <div  class="row md-hide lg-hide xl-hide" :style="this.$q.screen.sm ? 'top:-25px; position:relative':''" :class="this.$q.screen.sm ? 'q-mx-xl':'q-mx-lg'">
             <div class="texto1 col-xs-12 col-sm-12">
               <span :style="this.$q.screen.sm ? 'font-size:2.5em':'font-size:2.8em'">Somos la Fuerza</span> <br>
-              <span v-if="this.$q.screen.sm" :style="this.$q.screen.sm ? 'font-size:2.5em':'font-size:2.8em'" class="text-secondary">de la innovación y transformación digital</span> <br>
-              <span v-if="this.$q.screen.xs" :style="this.$q.screen.sm ? 'font-size:2.5em':'font-size:2.8em'" class="text-secondary">de la innovación</span> <br>
-              <span v-if="this.$q.screen.xs" :style="this.$q.screen.sm ? 'font-size:2.5em':'font-size:2.7em'" class="text-secondary">y transformación digital</span>
+              <span :style="this.$q.screen.sm ? 'font-size:2.5em':'font-size:2.6em'" class="text-secondary">de la innovación y transformación digital</span> <br>
               <p class="texto3 col-xs-10 col-sm-12" :style="this.$q.screen.sm ? 'font-size:1.3em; line-height:1.2em;':'font-size:1.1em; line-height:1.2em;'">Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
               advertised as the most popular gun in American crime. do you believe that
               shit? It actually says that in the little book that comes whit it: the most popular.</p>
