@@ -170,9 +170,9 @@ module.exports = function (/* ctx */) {
         display: 'standalone',
         orientation: 'portrait',
 
-        background_color: '#ffffff',
+        background_color: '#2bfdb1',
 
-        theme_color: '#027be3',
+        theme_color: '#2bfdb1',
         icons: [
           {
             src: 'statics/icons/icon-128x128.png',
