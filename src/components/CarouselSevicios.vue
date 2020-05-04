@@ -279,9 +279,9 @@
                   <div class="col-xs-12 col-sm-12">                   
 
                     <div class="q-mt-xl uix-tabs__content active">
-                      <q-card-section>
+                      <q-card-section class=" row justify-center">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #2bfdb1;">Consultoria</span>
-                          <p class="texto3 q-mt-md" style="font-size:17px;">
+                          <p class="texto3 q-mt-md text-center" style="font-size:17px;">
                             El mundo hoy esta en un inminente cambio, por eso, es necesario
                             re-inventarnos. La innovación en los modelos de negocio actuales son la clave
                             para llevarlos y entrar en la transformación digital y dirigirlos al éxito,
@@ -301,9 +301,9 @@
                       </div>
                     </div>
                     <div class="q-mt-xl q-ml uix-tabs__content">
-                      <q-card-section>
+                      <q-card-section class=" row justify-center">
                         <span class="texto1 text-h4 q-mt-xl text-weight-bold" style="color: #429dff;">Api Whatsapp</span>
-                        <p class="texto3 q-mt-md" style="font-size:17px;">
+                        <p class="text-center texto3 q-mt-md" style="font-size:17px;">
                           Whatsapp hoy en día es el medio de comunicación numero uno en el mundo,
                           de aquí parte el desarrollo de procesos y aplicativos integrados a este para
                           lograr diferentes objetivos a través de él.
@@ -318,9 +318,9 @@
                       </div>
                     </div>
                     <div class="q-mt-xl uix-tabs__content">
-                      <q-card-section>
+                      <q-card-section class=" row justify-center">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #ff4343;">E-Commerce</span>
-                          <p class="texto3 q-mt-md" style="font-size:17px;">
+                          <p class=" text-center texto3 q-mt-md" style="font-size:17px;">
                             El cambio que vive el mundo el día de hoy esta impulsando el comercio
                             electrónico, vemos los crecientes indices y la constante tendencia que esta
                             llevando el mercado a la compra de productos y servicios en internet, sumando
@@ -337,9 +337,9 @@
                       </div>
                     </div> 
                     <div class="q-mt-xl uix-tabs__content">
-                      <q-card-section>
+                      <q-card-section class=" row justify-center">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #48ffe0;">Sistemas</span>
-                        <p class="texto3 q-mt-md" style="font-size:17px;">
+                        <p class="text-center texto3 q-mt-md" style="font-size:17px;">
                           Los sistemas hoy en día son la fuente de la transformación digital, quienes
                           permiten desarrollar los entornos digitales que conocemos hoy en día, y nos
                           permiten alcanzar el éxito al lograr toda esta evolución con el único fin de
@@ -358,9 +358,9 @@
                       </div>
                     </div>
                     <div class="q-mt-xl uix-tabs__content">
-                      <q-card-section>
+                      <q-card-section class=" row justify-center">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #be43ff;">Apps</span>
-                        <p class="texto3 q-mt-md" style="font-size:17px;">
+                        <p class="text-center texto3 q-mt-md" style="font-size:17px;">
                           Las Aplicaciones móviles juegan un papel importante en nuestras vidas, hoy
                           en día pasamos gran parte de nuestro tiempo en ella y nos facilitan la vida, he
                           aquí el éxito de este modelo y el futuro en el. 
@@ -375,9 +375,9 @@
                       </div>
                     </div>   
                     <div class="q-mt-xl uix-tabs__content">
-                      <q-card-section>
+                      <q-card-section class=" row justify-center">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #ff45fb;">Servidores</span>
-                        <p class="texto3 q-mt-md" style="font-size:17px;">
+                        <p class="text-center texto3 q-mt-md" style="font-size:17px;">
                           Todo proyecto digital necesita un lugar en donde vivir 
                         </p>
                         <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
@@ -392,9 +392,9 @@
                       </div>
                     </div>   
                     <div class="q-mt-xl uix-tabs__content">
-                      <q-card-section>
+                      <q-card-section class=" row justify-center">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #ffad4a;">Marketing Digital</span>
-                        <p class="texto3 q-mt-md" style="font-size:17px;">
+                        <p class="text-center texto3 q-mt-md" style="font-size:17px;">
                           Las campañas de marketing digital juegan un papel importante en la
                           transformación digital, son la herramienta que nos permite llegar a neutros
                           clientes objetivos, y hacen parte del ecosistema tecnológico para lograr todas
@@ -408,9 +408,9 @@
                       </div>
                     </div>   
                       <div class="q-mt-xl uix-tabs__content">
-                        <q-card-section>
+                        <q-card-section class=" row justify-center">
                           <span class="texto1 text-h4 text-weight-bold" style="color: #ffad4a;">Branding</span>
-                          <p class="texto3 q-mt-md" style="font-size:17px;">
+                          <p class="text-center texto3 q-mt-md" style="font-size:17px;">
                             La forma como el mundo te ve y te percibe es decisivo
                           </p>
                           <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
@@ -424,9 +424,9 @@
                         </div>
                       </div>    
                      <div class="q-mt-xl uix-tabs__content">
-                        <q-card-section>
+                        <q-card-section class=" row justify-center">
                           <span class="texto1 text-h4 text-weight-bold" style="color: #45ff45;">3D</span>
-                          <p class="texto3 q-mt-md" style="font-size:17px;">
+                          <p class="text-center texto3 q-mt-md" style="font-size:17px;">
                             Llegar una a impacto publicitario mas alto es la mejor opción
                           </p>
                           <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
