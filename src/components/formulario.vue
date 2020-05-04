@@ -1,3 +1,9 @@
+<style scoped>
+.text-footer{
+  font-size: 1.2em;
+  color:red
+}
+</style>
 <style lang="scss">
 .img_group{
   background-image: radial-gradient(
@@ -92,7 +98,7 @@ $primary-text-color2: #474747;
 <template>
   <div>
     <div class="img_group2 row justify-around">
-      <div class="col-md-7">
+      <div class="col-md-8">
         <div>
           <div class="xs-hide sm-hide row">
             <div class="col-md-12 bg-none q-mt-xl">
@@ -146,7 +152,7 @@ $primary-text-color2: #474747;
         </div>
 
         <div class="xs-hide row q-ml-xl" style="margin-top:5px;">
-          <div class="col-xs-5 col-sm-6 col-md-5">
+          <div class="col-xs-5 col-sm-6 col-md-6">
             <q-card-section class="texto1">
               <q-item>
                 <q-item-section side>
@@ -167,7 +173,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" style="white-space: initial; line-height: 25px;">Carrera 13 #93-35, Piso 6 Counity Coworking</span>
+                  <span class="text-h6" style="white-space: initial; line-height: 25px;" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'">Carrera 13 #93-35, Piso 6 Counity Coworking</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -179,7 +185,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" style="word-break: break-all;white-space: initial; line-height: 25px;">hola@promediosdigitales
+                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="word-break: break-all;white-space: initial; line-height: 25px;">hola@promediosdigitales
                     .com</span>
                 </q-item-section>
               </q-item>                
@@ -192,7 +198,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" style="white-space: initial;">+ 57 315 839 4620</span>
+                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="white-space: initial;">+ 57 315 839 4620</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -204,13 +210,13 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" style="white-space: initial; line-height: 25px;">Contáctanos vía whatsapp</span>
+                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="white-space: initial; line-height: 25px;">Contáctanos vía whatsapp</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
           </div>
 
-          <div class="col-xs-5 col-sm-6 col-md-5">
+          <div class="col-xs-5 col-sm-6 col-md-6">
             <q-card-section class="texto1">
               <q-item>
                 <q-item-section side>
@@ -235,7 +241,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" style="white-space: initial; line-height: 25px;">Carrera 13 #93-35, Piso 6 Counity Coworking</span>
+                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'">Carrera 13 #93-35, Piso 6 Counity Coworking</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -247,7 +253,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" style="word-break: break-all;white-space: initial; line-height: 25px;">hola@promedios digitales.com</span>
+                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="word-break: break-all;white-space: initial; line-height: 25px;">hola@promediosdigitales.com</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -259,7 +265,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" style="white-space: initial;">+ 57 315 839 4620</span>
+                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="white-space: initial;">+ 57 315 839 4620</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -271,7 +277,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" style="white-space: initial; line-height: 25px;">Contáctanos vía whatsapp</span>
+                  <span class="text-h6" style="white-space: initial; line-height: 25px;" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'">Contáctanos vía whatsapp</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -283,7 +289,7 @@ $primary-text-color2: #474747;
       <div class="xs-hide sm-hide col-md-3 q-mt-md q-mb-xl" 
       :style=" 
       this.$q.screen.width == 1024 ? 
-      'margin-top:150px; width: 350px; margin-left:18 px;' : 'margin-top:150px; width: 420px;' "
+      'margin-top:150px; width: 320px; margin-left:18 px;' : 'margin-top:150px; width: 420px;' "
       >
         <q-card flat bordered class="col-xs-11 col-sm-4 bg-white" style="border-radius:15px;">
           <div class="col-xs-10 col-sm-10">

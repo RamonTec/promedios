@@ -1,3 +1,8 @@
+<style>
+body{
+   overflow-x: hidden;
+}
+</style>
 <style lang="scss">
 .img_group{
   background-image: radial-gradient(

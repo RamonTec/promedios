@@ -225,7 +225,7 @@
         <section class="uix-spacing--m">
           <div class="uix-t-c">
             <div class="row justify-center">
-              <div class="col-xs-11 col-sm-10" style="margin-left:-5px;">
+              <div class="col-xs-12 col-sm-10" style="margin-left:-5px;">
                 <div class="uix-tabs uix-tabs--rotation" 
                 data-rotation="true" 
                 data-rotation-display="9" 
@@ -513,6 +513,17 @@ export default {
     }
   },
   mounted(){
+    $(function() {
+
+    var $body = $(document);
+    $body.bind('scroll', function() {
+        // "Desactivar" el scroll horizontal
+        if ($body.scrollLeft() !== 0) {
+            $body.scrollLeft(0);
+        }
+    });
+
+}); 
     ( function( $ ) {
   "use strict";
     
