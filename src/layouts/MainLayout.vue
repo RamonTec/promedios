@@ -73,6 +73,7 @@
                     <q-avatar>
                       <img v-if="model.label === 'ES'"  style="width: 25px" src="../statics/pro/col.png"/>
                       <img v-if="model.label === 'CAN'" style="width: 25px" src="../statics/pro/cad.png"/>
+                      <img v-if="model.label === 'EN'" style="width: 25px" src="../statics/pro/usa.svg"/>
                     </q-avatar>
                   </template>
                   <template v-slot:option="scope">
@@ -125,6 +126,7 @@
                     <q-avatar>
                       <img v-if="model.label === 'ES'"  style="width: 25px" src="../statics/pro/col.png"/>
                       <img v-if="model.label === 'CAN'" style="width: 25px" src="../statics/pro/cad.png"/>
+                      <img v-if="model.label === 'EN'" style="width: 25px" src="../statics/pro/usa.svg"/>
                     </q-avatar>
                   </template>
                   <template v-slot:option="scope">
@@ -203,11 +205,17 @@ export default {
           label: 'CAN',
           value: 'CAN',
           name: 'img:/statics/pro/cad.svg'
+        },
+        {
+          label: 'EN',
+          value: 'EN',
+          name: 'img:/statics/pro/usa.svg'
         }
       ],
       langImg: {
         'ES': 'img:/statics/pro/col.svg',
-        'CAN': 'img:/statics/pro/cad.svg'
+        'CAN': 'img:/statics/pro/cad.svg',
+        'EN': 'img:/statics/pro/usa.svg'
       }
     }
   },
