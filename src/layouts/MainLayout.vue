@@ -95,6 +95,26 @@
             <q-card-section
             style="background: #439dff;"
             :style="this.$q.screen.sm ? 'top:-50px; height: 578px; border-radius:0 0 0 35px; width: 100%; margin-left:15px;' : 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 100%; margin-left:30px;'">
+              <div class="row q-mt-xl">
+                <q-select 
+                  dark
+                  :class="this.$q.screen.sm ? 'col-3 offset-8':'col-3 offset-5 dense'" 
+                  color="white" 
+                  bg-color="primary" 
+                  label-color="white" 
+                  outlined
+                  :style="this.$q.screen.sm ?  'width: 114px' :'width:100px; left:-20px; position: absolute'"
+                  v-model="model" 
+                  :options="options"
+                  >
+                  <template v-slot:prepend>
+                    <q-avatar>
+                      <img v-if="model.label === 'ES'"  style="width: 25px" src="../statics/pro/col.png"/>
+                      <img v-if="model.label === 'CAN'" style="width: 25px" src="../statics/pro/cad.png"/>
+                    </q-avatar>
+                  </template>
+                </q-select>
+              </div>
               <div class="col-sm-1 col-xs-1 q-mt-md md-hide xl-hide lg-hide" style="z-index:10">
               <img class="q-mt-sm" src="../statics/pro/cell_header_pm.png" 
               :style="this.$q.screen.sm ? 'height: 420.367px; border-radius:0 0 0 50px; width: 100%; position:absolute; top:151.12499235px; left:-105px' : 'height: 250.367px; border-radius:0 0 0 50px; width: 150%; position:absolute; top:123.12499235px; left:-90px'"
@@ -106,8 +126,9 @@
           <div  class="row md-hide lg-hide xl-hide" :style="this.$q.screen.sm ? 'top:-25px; position:relative':''" :class="this.$q.screen.sm ? 'q-mx-xl':'q-mx-lg'">
             <div class="texto1 col-xs-12 col-sm-12">
               <span :style="this.$q.screen.sm ? 'font-size:2.5em':'font-size:2.8em'">Somos la Fuerza</span> <br>
-              <span :style="this.$q.screen.sm ? 'font-size:2.5em':'font-size:2.8em'" class="text-secondary">de la innovación</span> <br>
-              <span :style="this.$q.screen.sm ? 'font-size:2.5em':'font-size:2.7em'" class="text-secondary">y transformación digital</span>
+              <span v-if="this.$q.screen.sm" :style="this.$q.screen.sm ? 'font-size:2.5em':'font-size:2.8em'" class="text-secondary">de la innovación y transformación digital</span> <br>
+              <span v-if="this.$q.screen.xs" :style="this.$q.screen.sm ? 'font-size:2.5em':'font-size:2.8em'" class="text-secondary">de la innovación</span> <br>
+              <span v-if="this.$q.screen.xs" :style="this.$q.screen.sm ? 'font-size:2.5em':'font-size:2.7em'" class="text-secondary">y transformación digital</span>
               <p class="texto3 col-xs-10 col-sm-12" :style="this.$q.screen.sm ? 'font-size:1.3em; line-height:1.2em;':'font-size:1.1em; line-height:1.2em;'">Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
               advertised as the most popular gun in American crime. do you believe that
               shit? It actually says that in the little book that comes whit it: the most popular.</p>
