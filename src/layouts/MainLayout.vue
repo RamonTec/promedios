@@ -228,11 +228,11 @@ export default {
     styleSelect(){
       let value = ''
       if(this.$q.screen.sm){
-        value = 'left:-20px; position:absolute;'
+        value = 'left:-20px; position:absolute; font-size: 0.8em'
       }else if(this.$q.screen.xs && this.$q.screen.width === 320){
-        value = 'left:-45px;position:absolute;'
+        value = 'left:-45px;position:absolute; font-size: 0.8em'
       }else if(this.$q.screen.xs){
-        value = 'left:-30px;position:absolute;'
+        value = 'left:-30px;position:absolute; font-size: 0.8em'
       }
       return value
     }
