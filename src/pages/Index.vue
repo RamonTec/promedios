@@ -583,6 +583,9 @@ export default {
           492: {
               itemsToShow: 1.3
           },
+          452: {
+            itemsToShow: 1.3
+          },
           420: {
               itemsToShow: 1.2
           },
