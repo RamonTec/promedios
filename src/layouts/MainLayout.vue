@@ -67,6 +67,7 @@
                   outlined
                   style="max-width: 120px; font-size:.8em"
                   v-model="model" 
+                  dropdown-icon="mdi-chevron-down"
                   :options="options"
                   >
                   <template v-slot:prepend>
@@ -122,6 +123,7 @@
                   :style="styleSelect"
                   size="xl"
                   v-model="model" 
+                  dropdown-icon="mdi-chevron-down"
                   :options="options"
                   >
                   <template v-slot:prepend>
