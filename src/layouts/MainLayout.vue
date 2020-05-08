@@ -113,12 +113,14 @@
               <div class="row q-mt-xl">
                 <q-select 
                   dark
-                  :class="this.$q.screen.sm ? 'col-3 offset-8':'col-3 offset-5 dense'" 
+                  :class="this.$q.screen.sm ? 'offset-8':'offset-5'" 
                   color="white" 
                   bg-color="primary" 
                   label-color="white" 
                   outlined
-                  :style="this.$q.screen.sm ?  'width: 120px;font-size:.8em; left:-20px; position: absolute' :'width:115px; left:-30px; position: absolute; font-size:.6em;'"
+                  dense
+                  :style="styleSelect"
+                  size="xl"
                   v-model="model" 
                   :options="options"
                   >
@@ -221,6 +223,19 @@ export default {
   },
   created() {
     console.log(this.model)
+  },
+  computed: {
+    styleSelect(){
+      let value = ''
+      if(this.$q.screen.sm){
+        value = 'left:-20px; position:absolute;'
+      }else if(this.$q.screen.xs && this.$q.screen.width === 320){
+        value = 'left:-45px;position:absolute;'
+      }else if(this.$q.screen.xs){
+        value = 'left:-30px;position:absolute;'
+      }
+      return value
+    }
   }
 }
 </script>
