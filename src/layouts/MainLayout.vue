@@ -110,7 +110,7 @@
           <div class="col-xs-5 col-sm-6 md-hide xl-hide lg-hide">
             <q-card-section
             style="background: #439dff;"
-            :style="this.$q.screen.sm ? 'top:-50px; height: 578px; border-radius:0 0 0 35px; width: 100%; margin-left:15px;' : 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 100%; margin-left:30px;'">
+            :style="styleBackground">
               <div class="row q-mt-xl">
                 <q-select 
                   dark
@@ -235,6 +235,17 @@ export default {
         value = 'left:-45px;position:absolute; font-size: 0.8em'
       }else if(this.$q.screen.xs){
         value = 'left:-30px;position:absolute; font-size: 0.8em'
+      }
+      return value
+    },
+    styleBackground(){
+      let value = ''
+      if(this.$q.screen.sm){
+        value = 'top:-50px; height: 578px; border-radius:0 0 0 35px; width: 100%; margin-left:15px;'
+      }else if(this.$q.screen.xs && this.$q.screen.width === 540){
+        value = 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 100%; margin-left:45px;'
+      }else if(this.$q.screen.xs){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 100%; margin-left:30px;'
       }
       return value
     }

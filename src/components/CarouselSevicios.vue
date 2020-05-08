@@ -770,6 +770,8 @@ export default {
       }
       else if(this.$q.screen.width === 600){
         style = 'left:20px;'
+      }else if(this.$q.screen.xs && this.$q.screen.width === 540){
+         style = 'left:80px'
       }
       else if(this.$q.screen.xs && this.$q.screen.width === 360){
          style = 'left:10px'
