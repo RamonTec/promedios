@@ -5,48 +5,48 @@
       
       <slide>
         <div>
-          <img src="../statics/pro/logo_1.png" style="max-width: 160px; height: 90px;">
+          <img src="../statics/pro/logo_1.png" style="width: 160px; height: 90px;">
         </div>
       </slide>
 
       <slide>
         <div>
-          <img src="../statics/pro/logo_2.png" style="max-width: 160px; height: 90px;">
+          <img src="../statics/pro/logo_2.png" style="width: 160px; height: 90px;">
         </div>
       </slide>
       <slide>
         <div>
-          <img src="../statics/pro/logo_3.png" style="max-width: 160px; height: 90px;">
+          <img src="../statics/pro/logo_3.png" style="width: 160px; height: 90px;">
         </div>
       </slide>
       <slide>
         <div>
-          <img src="../statics/pro/logo_4.png" style="max-width: 160px; height: 90px;">
+          <img src="../statics/pro/logo_4.png" style="width: 180px; height: 90px;">
         </div>
       </slide>
       <slide>
         <div>
-          <img src="../statics/pro/logo_5.png" style="max-width: 60px; height: 90px;">
+          <img src="../statics/pro/logo_5.png" style="width: 35%; height: 90px; margin-left:50px;">
         </div>
       </slide>
       <slide>
         <div>
-          <img src="../statics/pro/logo_6.png" style="max-width: 160px; height: 90px;">
+          <img src="../statics/pro/logo_6.png" style="width: 180px; height: 90px; margin-left:-20px;">
         </div>
       </slide>
       <slide>
         <div>
-          <img src="../statics/pro/logo_7.png" style="max-width: 160px; height: 90px;">
+          <img src="../statics/pro/logo_7.png" style="width: 180px; height: 90px;">
         </div>
       </slide>
       <slide>
         <div>
-          <img src="../statics/pro/logo_8.png" style="max-width: 160px; height: 90px;">
+          <img src="../statics/pro/logo_8.png" style="width: 160px; height: 90px;">
         </div>
       </slide>
       <slide>
         <div>
-          <img src="../statics/pro/logo_9.png" style="max-width: 160px; height: 90px;">
+          <img src="../statics/pro/logo_9.png" style="width: 160px; height: 90px;">
         </div>
       </slide>
         
