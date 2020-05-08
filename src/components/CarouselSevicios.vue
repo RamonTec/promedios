@@ -765,7 +765,7 @@ export default {
       if(this.$q.screen.sm){
         style = 'left:15px'
       }
-      else if(this.$q.screen.sm && this.$q.screen.width === 800){
+      else if(this.$q.screen.sm && this.$q.screen.width <= 800){
         style = 'left:0px'
       }
       else if(this.$q.screen.width === 600){
@@ -776,6 +776,9 @@ export default {
       }
       else if(this.$q.screen.xs && this.$q.screen.width === 375){
          style = 'left:15px'
+      }
+      else if(this.$q.screen.xs && this.$q.screen.width === 411){
+         style = 'left:30px'
       }
        else if(this.$q.screen.xs && this.$q.screen.width === 414){
          style = 'left:30px'
