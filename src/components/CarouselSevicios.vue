@@ -67,15 +67,15 @@
                         y más en un mundo tan cambiante como al día de hoy. 
                       </p>
                       <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
-                      <div class="texto3 row justify-between">
-                        <q-btn outline style="color: #fdfdfd;" label="Transformación Digital" class="col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Digitalización de Procesos" class="col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Automatización de Procesos" class="col-3" size="md" no-caps />
+                      <div class="texto3 row text-justify q-gutter-sm">
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Transformación Digital" class="col-4" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:30%; border-radius: 10px;" label="Digitalización de Procesos" class="col-4" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Automatización de Procesos" class="col-4" size="md" no-caps />
                       </div>
-                      <div class="texto3 row justify-between q-mt-md">
-                        <q-btn outline style="color: #fdfdfd;" label="Optimización de Procesos" class="col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Canales de Comunicación" class="col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Asesoria Especializada" class="col-3" size="md" no-caps />
+                      <div class="texto3 row text-justify q-gutter-sm q-mt-md">
+                        <q-btn outline style="color: #fdfdfd;max-width:90%; width:33%; border-radius: 10px;" label="Optimización de Procesos" class="col-4" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;max-width:90%; width:30%; border-radius: 10px;" label="Canales de Comunicación" class="col-4" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;max-width:90%; width:33%; border-radius: 10px;" label="Asesoria Especializada" class="col-4" size="md" no-caps />
                       </div>
                     </div>
                     <div class="uix-tabs__content">
@@ -86,13 +86,13 @@
                         lograr diferentes objetivos a través de él.
                       </p>
                       <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
-                      <div class="texto3 row justify-between">
-                        <q-btn outline style="color: #fdfdfd;" label="Puentes de comunicación" class="col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Comunicación directa" class="col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Integranción de Procesos" class="col-3" size="md" no-caps />
+                      <div class="texto3 row text-justify q-gutter-sm">
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Puentes de comunicación" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Comunicación directa" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:30%; border-radius: 10px;" label="Integranción de Procesos" class="col-3" size="md" no-caps />
                       </div>
-                      <div class="texto3 row justify-between q-mt-md">
-                        <q-btn outline style="color: #fdfdfd;" label="Venta Simplificada" class="col-3" size="md" no-caps />
+                      <div class="texto3 row text-justify q-gutter-sm q-mt-md">
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Venta Simplificada" class="col-3" size="md" no-caps />
                       </div>
                     </div>
                     <div class="uix-tabs__content">
@@ -104,10 +104,10 @@
                         el alcance en ventas que se logra tener gracias a los clientes que acuden a él. 
                       </p>
                       <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
-                      <div class="texto3 row justify-between">
-                        <q-btn outline style="color: #fdfdfd;" label="Automatización de Ventas" class="col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Aumento de Ventas" class="col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Ventas por Conversiones" class="col-3" size="md" no-caps />
+                      <div class="texto3 row text-justify q-gutter-sm">
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Automatización de Ventas" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:30%; border-radius: 10px;" label="Aumento de Ventas" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Ventas por Conversiones" class="col-3" size="md" no-caps />
                       </div>
                     </div> 
                     <div class="uix-tabs__content">
@@ -120,15 +120,15 @@
                         globales que puedan ser innovadoras en el mercado.
                       </p>
                       <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
-                      <div class="texto3 row justify-between">
-                        <q-btn outline style="color: #fdfdfd;" label="Transformación Digital" class="col-3 q-mt-md" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Digitalización de Procesos" class="col-3 q-mt-md" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Automatización de Procesos" class="col-3 q-mt-md" size="md" no-caps />
+                      <div class="texto3 row text-justify q-gutter-sm">
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:30%; border-radius: 10px;" label="Transformación Digital" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Digitalización de Procesos" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Automatización de Procesos" class="col-3" size="md" no-caps />
                       </div>
-                      <div class="texto3 row justify-between">
-                        <q-btn outline style="color: #fdfdfd;" label="Optimazación de Procesos" class="col-3 q-mt-md" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Arquitectura de información" class="col-3 q-mt-md" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Flujo de Información" class="col-3 q-mt-md" size="md" no-caps />
+                      <div class="texto3 row text-justify q-gutter-sm q-mt-md">
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:30%; border-radius: 10px;" label="Optimazación de Procesos" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Arquitectura de información" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Flujo de Información" class="col-3" size="md" no-caps />
                       </div>
                     </div>
                     <div class="uix-tabs__content">
@@ -139,13 +139,13 @@
                         aquí el éxito de este modelo y el futuro en el. 
                       </p>
                       <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
-                      <div class="texto3 row justify-between">
-                        <q-btn outline style="color: #fdfdfd;" label="Android" class="col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="IOS" class="col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Hibridas" class="col-3" size="md" no-caps />
+                      <div class="texto3 row text-justify q-gutter-sm">
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Android" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:30%; border-radius: 10px;" label="IOS" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Hibridas" class="col-3" size="md" no-caps />
                       </div>
-                      <div class="texto3 row justify-between">
-                        <q-btn outline style="color: #fdfdfd;" label="Nativas" class="col-3 q-mt-md" size="md" no-caps />
+                      <div class="texto3 row text-justify q-gutter-sm q-mt-md">
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Nativas" class="col-3" size="md" no-caps />
                       </div>
                     </div>   
                     <div class="uix-tabs__content">
@@ -154,15 +154,15 @@
                         Todo proyecto digital necesita un lugar en donde vivir 
                       </p>
                       <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
-                      <div class="texto3 row justify-between">
-                        <q-btn outline style="color: #fdfdfd;" label="Administración" class="col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Monitoreo" class="col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Cloud" class="col-3" size="md" no-caps />
+                      <div class="texto3 row text-justify q-gutter-sm">
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Administración" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:30%; border-radius: 10px;" label="Monitoreo" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Cloud" class="col-3" size="md" no-caps />
                       </div>
-                      <div class="texto3 row justify-between">
-                        <q-btn outline style="color: #fdfdfd;" label="Dedicados" class="col-3 q-mt-md" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Hosting" class="col-3 q-mt-md" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Hosting" class="col-3 q-mt-md" size="md" no-caps />
+                      <div class="texto3 row text-justify q-gutter-sm">
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Dedicados" class="col-3 q-mt-md" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:30%; border-radius: 10px;" label="Hosting" class="col-3 q-mt-md" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Hosting" class="col-3 q-mt-md" size="md" no-caps />
                       </div>
                     </div>   
                     <div class="uix-tabs__content">
@@ -174,9 +174,9 @@
                         nuestras metas y objetivos
                       </p>
                       <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
-                      <div class="texto3 row justify-center">
-                        <q-btn outline style="color: #fdfdfd;" label="FacebookAdd" class="col-3 q-mr-md" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="GoogleAdd" class="col-3" size="md" no-caps />
+                      <div class="texto3 row justify-start">
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="FacebookAdd" class="col-3 q-mr-md" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="GoogleAdd" class="col-3" size="md" no-caps />
                       </div>
                     </div>   
                       <div class="uix-tabs__content">
@@ -185,10 +185,10 @@
                           La forma como el mundo te ve y te percibe es decisivo
                         </p>
                         <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
-                        <div class="texto3 row justify-between">
-                          <q-btn outline style="color: #fdfdfd;" label="Diseño Publicitario" class="col-3" size="md" no-caps />
-                          <q-btn outline style="color: #fdfdfd;" label="Construcción de Marca" class="col-3" size="md" no-caps />
-                          <q-btn outline style="color: #fdfdfd;" label="Portafolio Grafico" class="col-3" size="md" no-caps />
+                        <div class="texto3 row text-justify q-gutter-sm">
+                          <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Diseño Publicitario" class="col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; max-width:90%; width:30%; border-radius: 10px;" label="Construcción de Marca" class="col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Portafolio Grafico" class="col-3" size="md" no-caps />
                         </div>
                       </div>    
                      <div class="uix-tabs__content">
@@ -197,10 +197,10 @@
                           Llegar una a impacto publicitario mas alto es la mejor opción
                         </p>
                         <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
-                        <div class="texto3 row justify-between">
-                          <q-btn outline style="color: #fdfdfd;" label="Modelado" class="col-3" size="md" no-caps />
-                          <q-btn outline style="color: #fdfdfd;" label="Render" class="col-3" size="md" no-caps />
-                          <q-btn outline style="color: #fdfdfd;" label="Animación" class="col-3" size="md" no-caps />
+                        <div class="texto3 row text-justify q-gutter-sm">
+                          <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Modelado" class="col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; max-width:90%; width:30%; border-radius: 10px;" label="Render" class="col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Animación" class="col-3" size="md" no-caps />
                         </div>
                       </div>
                     </div>
@@ -292,12 +292,12 @@
                           <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
                       </q-card-section>
                       <div class="texto3 row justify-center">
-                        <q-btn outline style="color: #fdfdfd;" label="Transformación Digital" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Automatización de Procesos" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Digitalización de Procesos" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Optimización de Procesos" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Canales de Comunicación" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Asesoria Especializada" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Transformación Digital" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Automatización de Procesos" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Digitalización de Procesos" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Optimización de Procesos" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Canales de Comunicación" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Asesoria Especializada" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
                       </div>
                     </div>
                     <div class="q-mt-xl q-ml uix-tabs__content">
@@ -311,10 +311,10 @@
                         <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
                       </q-card-section>
                       <div class="texto3 row justify-center">
-                        <q-btn outline style="color: #fdfdfd;" label="Puentes de comunicación" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Comunicación directa" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Integranción de Procesos" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Venta Simplificada" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Puentes de comunicación" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Comunicación directa" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Integranción de Procesos" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Venta Simplificada" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                       </div>
                     </div>
                     <div class="q-mt-xl uix-tabs__content">
@@ -329,11 +329,11 @@
                           <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
                       </q-card-section>
                       <div class="texto3 row justify-center">
-                        <q-btn outline style="color: #fdfdfd;" label="Automatización de Ventas" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Aumento de Ventas" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Automatización de Ventas" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Aumento de Ventas" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                       </div>
                       <div class="texto3 row justify-center">
-                        <q-btn outline style="color: #fdfdfd;" label="Ventas por Conversiones" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Ventas por Conversiones" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                       </div>
                     </div> 
                     <div class="q-mt-xl uix-tabs__content">
@@ -349,12 +349,12 @@
                         <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
                       </q-card-section>
                       <div class="texto3 row justify-center">
-                        <q-btn outline style="color: #fdfdfd;" label="Transformación Digital" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Digitalización de Procesos" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Automatización de Procesos" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Optimazación de Procesos" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Arquitectura de información" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Flujo de Información" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Transformación Digital" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Digitalización de Procesos" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Automatización de Procesos" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Optimazación de Procesos" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Arquitectura de información" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Flujo de Información" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                       </div>
                     </div>
                     <div class="q-mt-xl uix-tabs__content">
@@ -368,10 +368,10 @@
                         <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
                       </q-card-section>
                       <div class="texto3 row justify-center">
-                        <q-btn outline style="color: #fdfdfd;" label="Android" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="IOS" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Hibridas" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Nativas" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Android" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="IOS" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Hibridas" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Nativas" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                       </div>
                     </div>   
                     <div class="q-mt-xl uix-tabs__content">
@@ -383,12 +383,12 @@
                         <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
                       </q-card-section>
                       <div class="texto3 row justify-center">
-                        <q-btn outline style="color: #fdfdfd;" label="Administración" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Monitoreo" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Cloud" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Dedicados" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Hosting" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Hosting" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Administración" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Monitoreo" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Cloud" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Dedicados" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Hosting" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Hosting" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                       </div>
                     </div>   
                     <div class="q-mt-xl uix-tabs__content">
@@ -403,8 +403,8 @@
                         <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
                       </q-card-section>
                       <div class="texto3 row justify-center">
-                        <q-btn outline style="color: #fdfdfd;" label="FacebookAdd" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="GoogleAdd" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="FacebookAdd" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="GoogleAdd" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                       </div>
                     </div>   
                       <div class="q-mt-xl uix-tabs__content">
@@ -416,11 +416,11 @@
                           <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
                         </q-card-section>
                         <div class="texto3 row justify-center">
-                          <q-btn outline style="color: #fdfdfd;" label="Diseño Publicitario" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                          <q-btn outline style="color: #fdfdfd;" label="Construcción de Marca" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Diseño Publicitario" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Construcción de Marca" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                         </div>
                         <div class="texto3 row justify-center">
-                          <q-btn outline style="color: #fdfdfd;" label="Portafolio Grafico" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Portafolio Grafico" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                         </div>
                       </div>    
                      <div class="q-mt-xl uix-tabs__content">
@@ -432,11 +432,11 @@
                           <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
                         </q-card-section>
                         <div class="texto3 row justify-center">
-                          <q-btn outline style="color: #fdfdfd;" label="Modelado" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                          <q-btn outline style="color: #fdfdfd;" label="Render" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Modelado" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Render" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                         </div>
                         <div class="texto3 row justify-center">
-                          <q-btn outline style="color: #fdfdfd;" label="Animación" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Animación" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                         </div>
                       </div>  
                   </div>
