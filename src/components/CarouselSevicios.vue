@@ -68,9 +68,9 @@
                       </p>
                       <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
                       <div class="texto3 row justify-between">
-                        <q-btn outline style="color: #fdfdfd;" label="Transformación Digital" class="col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Digitalización de Procesos" class="col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd;" label="Automatización de Procesos" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Transformación Digital" class="col-3" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Digitalización de Procesos" class="col-3" no-caps />
+                        <q-btn outline style="color: #fdfdfd;" label="Automatización de Procesos" class="col-3" no-caps />
                       </div>
                       <div class="texto3 row justify-between q-mt-md">
                         <q-btn outline style="color: #fdfdfd;" label="Optimización de Procesos" class="col-3" size="md" no-caps />

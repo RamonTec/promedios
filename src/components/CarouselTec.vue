@@ -249,6 +249,12 @@ export default {
           420: {
             itemsToShow: 1.2
           },
+          452: {
+            itemsToShow: 2.1
+          },
+          444: {
+            itemsToShow: 2.1
+          },
           414: {
             itemsToShow: 2.1
           },

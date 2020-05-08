@@ -141,7 +141,7 @@ $primary-text-color2: #474747;
               <img 
               :style=" 
               this.$q.screen.width == 1024 ? 
-              'width: 40%; height: 150%; margin-left:85%; margin-top:-40px;' : 'width: 40%; height: 150%; margin-left:85%; margin-top:-50px;' "
+              'width: 40%; height: 150%; margin-left:80%; margin-top:-40px;' : 'width: 40%; height: 150%; margin-left:80%; margin-top:-40px;' "
 
               src="../statics/pro/flecha.svg">
             </q-card-section>
@@ -170,7 +170,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" style="white-space: initial; line-height: 25px;" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'">Carrera 13 #93-35, Piso 6 Counity Coworking</span>
+                  <span class="text-h6" style="white-space: initial; line-height: 25px;" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'font-size:1.2em; white-space: initial; line-height: 25px;'">Carrera 13 #93-35, Piso 6 Counity Coworking</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -182,7 +182,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="word-break: break-all;white-space: initial; line-height: 25px;">hola@promediosdigitales.com</span>
+                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'font-size:1.2em; white-space: initial; line-height: 25px;'" style="word-break: break-all;white-space: initial; line-height: 25px;">hola@promediosdigitales.com</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -194,7 +194,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="white-space: initial;">+ 57 315 839 4620</span>
+                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'font-size:1.2em; white-space: initial; line-height: 25px;'" style="white-space: initial;">+ 57 315 839 4620</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -206,7 +206,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="white-space: initial; line-height: 25px;">Contáctanos vía whatsapp</span>
+                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'font-size:1.2em; white-space: initial; line-height: 25px;'" style="white-space: initial; line-height: 25px;">Contáctanos vía whatsapp</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -221,11 +221,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h3" 
-                  :style=" 
-                  this.$q.screen.width == 1024 ? 
-                  'font-size:40px; white-space: initial;' : 'white-space: initial;' "
-                  >Montreal</span>
+                  <span class="text-h3" style="white-space: initial;">Montreal</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -237,7 +233,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'">Carrera 13 #93-35, Piso 6 Counity Coworking</span>
+                  <span class="text-h6" style="white-space: initial; line-height: 25px;" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'font-size:1.2em; white-space: initial; line-height: 25px;'">Carrera 13 #93-35, Piso 6 Counity Coworking</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -249,7 +245,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="word-break: break-all;white-space: initial; line-height: 25px;">hola@promediosdigitales.com</span>
+                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'font-size:1.2em; white-space: initial; line-height: 25px;'" style="word-break: break-all;white-space: initial; line-height: 25px;">hola@promediosdigitales.com</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -261,7 +257,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="white-space: initial;">+ 57 315 839 4620</span>
+                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'font-size:1.2em; white-space: initial; line-height: 25px;'" style="white-space: initial;">+ 57 315 839 4620</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -273,7 +269,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" style="white-space: initial; line-height: 25px;" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'">Contáctanos vía whatsapp</span>
+                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'font-size:1.2em; white-space: initial; line-height: 25px;'" style="white-space: initial; line-height: 25px;">Contáctanos vía whatsapp</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -419,7 +415,7 @@ $primary-text-color2: #474747;
       <div class="xs-hide sm-hide col-md-3 q-mt-md q-mb-xl" 
       :style=" 
       this.$q.screen.width == 1024 ? 
-      'margin-top:150px; width: 320px; margin-left:18 px;' : 'margin-top:150px; width: 420px;' "
+      'margin-top:150px; width: 320px; margin-left:18 px;' : 'margin-top:150px; width: 320px; margin-left:18 px;' "
       >
         <q-card flat bordered class="col-xs-11 col-sm-4 bg-white" style="border-radius:15px;">
           <div class="col-xs-10 col-sm-10">
