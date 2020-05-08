@@ -234,7 +234,7 @@
                   <div class="row justify-center">
                     <div class="col-xs-10 col-sm-6">
                     <div class="uix-tabs__nav">
-                      <ul :style="this.$q.screen.sm ? 'left:15px':'left:10px'">
+                      <ul :style="style">
                         <div>
                           <img src="../statics/pro/pro_med.png" style="width: 120px; height: 120px; position:relative; top:60px; left:75px; transform: rotate(231deg)">
                         </div>
@@ -757,6 +757,30 @@ export default {
     },
     updateCarousel(payload) {
       this.myCarouselData = payload.currentSlide;
+    }
+  },
+  computed: {
+    style(){
+      let style = ''
+      if(this.$q.screen.sm){
+        style = 'left:15px'
+      }
+      else if(this.$q.screen.sm && this.$q.screen.width === 800){
+        style = 'left:0px'
+      }
+      else if(this.$q.screen.width === 600){
+        style = 'left:20px;'
+      }
+      else if(this.$q.screen.xs && this.$q.screen.width === 360){
+         style = 'left:10px'
+      }
+      else if(this.$q.screen.xs && this.$q.screen.width === 375){
+         style = 'left:15px'
+      }
+       else if(this.$q.screen.xs && this.$q.screen.width === 414){
+         style = 'left:30px'
+      }
+      return style
     }
   }
 }
