@@ -72,7 +72,7 @@
                         <q-btn outline style="color: #fdfdfd; max-width:90%; width:30%; border-radius: 10px;" label="Digitalización de Procesos" class="col-4" size="md" no-caps />
                         <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Automatización de Procesos" class="col-4" size="md" no-caps />
                       </div>
-                      <div class="texto3 row text-justify q-gutter-sm q-mt-md">
+                      <div class="texto3 row text-justify q-gutter-sm q-mt-xs">
                         <q-btn outline style="color: #fdfdfd;max-width:90%; width:33%; border-radius: 10px;" label="Optimización de Procesos" class="col-4" size="md" no-caps />
                         <q-btn outline style="color: #fdfdfd;max-width:90%; width:30%; border-radius: 10px;" label="Canales de Comunicación" class="col-4" size="md" no-caps />
                         <q-btn outline style="color: #fdfdfd;max-width:90%; width:33%; border-radius: 10px;" label="Asesoria Especializada" class="col-4" size="md" no-caps />
@@ -91,7 +91,7 @@
                         <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Comunicación directa" class="col-3" size="md" no-caps />
                         <q-btn outline style="color: #fdfdfd; max-width:90%; width:30%; border-radius: 10px;" label="Integranción de Procesos" class="col-3" size="md" no-caps />
                       </div>
-                      <div class="texto3 row text-justify q-gutter-sm q-mt-md">
+                      <div class="texto3 row text-justify q-gutter-sm q-mt-xs">
                         <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Venta Simplificada" class="col-3" size="md" no-caps />
                       </div>
                     </div>
@@ -125,7 +125,7 @@
                         <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Digitalización de Procesos" class="col-3" size="md" no-caps />
                         <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Automatización de Procesos" class="col-3" size="md" no-caps />
                       </div>
-                      <div class="texto3 row text-justify q-gutter-sm q-mt-md">
+                      <div class="texto3 row text-justify q-gutter-sm q-mt-xs">
                         <q-btn outline style="color: #fdfdfd; max-width:90%; width:30%; border-radius: 10px;" label="Optimazación de Procesos" class="col-3" size="md" no-caps />
                         <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Arquitectura de información" class="col-3" size="md" no-caps />
                         <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Flujo de Información" class="col-3" size="md" no-caps />
@@ -144,7 +144,7 @@
                         <q-btn outline style="color: #fdfdfd; max-width:90%; width:30%; border-radius: 10px;" label="IOS" class="col-3" size="md" no-caps />
                         <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Hibridas" class="col-3" size="md" no-caps />
                       </div>
-                      <div class="texto3 row text-justify q-gutter-sm q-mt-md">
+                      <div class="texto3 row text-justify q-gutter-sm q-mt-xs">
                         <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Nativas" class="col-3" size="md" no-caps />
                       </div>
                     </div>   
