@@ -445,8 +445,26 @@ export default {
           1800: {
               itemsToShow: 5.2
           },
+          1761: {
+            itemsToShow: 4.9
+          },
+          1722: {
+            itemsToShow: 4.8
+          },
+          1664: {
+            itemsToShow: 4.6
+          },
+          1622: {
+            itemsToShow: 4.5
+          },
           1500: {
               itemsToShow: 4.4
+          },
+          1486: {
+            itemsToShow: 4.2
+          },
+          1422: {
+            itemsToShow: 3.9
           },
           1400: {
             itemsToShow: 4.2
@@ -460,8 +478,23 @@ export default {
           1238: {
             itemsToShow: 3.4
           },
+          1214: {
+            itemsToShow: 3.3
+          },
           1100: {
               itemsToShow: 3.2
+          },
+          1092: {
+            itemsToShow: 3
+          },
+          1089: {
+            itemsToShow: 3
+          },
+          1064: {
+            itemsToShow: 3
+          },
+          1058: {
+            itemsToShow: 3
           },
           1024: {
             itemsToShow: 2.8
@@ -472,8 +505,26 @@ export default {
           993: {
             itemsToShow: 2.7
           },
+          992: {
+            itemsToShow: 2.7
+          },
+          959: {
+            itemsToShow: 2.6
+          },
+          942: {
+            itemsToShow: 2.6
+          },
           882: {
               itemsToShow: 2.5
+          },
+          878: {
+            itemsToShow: 2.4
+          },
+          834: {
+            itemsToShow: 2.3
+          },
+          803: {
+            itemsToShow: 2.2
           },
           768: {
             itemsToShow: 2.1
@@ -484,14 +535,44 @@ export default {
           762: {
             itemsToShow: 2.2
           },
+          725: {
+            itemsToShow: 2.1
+          },
+          723: {
+            itemsToShow: 2
+          },
+          720: {
+            itemsToShow: 2
+          },
           714:{
             itemsToShow: 2.1
+          },
+          689: {
+            itemsToShow: 1.9
           },
           668: {
               itemsToShow: 1.8
           },
           649: {
-              itemsToShow: 1.8
+            itemsToShow: 1.8
+          },
+          645: {
+            itemsToShow: 1.8
+          },
+          628: {
+            itemsToShow: 1.7
+          },
+          620: {
+            itemsToShow: 1.7
+          },
+          600: {
+            itemsToShow: 1.6
+          },
+          595: {
+            itemsToShow: 1.6
+          },
+          586: {
+            itemsToShow: 1.6
           },
           531: {
             itemsToShow: 1.5
@@ -506,7 +587,7 @@ export default {
               itemsToShow: 1.2
           },
           411: {
-              itemsToShow: 1.2
+              itemsToShow: 1.1
           },
           375: {
               itemsToShow: 1

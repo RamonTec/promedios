@@ -32,7 +32,7 @@
           <div class="col-xs-7 col-md-6">
             <q-card-section>
               <div>
-                <img src="../statics/pro/logo_promedios.png" style="width: 210px; height: 70px;">
+                <img src="../statics/pro/logo_promedios.png" style="width: 210px; height: 80px;">
               </div>
             </q-card-section>
             <q-card-section class="texto1 text-h3">
@@ -100,7 +100,7 @@
           <div class="col-xs-6 col-sm-6 md-hide xl-hide lg-hide">
             <q-card-section>
               <div>
-                <img src="../statics/pro/logo_promedios.png"  :class="this.$q.screen.sm ? 'q-ml-xl':'q-ml-sm'"  style="max-width: 200px; height: 40px;">
+                <img src="../statics/pro/logo_promedios.png"  :class="this.$q.screen.sm ? 'q-ml-xl':'q-ml-sm'"  style="max-width: 200px; height: 50px;">
               </div>
             </q-card-section>
           </div>

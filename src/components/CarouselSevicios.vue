@@ -225,7 +225,7 @@
         <section class="uix-spacing--m">
           <div class="uix-t-c">
             <div class="row justify-center">
-              <div class="col-xs-12 col-sm-10" style="margin-left:-5px;">
+              <div class="col-xs-12 col-sm-10">
                 <div class="uix-tabs uix-tabs--rotation" 
                 data-rotation="true" 
                 data-rotation-display="9" 
