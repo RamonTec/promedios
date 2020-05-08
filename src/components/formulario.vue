@@ -486,8 +486,8 @@ $primary-text-color2: #474747;
       
     </div>
 
-    <div class="img_group2 sm-hide md-hide lg-hide xl-hide q-mt-xl">
-      <div class="col-xs-10 row q-mt-md q-mb-sm  md-hide xl-hide lg-hide">
+    <div class="img_group2 sm-hide md-hide lg-hide xl-hide">
+      <div class="col-xs-10 row q-mb-sm  md-hide xl-hide lg-hide">
           <div class="col-xs-10">
             <q-card-section class="texto1">
               <q-item>

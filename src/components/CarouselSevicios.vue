@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="xs-hide sm-hide row q-mt-xl q-mb-xl">
+    <div class="xs-hide sm-hide row q-mt-xl">
       <div class="col-11" style="background: #2b3035; border-radius: 0 25px 25px 0; heigth: 120px">
        <!-- Content 02
         ====================================================== -->
@@ -218,7 +218,7 @@
       </div>
     </div>
 
-    <div class="row justify-center q-mt-xl">
+    <div class="row justify-center">
       <div class="col-xs-12 col-sm-12 md-hide lg-hide xl-hide" style="background: #2b3035;">
        <!-- Content 02
         ====================================================== -->
