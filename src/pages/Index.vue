@@ -280,7 +280,7 @@ section {
                   Nuestros Servicios
                 </span>
               </div>
-              <div class="texto3 q-ml-md text-h6">
+              <div class="texto3 q-ml-lg text-h6">
                 <span>
                   Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
                   advertised as the most popular gun in American crime. do you believe that
@@ -361,8 +361,8 @@ section {
             </div>
           </div>
 
-          <div class="row md-hide lg-hide xl-hide q-mb-md" style="margin-top:-30px;">
-            <div class="col-5 q-ml-md" @click.prevent="slidePrev">
+          <div class="row md-hide lg-hide xl-hide q-mb-md q-ml-md" style="margin-top:-30px;">
+            <div class="col-5 q-ml-sm" @click.prevent="slidePrev">
               <q-btn color="white" text-color="black" @click.prevent="slidePrev" style="height:50px;border-radius:10px;">
                 <q-img src="../statics/pro/flecha_right.svg" style="width:20px; height:45px; margin-top:-2px;"></q-img>
               </q-btn>
