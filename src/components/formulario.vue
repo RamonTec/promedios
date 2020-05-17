@@ -415,7 +415,7 @@ $primary-text-color2: #474747;
       <div class="xs-hide sm-hide col-md-3 q-mt-md q-mb-xl" 
       :style=" 
       this.$q.screen.width == 1024 ? 
-      'margin-top:150px; width: 320px; margin-left:18 px;' : 'margin-top:150px; width: 320px; margin-left:18 px;' "
+      'margin-top:150px; width: 320px; margin-left:18 px;' : 'margin-top:150px; width: 27%; margin-left:18 px;' "
       >
         <q-card flat bordered class="col-xs-11 col-sm-4 bg-white" style="border-radius:15px;">
           <div class="col-xs-10 col-sm-10">

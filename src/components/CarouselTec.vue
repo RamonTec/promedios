@@ -1,52 +1,57 @@
 <template>
   <div>
     <div class="row justify-center">
-      <hooper :settings="hooperSettings" ref="carousel" pagination="fraction" @slide="updateCarousel" class="col-xs-12 col-sm-12 col-md-12" style="height: 180px;">
-      
+      <hooper 
+        :settings="hooperSettings" 
+        ref="carousel" 
+        pagination="fraction" 
+        @slide="updateCarousel" 
+        class="col-xs-12 col-sm-12 col-md-12" 
+        style="height: 200px; margin-top:-45px;">
       <slide>
         <div>
-          <img src="../statics/pro/logo_1.png" style="width: 160px; height: 90px;">
+          <img src="../statics/pro/logo_1.png" style="width: 160px; height: 100px;">
         </div>
       </slide>
 
       <slide>
         <div>
-          <img src="../statics/pro/logo_2.png" style="width: 160px; height: 90px;">
+          <img src="../statics/pro/logo_2.png" style="width: 160px; height: 100px;">
         </div>
       </slide>
       <slide>
         <div>
-          <img src="../statics/pro/logo_3.png" style="width: 160px; height: 90px;">
+          <img src="../statics/pro/logo_3.png" style="width: 160px; height: 100px;">
         </div>
       </slide>
       <slide>
         <div>
-          <img src="../statics/pro/logo_4.png" style="width: 180px; height: 90px;">
+          <img src="../statics/pro/logo_4.png" style="width: 180px; height: 100px;">
         </div>
       </slide>
       <slide>
         <div>
-          <img src="../statics/pro/logo_5.png" style="width: 35%; height: 90px; margin-left:50px;">
+          <img src="../statics/pro/logo_5.png" style="width: 35%; height: 100px; margin-left:50px;">
         </div>
       </slide>
       <slide>
         <div>
-          <img src="../statics/pro/logo_6.png" style="width: 180px; height: 90px; margin-left:-20px;">
+          <img src="../statics/pro/logo_6.png" style="width: 180px; height: 100px; margin-left:-20px;">
         </div>
       </slide>
       <slide>
         <div>
-          <img src="../statics/pro/logo_7.png" style="width: 180px; height: 90px;">
+          <img src="../statics/pro/logo_7.png" style="width: 180px; height: 100px;">
         </div>
       </slide>
       <slide>
         <div>
-          <img src="../statics/pro/logo_8.png" style="width: 160px; height: 90px;">
+          <img src="../statics/pro/logo_8.png" style="width: 160px; height: 100px;">
         </div>
       </slide>
       <slide>
         <div>
-          <img src="../statics/pro/logo_9.png" style="width: 160px; height: 90px;">
+          <img src="../statics/pro/logo_9.png" style="width: 160px; height: 100px;">
         </div>
       </slide>
         
@@ -87,17 +92,17 @@ export default {
       color9: true,
       text:"",
       hooperSettings: {
-      mouseDrag: true,
+      mouseDrag: false,
       wheelControl: true,
-      touchDrag: true,
-      wheelControl: true,
-      trimWhiteSpace: true,
-      keysControl: true,
+      touchDrag: false,
+      wheelControl: false,
+      trimWhiteSpace: false,
+      keysControl: false,
       pagination: 'fraction',
       infiniteScroll: true,
       centerMode: true,
       autoPlay: true,
-      playSpeed: 3000,
+      playSpeed: 2000,
       breakpoints: {
           2400: {
               itemsToShow: 10
