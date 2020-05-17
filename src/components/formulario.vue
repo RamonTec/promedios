@@ -141,7 +141,7 @@ $primary-text-color2: #474747;
               <img 
               :style=" 
               this.$q.screen.width == 1024 ? 
-              'width: 40%; height: 150%; margin-left:80%; margin-top:-40px;' : 'width: 40%; height: 150%; margin-left:80%; margin-top:-40px;' "
+              'width: 40%; height: 150%; margin-left:80%; margin-top:-100px;' : 'width: 40%; height: 150%; margin-left:80%; margin-top:-100px;' "
 
               src="../statics/pro/flecha.svg">
             </q-card-section>
@@ -415,11 +415,11 @@ $primary-text-color2: #474747;
       <div class="xs-hide sm-hide col-md-3 q-mt-md q-mb-xl" 
       :style=" 
       this.$q.screen.width == 1024 ? 
-      'margin-top:150px; width: 320px; margin-left:18 px;' : 'margin-top:150px; width: 27%; margin-left:18 px;' "
+      'margin-top:150px; width: 320px; margin-left:18 px;' : 'margin-top:180px; width: 27%; margin-left:18 px;' "
       >
         <q-card flat bordered class="col-xs-11 col-sm-4 bg-white" style="border-radius:15px;">
           <div class="col-xs-10 col-sm-10">
-            <q-card-section class="q-ml-sm">
+            <q-card-section class="q-ml-sm q-mt-sm">
               <span class="texto1 text-black" style="font-size:20px;">Cuéntanos acerca de ti</span> <br>
               <span class="text-black text-weight-light" style="font-size:16px;">Sobre la empresa ó el proyecto</span>
             </q-card-section>
