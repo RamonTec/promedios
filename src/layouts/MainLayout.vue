@@ -151,7 +151,7 @@
               </div>
               <div class="col-sm-1 col-xs-1 q-mt-md md-hide xl-hide lg-hide" style="z-index:10">
               <img class="q-mt-sm" src="../statics/pro/cell_header_pm.png" 
-              :style="this.$q.screen.sm ? 'height: 420.367px; border-radius:0 0 0 50px; width: 100%; position:absolute; top:151.12499235px; left:-105px' : 'height: 65.7%; border-radius:0 0 0 50px; width: 120%; position:absolute; top:123.12499235px; left:-90px'"
+              :style="this.$q.screen.sm ? 'height: 420.367px; border-radius:0 0 0 50px; width: 100%; position:absolute; top:151.12499235px; left:-105px' : 'height: 65.7%; border-radius:0 0 0 50px; width: 150%; position:absolute; top:123.12499235px; left:-90px'"
               >
               </div>
             </q-card-section>
@@ -231,8 +231,6 @@ export default {
       let value = ''
       if(this.$q.screen.sm){
         value = 'left:-20px; position:absolute; font-size: 0.8em'
-      }else if(this.$q.screen.xs && this.$q.screen.width === 320){
-        value = 'left:-45px;position:absolute; font-size: 0.8em'
       }else if(this.$q.screen.xs && this.$q.screen.width === 493){
         value = 'left:-20px; position:absolute; font-size: 0.8em'
       }
@@ -245,12 +243,18 @@ export default {
       let value = ''
       if(this.$q.screen.sm){
         value = 'top:-50px; height: 578px; border-radius:0 0 0 35px; width: 100%; margin-left:15px;'
-      } else if(this.$q.screen.xs && this.$q.screen.width === 320){
-        value = 'left:-45px;position:absolute; font-size: 0.8em'
       } else if(this.$q.screen.xs && this.$q.screen.width === 500){
         value = 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 100%; margin-left:45px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 360){
         value = 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 100%; margin-left:45px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 320){
+        value = 'top:-50px; height: 381px; border-radius:0 0 0 50px; width: 100%; margin-left:30px;'
+      }  else if(this.$q.screen.xs && this.$q.screen.width === 375){
+        value = 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:45px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 414){
+        value = 'top:-50px; height: 382.1px; border-radius:0 0 0 50px; width: 90%; margin-left:55px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 411){
+        value = 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:55px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 493){
         value = 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 100%; margin-left:45px;'
       } else if(this.$q.screen.xs){

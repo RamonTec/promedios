@@ -467,9 +467,8 @@
                 data-rotation-display="9"
                 data-rotation-radius="130" 
                 data-rotation-wrapper-angle="130">
-
-                  <div class="row justify-center">
-                    <div class="col-xs-10">
+                  <div class="row justify-center q-ml-xl">
+                    <div class="col-xs-10" :style="styleSelect">
                       <div class="uix-tabs__nav">
                         <ul :style="style">
                           <div>
@@ -514,8 +513,7 @@
                       </div>
                     </div>
                   </div>
-
-                  <div class="row">                    
+                  <div class="row justify-center">
                     <div class="col-xs-12">
                       <div class="q-mt-xl uix-tabs__content active">
                         <q-card-section class=" row q-mx-sm">
@@ -710,6 +708,8 @@ export default {
   },
   data () {
     return {
+      value: '',
+      styles: '',
       slide: 1,
       color1: false,
       color2: false,
@@ -755,17 +755,17 @@ export default {
   mounted(){
     $(function() {
 
-    var $body = $(document);
-    $body.bind('scroll', function() {
-        // "Desactivar" el scroll horizontal
-        if ($body.scrollLeft() !== 0) {
-            $body.scrollLeft(0);
-        }
-    });
+      var $body = $(document);
+      $body.bind('scroll', function() {
+          // "Desactivar" el scroll horizontal
+          if ($body.scrollLeft() !== 0) {
+              $body.scrollLeft(0);
+          }
+      });
 
-}); 
+    }); 
     ( function( $ ) {
-  "use strict";
+    "use strict";
     
       $( function() {
       console.log('hola')
@@ -988,7 +988,7 @@ export default {
       
   } ) ( $ );
   },
-    methods: {
+  methods: {
     slidePrev() {
       this.$refs.carousel.slidePrev();
     },
@@ -1000,6 +1000,68 @@ export default {
     }
   },
   computed: {
+    styleSelect(){
+      console.log('hola')
+      let value = ''
+      if(this.$q.screen.sm){
+        value = 'left:-20px; position:absolute; font-size: 0.8em'
+      } else if(this.$q.screen.width === 411){
+        value = 'margin-left:-25%;'
+      } else if(this.$q.screen.width === 419){
+        value = 'margin-left:auto;'
+      } else if(this.$q.screen.width === 424){
+        value = 'margin-left:auto;'
+      } else if(this.$q.screen.width === 320){
+        value = 'margin-left:-30%;'
+      } else if(this.$q.screen.width === 375){
+        value = 'margin-left:-30%;'
+      } else if(this.$q.screen.width === 414){
+        value = 'margin-left:-25%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 431){
+        value = 'margin-left:auto;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 438){
+        value = 'margin-left:18%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 459){
+        value = 'margin-left:20%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 466){
+        value = 'margin-left:25%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 477){
+        value = 'margin-left:25%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 459){
+        value = 'margin-left:25%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 478){
+        value = 'margin-left:25%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 444){
+        value = 'margin-left:19%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 360){
+        value = 'margin-left:-28%;'
+      }
+      return value
+    },
+    styleBackground(){
+      let value = ''
+      if(this.$q.screen.sm){
+        value = 'top:-50px; height: 578px; border-radius:0 0 0 35px; width: 100%; margin-left:15px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 500){
+        value = 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 100%; margin-left:45px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 360){
+        value = 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 100%; margin-left:45px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 320){
+        value = 'top:-50px; height: 381px; border-radius:0 0 0 50px; width: 100%; margin-left:30px;'
+      }  else if(this.$q.screen.xs && this.$q.screen.width === 375){
+        value = 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:45px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 414){
+        value = 'top:-50px; height: 382.1px; border-radius:0 0 0 50px; width: 90%; margin-left:55px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 411){
+        value = 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:55px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 493){
+        value = 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 100%; margin-left:45px;'
+      } else if(this.$q.screen.xs){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 100%; margin-left:30px;'
+      }
+      return value
+    },
+
     style(){
       let style = ''
       if(this.$q.screen.sm){
