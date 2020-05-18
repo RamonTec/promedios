@@ -468,7 +468,7 @@ $primary-text-color2: #474747;
                 <div class="row justify-between">
                   <div class="col-xs-5 col-4 q-mb-md q-mt-md texto3">
                     <q-btn color="positive"  class="full-width" 
-                    :style="this.$q.screen.width == 1024 ? 'height:50px;' : 'height:80%;'">
+                    :style="this.$q.screen.width == 1024 ? 'height:50px;' : 'height:96%;'">
                       <q-img src="../statics/pro/enviar.svg" style="width:150px;"></q-img>
                     </q-btn>
                   </div>
