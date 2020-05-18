@@ -1063,6 +1063,8 @@ export default {
         value = 'margin-left:-18%;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 345){
         value = 'margin-left:-28%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 589){
+        value = 'margin-left:28%;'
       }
       return value
     },

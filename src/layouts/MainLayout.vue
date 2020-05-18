@@ -248,18 +248,117 @@ export default {
       } else if(this.$q.screen.xs && this.$q.screen.width === 360){
         value = 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 100%; margin-left:45px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 320){
-        value = 'top:-50px; height: 381px; border-radius:0 0 0 50px; width: 100%; margin-left:30px;'
+        value = 'top:-50px; height: 381px; border-radius:0 0 0 50px; width: 110%; margin-left:30px;'
       }  else if(this.$q.screen.xs && this.$q.screen.width === 375){
         value = 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:45px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 414){
         value = 'top:-50px; height: 382.1px; border-radius:0 0 0 50px; width: 90%; margin-left:55px;'
-      } else if(this.$q.screen.xs && this.$q.screen.width === 411){
-        value = 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:55px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 493){
         value = 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 100%; margin-left:45px;'
-      } else if(this.$q.screen.xs){
+      } else if(this.$q.screen.xs && this.$q.screen.width === 589){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 581){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 567){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 559){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 543){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 529){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 527){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 513){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 509){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 501){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 497){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 75%; margin-left:95px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 485){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 75%; margin-left:95px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 470){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:80px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 471){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 75%; margin-left:95px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 460){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:80px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 458){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:85px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 438){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 436){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 439){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 434){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 431){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 419){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 420){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 416){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 415){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 412){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 402){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:55px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 433){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 451){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 457){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 455){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 440){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 469){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:80px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 511){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 75%; margin-left:95px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 426){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 435){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 430){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 428){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 425){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 424){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 423){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 413){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:65px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 411){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 394){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:48px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 393){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:48px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 383){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:48px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 373){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:48px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 367){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:48px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 357){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:48px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 353){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 100%; margin-left:30px;'
-      }
+      } 
+      else if(this.$q.screen.xs){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 100%; margin-left:30px;'
+      } 
       return value
     }
   }
