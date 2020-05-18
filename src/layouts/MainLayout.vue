@@ -253,21 +253,33 @@ export default {
         value = 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:45px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 414){
         value = 'top:-50px; height: 382.1px; border-radius:0 0 0 50px; width: 90%; margin-left:55px;'
-      } else if(this.$q.screen.xs && this.$q.screen.width === 493){
-        value = 'top:-50px; height: 380px; border-radius:0 0 0 50px; width: 100%; margin-left:45px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 589){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 586){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 570){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 581){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 567){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 560){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 559){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 552){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 548){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 543){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 534){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 529){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 527){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 515){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 513){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
@@ -275,18 +287,34 @@ export default {
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 501){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 70%; margin-left:120px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 505){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 75%; margin-left:100px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 499){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 75%; margin-left:100px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 497){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 75%; margin-left:95px;'
-      } else if(this.$q.screen.xs && this.$q.screen.width === 485){
+      } else if(this.$q.screen.width === 493){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 75%; margin-left:95px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 497){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 75%; margin-left:95px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 487){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:80px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 484){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:80px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 470){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:80px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 471){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 75%; margin-left:95px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 467){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:80px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 460){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:80px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 458){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:85px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 454){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:85px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 444){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 85%; margin-left:75px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 438){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 436){
@@ -297,7 +325,7 @@ export default {
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 431){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
-      } else if(this.$q.screen.xs && this.$q.screen.width === 419){
+      } else if(this.$q.screen.xs && this.$q.screen.width === 427){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 420){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
@@ -307,6 +335,10 @@ export default {
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 412){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 80%; margin-left:75px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 410){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:55px;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 407){
+        value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:55px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 402){
         value ='top:-50px; height: 380px; border-radius:0 0 0 50px; width: 90%; margin-left:55px;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 433){
