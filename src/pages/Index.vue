@@ -595,6 +595,9 @@ export default {
           375: {
               itemsToShow: 1
           },
+          320: {
+              itemsToShow: 0.9
+          },
           0: {
               itemsToShow: 1
           }

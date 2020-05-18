@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="row justify-center">
+    <div class="row justify-center" style="margin-top:-3%;">
       <hooper 
         :settings="hooperSettings" 
         ref="carousel" 
         pagination="fraction" 
         @slide="updateCarousel" 
         class="col-xs-12 col-sm-12 col-md-12" 
-        style="height: 200px; margin-top:-45px;">
+        style="height: 200px;">
       <slide>
         <div>
           <img src="../statics/pro/logo_1.png" style="width: 160px; height: 100px;">

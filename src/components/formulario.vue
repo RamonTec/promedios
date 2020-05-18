@@ -106,7 +106,7 @@ $primary-text-color2: #474747;
                 <q-toolbar-title class="texto1 q-ml-md text-h2" 
                 :style=" 
                 this.$q.screen.width == 1024 ? 
-                'word-break: normal; line-height: 50pt;' : 'white-space: initial; line-height: 50pt;' "
+                'white-space: initial; line-height: 50pt;' : 'white-space: initial; line-height: 50pt;' "
                 >
                   Listo para entrar en la
                   transformación digital?
@@ -141,14 +141,16 @@ $primary-text-color2: #474747;
               <img 
               :style=" 
               this.$q.screen.width == 1024 ? 
-              'width: 40%; height: 150%; margin-left:80%; margin-top:-100px;' : 'width: 40%; height: 150%; margin-left:80%; margin-top:-100px;' "
+              'width: 40%; height: 150%; margin-left:80%; margin-top:-100px; margin-botton:500px;' : 'width: 40%; height: 150%; margin-left:80%; margin-top:-100px;' "
 
               src="../statics/pro/flecha.svg">
             </q-card-section>
           </div>
         </div>
 
-        <div class="xs-hide sm-hide row q-ml-xl" style="margin-top:5px;">
+        <div class="xs-hide sm-hide row q-ml-xl" 
+        :style="this.$q.screen.width == 1024 ? 
+        'margin-top:2%;' : 'margin-top:9%;'">
           <div class="col-xs-5 col-sm-6 col-md-6">
             <q-card-section class="texto1">
               <q-item>
@@ -415,7 +417,7 @@ $primary-text-color2: #474747;
       <div class="xs-hide sm-hide col-md-3 q-mt-md q-mb-xl" 
       :style=" 
       this.$q.screen.width == 1024 ? 
-      'margin-top:150px; width: 320px; margin-left:18 px;' : 'margin-top:180px; width: 27%; margin-left:18 px;' "
+      'margin-top:150px; width: 320px; margin-left:18 px;' : 'margin-top:180px; width: 32%; margin-left:18 px;' "
       >
         <q-card flat bordered class="col-xs-11 col-sm-4 bg-white" style="border-radius:15px;">
           <div class="col-xs-10 col-sm-10">
@@ -465,12 +467,17 @@ $primary-text-color2: #474747;
                 </div>
                 <div class="row justify-between">
                   <div class="col-xs-5 col-4 q-mb-md q-mt-md texto3">
-                    <q-btn color="positive"  class="full-width">
+                    <q-btn color="positive"  class="full-width" 
+                    :style="this.$q.screen.width == 1024 ? 'height:50px;' : 'height:80%;'">
                       <q-img src="../statics/pro/enviar.svg" style="width:150px;"></q-img>
                     </q-btn>
                   </div>
                   <div class="col-xs-6 q-mt-md texto3">
-                    <p class="text-grey-7" style="line-height: 15px; font-size:12px;">Los datos ingresados serán tratados de manera confidencial como lo dispone la ley habeas data.</p>
+                    <p 
+                    class="text-grey-7" 
+                    style="line-height: 15px; font-size:12px;">
+                      Los datos ingresados serán tratados de manera confidencial como lo dispone la ley habeas data.
+                    </p>
                   </div>
                 </div>
               </div>
