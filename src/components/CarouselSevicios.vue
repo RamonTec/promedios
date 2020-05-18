@@ -1012,7 +1012,7 @@ export default {
       } else if(this.$q.screen.width === 424){
         value = 'margin-left:auto;'
       } else if(this.$q.screen.width === 320){
-        value = 'margin-left:-30%;'
+        value = 'margin-left:-38%;'
       } else if(this.$q.screen.width === 375){
         value = 'margin-left:-30%;'
       } else if(this.$q.screen.width === 414){
@@ -1034,6 +1034,34 @@ export default {
       } else if(this.$q.screen.xs && this.$q.screen.width === 444){
         value = 'margin-left:19%;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 360){
+        value = 'margin-left:-28%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 577){
+        value = 'margin-left:25%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 575){
+        value = 'margin-left:25%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 574){
+        value = 'margin-left:20%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 573){
+        value = 'margin-left:21%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 553){
+        value = 'margin-left:17%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 546){
+        value = 'margin-left:14%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 533){
+        value = 'margin-left:15%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 513){
+        value = 'margin-left:10%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 496){
+        value = 'margin-left:10%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 476){
+        value = 'margin-left:5%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 379){
+        value = 'margin-left:-15%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 372){
+        value = 'margin-left:-15%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 365){
+        value = 'margin-left:-18%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 345){
         value = 'margin-left:-28%;'
       }
       return value
