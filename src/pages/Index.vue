@@ -446,169 +446,169 @@ export default {
       playSpeed: 3000,
       breakpoints: {
           2400: {
-              itemsToShow: 6.2
+              itemsToShow: 6.3
           },
           1800: {
-              itemsToShow: 5.2
+              itemsToShow: 5.3
           },
           1761: {
-            itemsToShow: 4.9
+            itemsToShow: 5
           },
           1722: {
-            itemsToShow: 4.8
+            itemsToShow: 4.9
           },
           1664: {
-            itemsToShow: 4.6
+            itemsToShow: 4.7
           },
           1622: {
-            itemsToShow: 4.5
+            itemsToShow: 4.6
           },
           1500: {
-              itemsToShow: 4.4
+              itemsToShow: 4.5
           },
           1486: {
-            itemsToShow: 4.2
+            itemsToShow: 4.3
           },
           1422: {
-            itemsToShow: 3.9
+            itemsToShow: 4
           },
           1400: {
-            itemsToShow: 4.2
+            itemsToShow: 4.3
           },
           1345: {
-            itemsToShow: 3.7
+            itemsToShow: 3.8
           },
           1297:{
             itemsToShow: 3.6
           },
           1238: {
-            itemsToShow: 3.4
+            itemsToShow: 3.5
           },
           1214: {
-            itemsToShow: 3.3
+            itemsToShow: 3.4
           },
           1100: {
-              itemsToShow: 3.2
+              itemsToShow: 3.3
           },
           1092: {
-            itemsToShow: 3
+            itemsToShow: 3.1
           },
           1089: {
-            itemsToShow: 3
+            itemsToShow: 3.1
           },
           1064: {
-            itemsToShow: 3
+            itemsToShow: 3.1
           },
           1058: {
-            itemsToShow: 3
+            itemsToShow: 3.1
           },
           1024: {
-            itemsToShow: 2.8
+            itemsToShow: 2.9
           },
           1002: {
-            itemsToShow: 2.8
+            itemsToShow: 2.9
           },
           993: {
-            itemsToShow: 2.7
+            itemsToShow: 2.8
           },
           992: {
-            itemsToShow: 2.7
+            itemsToShow: 2.8
           },
           959: {
-            itemsToShow: 2.6
+            itemsToShow: 2.7
           },
           942: {
-            itemsToShow: 2.6
+            itemsToShow: 2.7
           },
           882: {
-              itemsToShow: 2.5
+              itemsToShow: 2.6
           },
           878: {
-            itemsToShow: 2.4
+            itemsToShow: 2.5
           },
           834: {
-            itemsToShow: 2.3
+            itemsToShow: 2.4
           },
           803: {
-            itemsToShow: 2.2
-          },
-          796: {
             itemsToShow: 2.3
           },
+          796: {
+            itemsToShow: 2.4
+          },
           768: {
-            itemsToShow: 2.1
+            itemsToShow: 2.3
           },
           764: {
-              itemsToShow: 2.2
+              itemsToShow: 2.3
           },
           762: {
-            itemsToShow: 2.2
+            itemsToShow: 2.3
           },
           725: {
-            itemsToShow: 2.1
+            itemsToShow: 2.2
           },
           723: {
-            itemsToShow: 2
-          },
-          720: {
-            itemsToShow: 2
-          },
-          714:{
             itemsToShow: 2.1
           },
+          720: {
+            itemsToShow: 2.1
+          },
+          714:{
+            itemsToShow: 2.2
+          },
           689: {
-            itemsToShow: 1.9
+            itemsToShow: 2.1
           },
           668: {
-              itemsToShow: 1.8
+              itemsToShow: 1.9
           },
           649: {
-            itemsToShow: 1.8
+            itemsToShow: 1.9
           },
           645: {
-            itemsToShow: 1.8
+            itemsToShow: 1.9
           },
           628: {
-            itemsToShow: 1.7
+            itemsToShow: 1.8
           },
           620: {
-            itemsToShow: 1.7
+            itemsToShow: 1.8
           },
           600: {
-            itemsToShow: 1.6
+            itemsToShow: 1.7
           },
           595: {
-            itemsToShow: 1.6
+            itemsToShow: 1.7
           },
           586: {
-            itemsToShow: 1.6
+            itemsToShow: 1.7
           },
           531: {
-            itemsToShow: 1.5
+            itemsToShow: 1.6
           },
           500: {
-              itemsToShow: 1.4
+            itemsToShow: 1.5
           },
           492: {
-              itemsToShow: 1.3
+              itemsToShow: 1.5
           },
           452: {
-            itemsToShow: 1.3
+            itemsToShow: 1.4
           },
           420: {
-              itemsToShow: 1.2
+              itemsToShow: 1.3
           },
           411: {
-              itemsToShow: 1.1
+              itemsToShow: 1.2
           },
           375: {
-              itemsToShow: 1
+              itemsToShow: 1.1
           },
           320: {
-              itemsToShow: 0.9
+              itemsToShow: 1.1
           },
           0: {
-              itemsToShow: 1
+              itemsToShow: 1.1
           }
         }
       }  
