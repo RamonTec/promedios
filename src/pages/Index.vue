@@ -268,9 +268,9 @@ section {
                 </q-toolbar-title>
               </div>
               <div class="texto3 q-ml-sm text-h6">
-                Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is <br>
-                advertised as the most popular gun in American crime. do you believe that <br>
-                shit? It actually says that in the little book that comes whit it: the most popular.
+                Con nuestro portafolio tendrás un sin fin de posibilidades para tu idea, <br>
+                empresa o negocio, queremos estar contigo en ese proceso de evolución <br>
+                crecimiento ;)
               </div>
             </div>
 
@@ -282,9 +282,9 @@ section {
               </div>
               <div class="texto3 q-ml-lg text-h6">
                 <span>
-                  Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
-                  advertised as the most popular gun in American crime. do you believe that
-                  shit? It actually says that in the little book that comes whit it: the most popular.
+                  Con nuestro portafolio tendrás un sin fin de posibilidades para tu idea, <br>
+                  empresa o negocio, queremos estar contigo en ese proceso de evolución <br>
+                  crecimiento ;)
                 </span>
               </div>
             </div>
@@ -294,55 +294,61 @@ section {
             
             <slide>
               <div class="row bg-none justify-between">
-                <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_1.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
             <slide>
               <div class="row bg-none">
-                <img class="col-xs-12" src="../statics/pro/servicio_2.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_2.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
             <slide>
               <div class="row bg-none justify-between">
-                <img class="col-xs-12" src="../statics/pro/servicio_3.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_3.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
             <slide>
               <div class="row bg-none justify-between">
-                <img class="col-xs-12" src="../statics/pro/servicio_4.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_4.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
             <slide>
               <div class="row bg-none justify-between">
-                <img class="col-xs-12" src="../statics/pro/servicio_5.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_5.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
             <slide>
               <div class="row bg-none justify-between">
-                <img class="col-xs-12" src="../statics/pro/servicio_6.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_6.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
             <slide>
               <div class="row bg-none justify-between">
-                <img class="col-xs-12" src="../statics/pro/servicio_7.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_7.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
             <slide>
               <div class="row bg-none justify-between">
-                <img class="col-xs-12" src="../statics/pro/servicio_8.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_8.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
             <slide>
               <div class="row bg-none justify-between my-card">
-                <img class="col-xs-12" src="../statics/pro/servicio_9.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_9.svg" style="max-width:100%; height: 400px;">
+              </div>
+            </slide>
+
+            <slide>
+              <div class="row bg-none justify-between my-card">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_10.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
@@ -525,6 +531,9 @@ export default {
           },
           803: {
             itemsToShow: 2.2
+          },
+          796: {
+            itemsToShow: 2.3
           },
           768: {
             itemsToShow: 2.1

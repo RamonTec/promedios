@@ -41,9 +41,10 @@
               <span class="text-secondary">transformación digital</span>
             </q-card-section>
             <q-card-section class="texto3 xs-hide sm-hide text-h6" style="max-width: 80%">
-              Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
-              advertised as the most popular gun in American crime. do you believe that
-              shit? It actually says that in the little book that comes whit it: the most popular.
+              Somos un equipo dedicado al crecimiento,
+              desarrollo y optimización de los procesos en el
+              ámbito digital, convertimos las ideas en realidad
+              intangible para el mundo.
             </q-card-section>
             <q-card-section class="xs-hide sm-hide q-mt-xl">
               <q-btn class="q-mt-md texto1" style="background: none; border: 2.7px solid #2bfdb1; border-radius: 5px;height: 50px; width: 210px; font-size: 1.2em;" >LLAMANOS YA!</q-btn>
@@ -163,14 +164,24 @@
               <span v-if="this.$q.screen.sm" :style="this.$q.screen.sm ? 'font-size:2.5em':'font-size:2.9em; line-height:1em;'" class="text-secondary">de la innovación y transformación digital</span> <br>
               <span v-if="this.$q.screen.xs" :style="this.$q.screen.sm ? 'font-size:2.5em':'font-size:2.9em; line-height:1em;'" class="text-secondary">de la innovación</span> <br>
               <span v-if="this.$q.screen.xs" :style="this.$q.screen.sm ? 'font-size:2.5em':'font-size:2.9em'" class="text-secondary">y transformación digital</span>
-              <p class="texto3 col-xs-10 col-sm-12" :style="this.$q.screen.sm ? 'font-size:1.5em; line-height:1.4em;':'font-size:1.4em; line-height:1.2em;'">Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
-              advertised as the most popular gun in American crime. do you believe that
-              shit? It actually says that in the little book that comes whit it: the most popular.</p>
+              <p class="texto3 col-xs-10 col-sm-12" :style="this.$q.screen.sm ? 'font-size:1.5em; line-height:1.4em;':'font-size:1.4em; line-height:1.2em;'">
+              Somos un equipo dedicado al crecimiento,
+              desarrollo y optimización de los procesos en el
+              ámbito digital, convertimos las ideas en realidad
+              intangible para el mundo.</p>
             </div>
             <q-btn class="q-mb-xl md-hide xl-hide lg-hide texto1" style="background: none; border: 2.7px solid #2bfdb1; border-radius: 5px;height: 50px; width: 210px; font-size: 1.2em;" >LLAMANOS YA!</q-btn>
           </div>
           
         </q-card>
+
+        <div class="texto3 row text-black justify-center q-mb-xl bg-secondary">
+          <div class="q-mt-xl q-mb-xl text-center col-xs-8 col-md-10 col-sm-10 text-h4">
+            "Internet ha cambiado el panorama del comercio. Antes se <br>
+            compraba algo para luego venderlo. Ahora se llega a una <br>
+            masa crítica de clientes y se busca qué venderles"
+          </div>
+        </div>
 
        
 

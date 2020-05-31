@@ -103,7 +103,7 @@ $primary-text-color2: #474747;
           <div class="xs-hide sm-hide row">
             <div class="col-md-12 bg-none q-mt-xl">
               <q-card-section>
-                <q-toolbar-title class="texto1 q-ml-md text-h2" 
+                <q-toolbar-title class="texto1 q-ml-md text-h2"
                 :style=" 
                 this.$q.screen.width == 1024 ? 
                 'white-space: initial; line-height: 50pt;' : 'white-space: initial; line-height: 50pt;' "
@@ -235,7 +235,9 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" style="white-space: initial; line-height: 25px;" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'font-size:1.2em; white-space: initial; line-height: 25px;'">Carrera 13 #93-35, Piso 6 Counity Coworking</span>
+                  <span class="text-h6" style="white-space: initial; line-height: 25px;" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'font-size:1.2em; white-space: initial; line-height: 25px;'">3 Place Ville Marie, Suite 400,
+Montreal, QC H3B 2E3
+WeWork</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -247,7 +249,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'font-size:1.2em; white-space: initial; line-height: 25px;'" style="word-break: break-all;white-space: initial; line-height: 25px;">hola@promediosdigitales.com</span>
+                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'font-size:1.2em; white-space: initial; line-height: 25px;'" style="word-break: break-all;white-space: initial; line-height: 25px;">commercial@promediosdigitales.com</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -259,7 +261,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'font-size:1.2em; white-space: initial; line-height: 25px;'" style="white-space: initial;">+ 57 315 839 4620</span>
+                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'font-size:1.2em; white-space: initial; line-height: 25px;'" style="white-space: initial;">+ 1 438 368 4041</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -368,7 +370,9 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'">Carrera 13 #93-35, Piso 6 Counity Coworking</span>
+                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'">3 Place Ville Marie, Suite 400,
+Montreal, QC H3B 2E3
+WeWork</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -380,7 +384,9 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="word-break: break-all;white-space: initial; line-height: 25px;">hola@promediosdigitales.com</span>
+                  <span 
+                  class="text-h6" 
+                  :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="word-break: break-all;white-space: initial; line-height: 25px;">commercial@promediosdigitales.com</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -392,7 +398,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="white-space: initial;">+ 57 315 839 4620</span>
+                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="white-space: initial;">+ 1 438 368 4041</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -427,10 +433,27 @@ $primary-text-color2: #474747;
             </q-card-section>
             <div class="row justify-center texto3" style="margin-top:-15px;">
               <div class="col-xs-11 col-sm-11">
-                <q-input class="q-mt-sm" outlined v-model="text" label="Nombre de la empresa ó proyecto" style="border-radius:10px" dense />
-                <q-select class="q-mt-sm" outlined v-model="text" label="Sector al que pertenece" style="border-radius:10px" dense />
-                <q-select class="q-mt-sm" outlined v-model="text" label="En que servicio esta interesado?" style="border-radius:10px" dense />
-                <q-select class="q-mt-sm" outlined v-model="text" label="Tipo de negocio ó proyecto" style="border-radius:10px" dense />
+                <q-input class="q-mt-sm" outlined v-model="nameBussisnes"
+                :rules="[
+                  val => !!val || 'Este campo es obligatorio',
+                  val => val.length <= 40 || 'Máximo 40 caracteres'
+                ]"
+                label="Nombre de la empresa ó proyecto" style="border-radius:10px" dense />
+                <q-select class="q-mt-sm" outlined :options="sector" v-model="sectorForm"
+                :rules="[
+                  val => !!val || 'Este campo es obligatorio'
+                ]"
+                label="Sector al que pertenece" style="border-radius:10px" dense />
+                <q-select class="q-mt-sm" outlined :options="services" v-model="servicesForm"
+                :rules="[
+                  val => !!val || 'Este campo es obligatorio'
+                ]"
+                label="En que servicio esta interesado?" style="border-radius:10px" dense />
+                <q-select class="q-mt-sm" outlined :options="negocios" v-model="negocioForm"
+                :rules="[
+                  val => !!val || 'Este campo es obligatorio'
+                ]"
+                label="Tipo de negocio ó proyecto" style="border-radius:10px" dense />
               </div>
             </div>
           </div>
@@ -442,24 +465,56 @@ $primary-text-color2: #474747;
               <div class="col-11">
                 <div class="row justify-center">
                   <div class="col-6">
-                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="Nombres" style="border-radius:50px" dense />
+                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="name" 
+                    :rules="[
+                      val => !!val || 'Este campo es obligatorio',
+                      val => val.length >= 3 || 'Mínimo 3 caracteres',
+                      val => val.length <= 40 || 'Máximo 40 caracteres',
+                      val => /^([a-zA-Z]{3,40})*$/.test(val) || 'Solo se permiten caracteres'
+                    ]"
+                    label="Nombres" style="border-radius:50px" dense />
                   </div>
                   <div class="col-6">
-                    <q-input class="q-mt-sm " outlined v-model="text" label="Apellidos" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm " outlined v-model="lastName" label="Apellidos"
+                    :rules="[
+                      val => !!val || 'Este campo es obligatorio',
+                      val => val.length >= 3 || 'Mínimo 3 caracteres',
+                      val => val.length <= 40 || 'Máximo 40 caracteres',
+                      val => /^([a-zA-Z]{3,40})*$/.test(val) || 'Solo se permiten caracteres'
+                    ]"
+                    style="border-radius:10px" dense />
                   </div>
                 </div>
                 <div class="row justify-center">
                   <div class="col-6">
-                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="E - Mail" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="email" label="E - Mail"
+                    :rules="[
+                      val => !!val || 'Este campo es obligatorio',
+                      val => val.length <= 40 || 'Máximo 40 caracteres',
+                      val =>
+                        /^([a-zA-Z0-9._-]{3,}[@][a-zA-Z0-9.]{3,}[.][a-zA-Z0-9.]{2,5})*$/.test(
+                          val
+                        ) || 'Formato de correo inválido'
+                    ]"
+                    style="border-radius:10px" dense />
                   </div>
                   <div class="col-6">
-                    <q-input class="q-mt-sm " outlined v-model="text" label="Celular" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm " outlined v-model="phone" label="Celular"
+                    mask="############"
+                    :rules="[
+                    val => !!val || 'Este campo es obligatorio',
+                    val => (val.length > 9) || 'Debe contener mínimo 10 dígitos']"
+                    style="border-radius:10px" dense />
                   </div>
                 </div>
                 <div class="row">
                   <q-input
                     class="q-mt-sm col-12"
-                    v-model="text"
+                    v-model="description"
+                    :rules="[
+                      val => !!val || 'Este campo es obligatorio',
+                      val => val.length <= 40 || 'Máximo 40 caracteres'
+                    ]"
                     outlined
                     label="Cuéntanos que expectativa tienes"
                     type="textarea"
@@ -579,7 +634,10 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'">Carrera 13 #93-35, Piso 6 Counity Coworking</span>
+                  <span class="text-h6" 
+                  :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'">3 Place Ville Marie, Suite 400,
+Montreal, QC H3B 2E3
+WeWork</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -591,7 +649,9 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="word-break: break-all;white-space: initial; line-height: 25px;">hola@promediosdigitales.com</span>
+                  <span 
+                  class="text-h6" 
+                  :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="word-break: break-all;white-space: initial; line-height: 25px;">commercial@promediosdigitales.com</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -603,7 +663,7 @@ $primary-text-color2: #474747;
                   </q-avatar>
                 </q-item-section>
                 <q-item-section>
-                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="white-space: initial;">+ 57 315 839 4620</span>
+                  <span class="text-h6" :style="this.$q.screen.width == 1024? 'font-size:1.2em; white-space: initial; line-height: 25px;': 'white-space: initial; line-height: 25px;'" style="white-space: initial;">+ 1 438 368 4041</span>
                 </q-item-section>
               </q-item>                
             </q-card-section>
@@ -645,10 +705,27 @@ $primary-text-color2: #474747;
             </q-card-section>
             <div class="row justify-center texto3" style="margin-top:-15px;">
               <div class="col-xs-11 col-sm-11">
-                <q-input class="q-mt-sm" outlined v-model="text" label="Nombre de la empresa ó proyecto" style="border-radius:10px" dense />
-                <q-select class="q-mt-sm" outlined v-model="text" label="Sector al que pertenece" style="border-radius:10px" dense />
-                <q-select class="q-mt-sm" outlined v-model="text" label="En que servicio esta interesado?" style="border-radius:10px" dense />
-                <q-select class="q-mt-sm" outlined v-model="text" label="Tipo de negocio ó proyecto" style="border-radius:10px" dense />
+                <q-input class="q-mt-sm" outlined v-model="nameBussisnes"
+                :rules="[
+                  val => !!val || 'Este campo es obligatorio',
+                  val => val.length <= 40 || 'Máximo 40 caracteres'
+                ]"
+                label="Nombre de la empresa ó proyecto" style="border-radius:10px" dense />
+                <q-select class="q-mt-sm" outlined :options="sector" v-model="sectorForm"
+                :rules="[
+                  val => !!val || 'Este campo es obligatorio'
+                ]"
+                label="Sector al que pertenece" style="border-radius:10px" dense />
+                <q-select class="q-mt-sm" outlined :options="services" v-model="servicesForm"
+                :rules="[
+                  val => !!val || 'Este campo es obligatorio'
+                ]"
+                label="En que servicio esta interesado?" style="border-radius:10px" dense />
+                <q-select class="q-mt-sm" outlined :options="negocios" v-model="negocioForm"
+                :rules="[
+                  val => !!val || 'Este campo es obligatorio'
+                ]"
+                label="Tipo de negocio ó proyecto" style="border-radius:10px" dense />
               </div>
             </div>
           </div>
@@ -660,24 +737,57 @@ $primary-text-color2: #474747;
               <div class="col-11">
                 <div class="row justify-center">
                   <div class="col-6">
-                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="Nombres" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="name"
+                    :rules="[
+                      val => !!val || 'Este campo es obligatorio',
+                      val => val.length >= 3 || 'Mínimo 3 caracteres',
+                      val => val.length <= 40 || 'Máximo 40 caracteres',
+                      val => /^([a-zA-Z]{3,40})*$/.test(val) || 'Solo se permiten caracteres'
+                    ]"
+                    label="Nombres" style="border-radius:10px" dense />
                   </div>
                   <div class="col-6">
-                    <q-input class="q-mt-sm " outlined v-model="text" label="Apellidos" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm " outlined v-model="lastName"
+                    :rules="[
+                      val => !!val || 'Este campo es obligatorio',
+                      val => val.length >= 3 || 'Mínimo 3 caracteres',
+                      val => val.length <= 40 || 'Máximo 40 caracteres',
+                      val => /^([a-zA-Z]{3,40})*$/.test(val) || 'Solo se permiten caracteres'
+                    ]"
+                    label="Apellidos" style="border-radius:10px" dense />
                   </div>
                 </div>
                 <div class="row justify-center">
                   <div class="col-6">
-                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="text" label="E - Mail" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm q-mr-sm" outlined v-model="email" label="E - Mail" 
+                    style="border-radius:10px" 
+                    :rules="[
+                      val => !!val || 'Este campo es obligatorio',
+                      val => val.length <= 40 || 'Máximo 40 caracteres',
+                      val =>
+                        /^([a-zA-Z0-9._-]{3,}[@][a-zA-Z0-9.]{3,}[.][a-zA-Z0-9.]{2,5})*$/.test(
+                          val
+                        ) || 'Formato de correo inválido'
+                    ]"
+                    dense />
                   </div>
                   <div class="col-6">
-                    <q-input class="q-mt-sm " outlined v-model="text" label="Celular" style="border-radius:10px" dense />
+                    <q-input class="q-mt-sm " outlined v-model="phone"
+                    mask="############"
+                    :rules="[
+                    val => !!val || 'Este campo es obligatorio',
+                    val => (val.length > 9) || 'Debe contener mínimo 10 dígitos']"
+                    label="Celular" style="border-radius:10px" dense />
                   </div>
                 </div>
                 <div class="row">
                   <q-input
                     class="q-mt-sm col-12"
-                    v-model="text"
+                    v-model="description"
+                    :rules="[
+                      val => !!val || 'Este campo es obligatorio',
+                      val => val.length <= 40 || 'Máximo 40 caracteres'
+                    ]"
                     outlined
                     label="Cuéntanos que expectativa tienes"
                     type="textarea"
@@ -702,10 +812,62 @@ $primary-text-color2: #474747;
 </template>
 
 <script>
+import mail from 'mailgun.js'
 export default {
   name: 'Formulario',
   data(){
     return{
+      email: '',
+      description: '',
+      nameBussisnes:'',
+      name: '',
+      lastName: '',
+      phone: '',
+      servicesForm: '',
+      sectorForm: '',
+      negocioForm: '',
+      negocios: [
+        'Idea de negocio',
+        'Emprendimiento',
+        'Micro Empresa',
+        'Pyme',
+        'Empresa Grande '
+      ],
+      services: [
+        'Consultoría',
+        'Api Whatsapp',
+        'Drop Shipping',
+        'E-Commerce',
+        'Sistemas',
+        'Apps',
+        'Servidores',
+        'Marketing Digital',
+        'Branding',
+        '3D'
+      ],
+      sector: [
+        'Agricultura',
+        'Alimentación',
+        'Belleza',
+        'Comercio de productos',
+        'Comercio de servicios',
+        'Construcción',
+        'Consultoría',
+        'Educación',
+        'Financiero',
+        'Hotelero, restaurante y turismo',
+        'Industrias químicas o farmacéuticas',
+        'Logística y distribución',
+        'Manufacturero',
+        'Medios de comunicación',
+        'Metalurgia',
+        'Salud',
+        'Servicios públicos',
+        'Tecnología',
+        'Telecomunicaciones',
+        'Transporte',
+        'Otro...'
+      ],
       ipad: false,
       media: 0
     }

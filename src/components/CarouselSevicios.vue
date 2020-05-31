@@ -14,7 +14,7 @@
                     <div class="uix-tabs__nav">
                       <ul>
                         <div>
-                          <img src="../statics/pro/pro_med.png" style="width: 120px; height: 120px; position:relative; top:60px; left:75px; transform: rotate(231deg)">
+                          <img src="../statics/Promedios/pro_med.png" style="width: 120px; height: 120px; position:relative; top:60px; left:75px; transform: rotate(231deg)">
                         </div>
                         
                         <li class="active a" v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = true;">
@@ -236,7 +236,7 @@
                     <div class="uix-tabs__nav">
                       <ul :style="style">
                         <div>
-                          <img src="../statics/pro/pro_med.png" style="width: 45%; height: 120px; position:relative; top:60px; left:75px; transform: rotate(231deg)">
+                          <img src="../statics/Promedios/pro_med.png" style="width: 45%; height: 120px; position:relative; top:60px; left:75px; transform: rotate(231deg)">
                         </div>
                         <li class="active a" v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = true;">
                           <a href="javascript:void(0);" :style=" color9 == true ? 'background-color: #2bfdb1;' : 'background-color: #2b3035;' ">C</a>
@@ -472,7 +472,7 @@
                       <div class="uix-tabs__nav">
                         <ul :style="style">
                           <div>
-                            <img src="../statics/pro/pro_med.png" style="width: 120px; height: 120px; position:relative; top:60px; left:75px; transform: rotate(231deg)">
+                            <img src="../statics/Promedios/pro_med.png" style="width: 120px; height: 120px; position:relative; top:60px; left:75px; transform: rotate(231deg)">
                           </div>
                           <li class="active a" v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = true;">
                             <a href="javascript:void(0);" :style=" color9 == true ? 'background-color: #2bfdb1;' : 'background-color: #2b3035;' ">C</a>
