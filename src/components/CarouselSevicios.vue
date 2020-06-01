@@ -8,52 +8,57 @@
           <div class="container uix-t-c">
             <div class="row justify-between">
               <div class="col-12">
-                <div class="uix-tabs uix-tabs--rotation" data-rotation="true" data-rotation-display="9" data-rotation-radius="130" data-rotation-wrapper-angle="130">
+                <div class="uix-tabs uix-tabs--rotation" data-rotation="true" data-rotation-display="10" data-rotation-radius="130" data-rotation-wrapper-angle="130">
                   <div class="row">
                     <div class="col-5 q-mt-md q-mb-md">
                     <div class="uix-tabs__nav">
                       <ul>
                         <div>
-                          <img src="../statics/Promedios/pro_med.png" style="width: 120px; height: 120px; position:relative; top:60px; left:75px; transform: rotate(231deg)">
+                          <img src="../statics/Promedios/pro_med.png" style="width: 120px; height: 120px; position:relative; top:50px; left:70px; transform: rotate(231deg)">
                         </div>
                         
-                        <li class="active a" v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = true;">
+                        <li class="active a" v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color10 = false; ">
                           <a href="javascript:void(0);" :style=" color9 == true ? 'background-color: #2bfdb1;' : 'background-color: #2b3035;' ">C</a>
                         </li>
 
-                        <li v-on:click="color1 = true; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;">
+                        <li v-on:click="color1 = true; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false; color10=false;">
                           <a href="javascript:void(0);" :style=" color1 == true ? 'background-color: #429dff;' : 'background-color: #2b3035;' ">A-W</a>
                         </li>
 
-                        <li v-on:click="color1 = false; color2 = true; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;" >
+                        <li v-on:click="color1 = false; color2 = true; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false; color10=false;" >
                           <a href="javascript:void(0); text-whtie" :style=" color2 == true ? 'background-color: #ff4343;' : 'background-color: #2b3035;' ">E-C</a>
                         </li>
 
-                        <li v-on:click="color1 = false; color2 = false; color3 = true; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;">
+                        <li v-on:click="color1 = false; color2 = false; color3 = true; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false; color10=false;">
                           <a href="javascript:void(0); text-whtie" :style=" color3 == true ? 'background-color: #48ffe0;' : 'background-color: #2b3035;' ">S</a>
                         </li>
 
-                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = true; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;">
+                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = true; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false; color10=false;">
                           <a href="javascript:void(0); text-whtie" :style=" color4 == true ? 'background-color: #be43ff;' : 'background-color: #2b3035;' ">A</a>
                         </li>
 
-                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = true; color6 = false; color7 = false; color8 = false; color9 = false;">
+                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = true; color6 = false; color7 = false; color8 = false; color9 = false; color10=false;">
                           <a href="javascript:void(0); text-whtie" :style=" color5 == true ? 'background-color: #ff45fb;' : 'background-color: #2b3035;' ">S</a>
                         </li>
 
-                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = true; color7 = false; color8 = false; color9 = false;">
+                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = true; color7 = false; color8 = false; color9 = false; color10=false;">
                           <a href="javascript:void(0); text-whtie" :style=" color6 == true ? 'background-color: #ffad4a;' : 'background-color: #2b3035;' ">M-D</a>
                         </li>
 
-                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = true; color8 = false; color9 = false;">
+                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = true; color8 = false; color9 = false; color10=false;">
                           <a href="javascript:void(0); text-whtie" :style=" color7 == true ? 'background-color: #f0c54f;' : 'background-color: #2b3035;' ">B</a>
                         </li>
 
-                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = true; color9 = false;">
+                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = true; color9 = false; color10=false;">
                           <a href="javascript:void(0); text-whtie" :style=" color8 == true ? 'background-color: #45ff45;' : 'background-color: #2b3035;' ">3-D</a>
                         </li>
+
+                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false; color10=true;">
+                          <a href="javascript:void(0); text-whtie" :style=" color10 == true ? 'background-color: #45ff45;' : 'background-color: #2b3035;' ">D-S</a>
+                        </li>
+
                       </ul>
-                    </div><!-- /.uix-tabs__nav -->
+                    </div>
                   </div>
                   <div class="col-6">
                     <div class="uix-tabs__content active">
@@ -193,6 +198,18 @@
                       </div>    
                      <div class="uix-tabs__content">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #45ff45;">3D</span>
+                        <p class="texto3 q-mt-md">
+                          Llegar una a impacto publicitario mas alto es la mejor opción
+                        </p>
+                        <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                        <div class="texto3 row text-justify q-gutter-sm">
+                          <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Modelado" class="col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Render" class="col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Animación" class="col-3" size="md" no-caps />
+                        </div>
+                      </div>
+                      <div class="uix-tabs__content">
+                        <span class="texto1 text-h4 text-weight-bold" style="color: #45ff45;">D-S</span>
                         <p class="texto3 q-mt-md">
                           Llegar una a impacto publicitario mas alto es la mejor opción
                         </p>

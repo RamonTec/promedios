@@ -173,11 +173,11 @@ section {
 					min-width: inherit; /* Required */
 
 					> a {
-						font-size:2em;
+						font-size:1.8em;
 						color: #7e8083;
-						width: 80px;
-						height: 80px;
-						line-height: 60px;
+						width: 70px;
+						height: 70px;
+						line-height: 50px;
             text-decoration: none;
 						background: #2b3035;
 						border: 2px solid #7e8083;
