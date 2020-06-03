@@ -198,6 +198,9 @@
 <script>
 import { Carousel, Slide } from 'vue-carousel';
 export default {
+  link: {
+    material: { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' }
+  },
   name: 'MainLayout',
     components: {
     Carousel,
