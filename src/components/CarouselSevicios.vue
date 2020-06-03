@@ -1158,11 +1158,17 @@ export default {
       } else if(this.$q.screen.width === 419){
         value = 'margin-left:auto;'
       } else if(this.$q.screen.width === 424){
-        value = 'margin-left:auto;'
+        value = 'margin-left:-10%;'
+      } else if(this.$q.screen.width === 420){
+        value = 'margin-left:-10%;'
       } else if(this.$q.screen.width === 320){
         value = 'margin-left:-38%;'
       } else if(this.$q.screen.width === 375){
         value = 'margin-left:-30%;'
+      } else if(this.$q.screen.width === 416){
+        value = 'margin-left:-10%;'
+      } else if(this.$q.screen.width === 408){
+        value = 'margin-left:-10%;'
       } else if(this.$q.screen.width === 414){
         value = 'margin-left:-25%;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 431){
@@ -1213,6 +1219,8 @@ export default {
         value = 'margin-left:-28%;'
       } else if(this.$q.screen.xs && this.$q.screen.width === 589){
         value = 'margin-left:28%;'
+      } else if(this.$q.screen.xs && this.$q.screen.width === 398){
+        value = 'margin-left:-13%;'
       }
       return value
     },

@@ -101,7 +101,7 @@ $primary-text-color2: #474747;
       <div class="col-md-8">
         <div>
           <div class="xs-hide sm-hide row">
-            <div class="col-md-12 bg-none q-mt-xl">
+            <div class="col-md-12 bg-none q-mt-md">
               <q-card-section>
                 <q-toolbar-title class="texto1 q-ml-md text-h2"
                 :style=" 
@@ -423,7 +423,7 @@ WeWork</span>
       <div class="xs-hide sm-hide col-md-3 q-mt-md q-mb-xl" 
       :style=" 
       this.$q.screen.width == 1024 ? 
-      'margin-top:150px; width: 320px; margin-left:18 px;' : 'margin-top:180px; width: 32%; margin-left:18 px;' "
+      'margin-top:150px; width: 320px; margin-left:18 px;' : 'margin-top:130px; width: 32%; margin-left:18 px;' "
       >
         <q-card flat bordered class="col-xs-11 col-sm-4 bg-white" style="border-radius:15px;">
           <div class="col-xs-10 col-sm-10">

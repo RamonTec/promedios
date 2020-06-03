@@ -508,16 +508,34 @@ export default {
           1002: {
             itemsToShow: 2.9
           },
+          986: {
+            itemsToShow: 2.9
+          },
           993: {
             itemsToShow: 2.8
           },
           992: {
             itemsToShow: 2.8
           },
+          970: {
+            itemsToShow: 2.9
+          },
+          962: {
+            itemsToShow: 2.9
+          },
           959: {
-            itemsToShow: 2.7
+            itemsToShow: 2.8
+          },
+          950: {
+            itemsToShow: 2.8
           },
           942: {
+            itemsToShow: 2.8
+          },
+          934: {
+            itemsToShow: 2.8
+          },
+          918: {
             itemsToShow: 2.7
           },
           882: {
@@ -526,7 +544,19 @@ export default {
           878: {
             itemsToShow: 2.5
           },
+          862: {
+            itemsToShow: 2.6
+          },
+          858: {
+            itemsToShow: 2.5
+          },
+          838: {
+            itemsToShow: 2.5
+          },
           834: {
+            itemsToShow: 2.4
+          },
+          830: {
             itemsToShow: 2.4
           },
           803: {
@@ -559,6 +589,9 @@ export default {
           689: {
             itemsToShow: 2.1
           },
+          688: {
+            itemsToShow: 2.0
+          },
           668: {
               itemsToShow: 1.9
           },
@@ -590,13 +623,16 @@ export default {
             itemsToShow: 1.5
           },
           492: {
-              itemsToShow: 1.5
+              itemsToShow: 1.4
           },
           452: {
-            itemsToShow: 1.4
+            itemsToShow: 1.3
+          },
+          430: {
+              itemsToShow: 1.2
           },
           420: {
-              itemsToShow: 1.3
+              itemsToShow: 1.2
           },
           411: {
               itemsToShow: 1.2
