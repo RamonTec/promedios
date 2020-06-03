@@ -71,9 +71,13 @@ section {
 	.uix-tabs__content {
 		display: none;
 		text-align: left;
+    padding: none;
+    margin: none;
 
 		&.active {
 			display: block;
+      padding: none;
+      margin: none
 		}
 	}
 

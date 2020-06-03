@@ -4,6 +4,7 @@
   background-position: bottom right;
   background-repeat: no-repeat;
   background-color: #2b3035;
+  background-size :250px;
 }
 
 .ser_two{
@@ -11,6 +12,8 @@
   background-position: bottom right;
   background-repeat: no-repeat;
   background-color: #2b3035;
+  background-size :250px;
+  heigth: 250px
 }
 
 .ser_tree{
@@ -18,6 +21,8 @@
   background-position: bottom right;
   background-repeat: no-repeat;
   background-color: #2b3035;
+  background-size :250px;
+  heigth: 250px
 }
 
 .ser_four{
@@ -25,6 +30,8 @@
   background-position: bottom right;
   background-repeat: no-repeat;
   background-color: #2b3035;
+  background-size :250px;
+  heigth: 250px
 }
 
 .ser_five{
@@ -32,6 +39,8 @@
   background-position: bottom right;
   background-repeat: no-repeat;
   background-color: #2b3035;
+  background-size :250px;
+  heigth: 250px
 }
 
 .ser_six{
@@ -39,20 +48,26 @@
   background-position: bottom right;
   background-repeat: no-repeat;
   background-color: #2b3035;
+  background-size :250px;
+  heigth: 250px
 }
 
 .ser_seven{
   background-image: url("../statics/Promedios/ser_7.svg");
-  background-position: 97% 20px;
+  background-position: bottom right;
   background-repeat: no-repeat;
   background-color: #2b3035;
+  background-size :200px;
+  heigth: 200px
 }
 
 .ser_ocho{
   background-image: url("../statics/Promedios/ser_8.svg");
-  background-position: 97% 20px;
+  background-position: bottom right;
   background-repeat: no-repeat;
   background-color: #2b3035;
+  background-size :200px;
+  heigth: 250px
 }
 
 .ser_nive{
@@ -60,14 +75,17 @@
   background-position: bottom right;
   background-repeat: no-repeat;
   background-color: #2b3035;
+  background-size :250px;
+  heigth: 250px
 }
 
 
 .ser_ten{
   background-image: url("../statics/Promedios/ser_10.svg");
-  background-position: 97% 10%;
+  background-position: bottom right;
   background-repeat: no-repeat;
   background-color: #2b3035;
+  background-size :200px;
 }
 
 </style>
@@ -75,12 +93,12 @@
 <template>
   <div>
     <div class="xs-hide sm-hide row q-mt-xl" style="margin-botton:-100px;">
-      <div class="col-11" style="background: #2b3035; border-radius: 0 25px 25px 0; heigth: 120px">
+      <div class="col-11" style="background: #2b3035; border-radius: 0 25px 25px 0;">
         <section class="uix-spacing--m">
           <div class="container uix-t-c">
             <div class="row justify-between">
               <div class="col-12">
-                <div class="uix-tabs uix-tabs--rotation" data-rotation="true" data-rotation-display="10" data-rotation-radius="130" data-rotation-wrapper-angle="130">
+                <div class="uix-tabs uix-tabs--rotation":class="servicios" data-rotation="true" data-rotation-display="10" data-rotation-radius="130" data-rotation-wrapper-angle="130">
                   <div class="row">
                     <div class="col-5 q-mt-md q-mb-md">
                     <div class="uix-tabs__nav">
@@ -132,8 +150,8 @@
                       </ul>
                     </div>
                   </div>
-                  <div class="col-6">
-                    <div class="ser_one uix-tabs__content active">
+                  <div class="col-6 q-pa-none">
+                    <div class="uix-tabs__content active">
                       <span class="texto1 text-h4 text-weight-bold" style="color: #2bfdb1;">Consultoria</span>
                       <p class="texto3 q-mt-md">
                         El mundo hoy esta en un inminente cambio, por eso, es necesario
@@ -145,17 +163,17 @@
                       </p>
                       <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
                       <div class="texto3 row text-justify q-gutter-sm">
-                        <q-btn outline style="color: #fdfdfd; width:30%; border-radius: 10px;" label="Transformación Digital" class="col-3" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd; width:30%; border-radius: 10px;" label="Digitalización de Procesos" class="col-4" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd; width:30%; border-radius: 10px;" label="Automatización de Procesos" class="col-4" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; width:30%; border-radius: 10px; z-index:2;" label="Transformación Digital" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; width:30%; border-radius: 10px; z-index:2;" label="Digitalización de Procesos" class="col-4" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; width:30%; border-radius: 10px; z-index:2;" label="Automatización de Procesos" class="col-4" size="md" no-caps />
                       </div>
                       <div class="texto3 row text-justify q-gutter-sm q-mt-xs">
-                        <q-btn outline style="color: #fdfdfd; width:30%; border-radius: 10px;" label="Optimización de Procesos" class="col-sm-3 col-md-1" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd; width:30%; border-radius: 10px;" label="Canales de Comunicación" class="col-sm-3 col-md-1" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd; width:30%; border-radius: 10px;" label="Asesoria Especializada" class="col-sm-3 col-md-1" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; width:30%; border-radius: 10px; z-index:2;" label="Optimización de Procesos" class="col-sm-3 col-md-1" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; width:30%; border-radius: 10px; z-index:2;" label="Canales de Comunicación" class="col-sm-3 col-md-1" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; width:30%; border-radius: 10px; z-index:2;" label="Asesoria Especializada" class="col-sm-3 col-md-1" size="md" no-caps />
                       </div>
                     </div>
-                    <div class="ser_two uix-tabs__content">
+                    <div class="uix-tabs__content">
                       <span class="text-h4 text-weight-bold" style="color: #429dff;">Api Whatsapp</span>
                       <p class="texto3 q-mt-md">
                         Whatsapp hoy en día es el medio de comunicación numero uno en el mundo,
@@ -172,7 +190,7 @@
                         <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Venta Simplificada" class="col-3" size="md" no-caps />
                       </div>
                     </div>
-                    <div class="ser_four uix-tabs__content">
+                    <div class="uix-tabs__content">
                       <span class="texto1 text-h4 text-weight-bold" style="color: #ff4343;">E-Commerce</span>
                       <p class="texto3 q-mt-md">
                         El cambio que vive el mundo el día de hoy esta impulsando el comercio
@@ -187,7 +205,7 @@
                         <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Ventas por Conversiones" class="col-3" size="md" no-caps />
                       </div>
                     </div> 
-                    <div class="ser_five uix-tabs__content">
+                    <div class="uix-tabs__content">
                       <span class="texto1 text-h4 text-weight-bold" style="color: #48ffe0;">Sistemas</span>
                       <p class="texto3 q-mt-md">
                         Los sistemas hoy en día son la fuente de la transformación digital, quienes
@@ -208,7 +226,7 @@
                         <q-btn outline style="color: #fdfdfd; max-width:30%; width:33%; border-radius: 10px;" label="Flujo de Información" class="col-3" size="md" no-caps />
                       </div>
                     </div>
-                    <div class="ser_six uix-tabs__content">
+                    <div class="uix-tabs__content">
                       <span class="texto1 text-h4 text-weight-bold" style="color: #be43ff;">Apps</span>
                       <p class="texto3 text-body1 q-mt-md">
                         Las Aplicaciones móviles juegan un papel importante en nuestras vidas, hoy
@@ -225,7 +243,7 @@
                         <q-btn outline style="color: #fdfdfd; max-width:30%; width:33%; border-radius: 10px;" label="Nativas" class="col-3" size="md" no-caps />
                       </div>
                     </div>   
-                    <div class="ser_seven uix-tabs__content">
+                    <div class="uix-tabs__content">
                       <span class="texto1 text-h4 text-weight-bold" style="color: #ff45fb;">Servidores</span>
                       <p class="texto3 q-mt-md">
                         Todo proyecto digital necesita un lugar en donde vivir 
@@ -241,7 +259,7 @@
                         <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Hosting" class="col-3 q-mt-md" size="md" no-caps />
                       </div>
                     </div>   
-                    <div class="ser_ocho uix-tabs__content">
+                    <div class="uix-tabs__content">
                       <span class="texto1 text-h4 text-weight-bold" style="color: #ffad4a;">Marketing Digital</span>
                       <p class="texto3 q-mt-md">
                         Las campañas de marketing digital juegan un papel importante en la
@@ -255,19 +273,19 @@
                         <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="GoogleAdd" class="col-3" size="md" no-caps />
                       </div>
                     </div>   
-                      <div class="ser_nive uix-tabs__content">
-                        <span class="texto1 text-h4 text-weight-bold" style="color: #f0c54f;">Branding</span>
-                        <p class="texto3 q-mt-md">
-                          La forma como el mundo te ve y te percibe es decisivo
-                        </p>
-                        <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
-                        <div class="texto3 row text-justify q-gutter-sm">
-                          <q-btn outline style="color: #fdfdfd; max-width:30%; width:33%; border-radius: 10px;" label="Diseño Publicitario" class="col-3" size="md" no-caps />
-                          <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Construcción de Marca" class="col-3" size="md" no-caps />
-                          <q-btn outline style="color: #fdfdfd; max-width:30%; width:33%; border-radius: 10px;" label="Portafolio Grafico" class="col-3" size="md" no-caps />
-                        </div>
-                      </div>    
-                     <div class="ser_ten uix-tabs__content">
+                    <div class="uix-tabs__content">
+                      <span class="texto1 text-h4 text-weight-bold" style="color: #f0c54f;">Branding</span>
+                      <p class="texto3 q-mt-md">
+                        La forma como el mundo te ve y te percibe es decisivo
+                      </p>
+                      <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                      <div class="texto3 row text-justify q-gutter-sm">
+                        <q-btn outline style="color: #fdfdfd; max-width:30%; width:33%; border-radius: 10px;" label="Diseño Publicitario" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Construcción de Marca" class="col-3" size="md" no-caps />
+                        <q-btn outline style="color: #fdfdfd; max-width:30%; width:33%; border-radius: 10px;" label="Portafolio Grafico" class="col-3" size="md" no-caps />
+                      </div>
+                    </div>    
+                     <div class="uix-tabs__content">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #45ff45;">3D</span>
                         <p class="texto3 q-mt-md">
                           Llegar una a impacto publicitario mas alto es la mejor opción
@@ -279,7 +297,7 @@
                           <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Animación" class="col-3" size="md" no-caps />
                         </div>
                       </div>
-                      <div class="ser_tree uix-tabs__content">
+                      <div class="uix-tabs__content">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #ff7f00;">Drop Shipping</span>
                         <p class="texto3 q-mt-md">
                           El dropshipping se consiste de la venta de productos en línea que aún no se
@@ -380,7 +398,7 @@
                   </div>
                   <div class="col-xs-12 col-sm-12">                   
 
-                    <div class="q-mt-xl uix-tabs__content active">
+                    <div class="q-mt-xl uix-tabs__content active" >
                       <q-card-section class="ser_one row q-mx-sm">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #2bfdb1;">Consultoria</span>
                           <p class="texto3 q-mt-md text-justify" style="font-size:17px;">
@@ -1275,6 +1293,31 @@ export default {
          style = 'left:30px'
       }
       return style
+    },
+    servicios(){
+      let value
+      if(this.color9){
+        value = 'ser_one'
+      }else if(this.color1){
+        value = 'ser_two'
+      }else if(this.color2){
+        value = 'ser_four'
+      }else if(this.color3){
+        value = 'ser_five'
+      }else if(this.color4){
+        value = 'ser_six'
+      }else if(this.color5){
+        value = 'ser_seven'
+      }else if(this.color6){
+        value = 'ser_ocho'
+      }else if(this.color7){
+        value = 'ser_nive'
+      }else if(this.color8){
+        value = 'ser_ten'
+      }else if(this.color10){
+        value = 'ser_tree '
+      }
+      return value
     }
   }
 }
