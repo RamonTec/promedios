@@ -1,9 +1,81 @@
+<style lang="stylus">
+.ser_one{
+  background-image: url("../statics/Promedios/ser_1.svg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-color: #2b3035;
+}
+
+.ser_two{
+  background-image: url("../statics/Promedios/ser_2.svg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-color: #2b3035;
+}
+
+.ser_tree{
+  background-image: url("../statics/Promedios/ser_3.svg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-color: #2b3035;
+}
+
+.ser_four{
+  background-image: url("../statics/Promedios/ser_4.svg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-color: #2b3035;
+}
+
+.ser_five{
+  background-image: url("../statics/Promedios/ser_5.svg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-color: #2b3035;
+}
+
+.ser_six{
+  background-image: url("../statics/Promedios/ser_6.svg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-color: #2b3035;
+}
+
+.ser_seven{
+  background-image: url("../statics/Promedios/ser_7.svg");
+  background-position: 97% 20px;
+  background-repeat: no-repeat;
+  background-color: #2b3035;
+}
+
+.ser_ocho{
+  background-image: url("../statics/Promedios/ser_8.svg");
+  background-position: 97% 20px;
+  background-repeat: no-repeat;
+  background-color: #2b3035;
+}
+
+.ser_nive{
+  background-image: url("../statics/Promedios/ser_9.svg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-color: #2b3035;
+}
+
+
+.ser_ten{
+  background-image: url("../statics/Promedios/ser_10.svg");
+  background-position: 97% 10%;
+  background-repeat: no-repeat;
+  background-color: #2b3035;
+}
+
+</style>
+
 <template>
   <div>
     <div class="xs-hide sm-hide row q-mt-xl" style="margin-botton:-100px;">
       <div class="col-11" style="background: #2b3035; border-radius: 0 25px 25px 0; heigth: 120px">
-       <!-- Content 02
-        ====================================================== -->
         <section class="uix-spacing--m">
           <div class="container uix-t-c">
             <div class="row justify-between">
@@ -17,7 +89,7 @@
                           <img src="../statics/Promedios/pro_med.png" style="width: 120px; height: 120px; position:relative; top:50px; left:70px; transform: rotate(231deg)">
                         </div>
                         
-                        <li class="active a" v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color10 = false; ">
+                        <li class="active a" v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color10 = false; color9 = true;">
                           <a href="javascript:void(0);" :style=" color9 == true ? 'background-color: #2bfdb1;' : 'background-color: #2b3035;' ">C</a>
                         </li>
 
@@ -54,14 +126,14 @@
                         </li>
 
                         <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false; color10=true;">
-                          <a href="javascript:void(0); text-whtie" :style=" color10 == true ? 'background-color: #45ff45;' : 'background-color: #2b3035;' ">D-S</a>
+                          <a href="javascript:void(0); text-whtie" :style=" color10 == true ? 'background-color: #ff7f00;;' : 'background-color: #2b3035;' ">D-S</a>
                         </li>
 
                       </ul>
                     </div>
                   </div>
                   <div class="col-6">
-                    <div class="uix-tabs__content active">
+                    <div class="ser_one uix-tabs__content active">
                       <span class="texto1 text-h4 text-weight-bold" style="color: #2bfdb1;">Consultoria</span>
                       <p class="texto3 q-mt-md">
                         El mundo hoy esta en un inminente cambio, por eso, es necesario
@@ -83,7 +155,7 @@
                         <q-btn outline style="color: #fdfdfd; width:30%; border-radius: 10px;" label="Asesoria Especializada" class="col-sm-3 col-md-1" size="md" no-caps />
                       </div>
                     </div>
-                    <div class="uix-tabs__content">
+                    <div class="ser_two uix-tabs__content">
                       <span class="text-h4 text-weight-bold" style="color: #429dff;">Api Whatsapp</span>
                       <p class="texto3 q-mt-md">
                         Whatsapp hoy en día es el medio de comunicación numero uno en el mundo,
@@ -100,7 +172,7 @@
                         <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Venta Simplificada" class="col-3" size="md" no-caps />
                       </div>
                     </div>
-                    <div class="uix-tabs__content">
+                    <div class="ser_four uix-tabs__content">
                       <span class="texto1 text-h4 text-weight-bold" style="color: #ff4343;">E-Commerce</span>
                       <p class="texto3 q-mt-md">
                         El cambio que vive el mundo el día de hoy esta impulsando el comercio
@@ -115,7 +187,7 @@
                         <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Ventas por Conversiones" class="col-3" size="md" no-caps />
                       </div>
                     </div> 
-                    <div class="uix-tabs__content">
+                    <div class="ser_five uix-tabs__content">
                       <span class="texto1 text-h4 text-weight-bold" style="color: #48ffe0;">Sistemas</span>
                       <p class="texto3 q-mt-md">
                         Los sistemas hoy en día son la fuente de la transformación digital, quienes
@@ -136,7 +208,7 @@
                         <q-btn outline style="color: #fdfdfd; max-width:30%; width:33%; border-radius: 10px;" label="Flujo de Información" class="col-3" size="md" no-caps />
                       </div>
                     </div>
-                    <div class="uix-tabs__content">
+                    <div class="ser_six uix-tabs__content">
                       <span class="texto1 text-h4 text-weight-bold" style="color: #be43ff;">Apps</span>
                       <p class="texto3 text-body1 q-mt-md">
                         Las Aplicaciones móviles juegan un papel importante en nuestras vidas, hoy
@@ -153,7 +225,7 @@
                         <q-btn outline style="color: #fdfdfd; max-width:30%; width:33%; border-radius: 10px;" label="Nativas" class="col-3" size="md" no-caps />
                       </div>
                     </div>   
-                    <div class="uix-tabs__content">
+                    <div class="ser_seven uix-tabs__content">
                       <span class="texto1 text-h4 text-weight-bold" style="color: #ff45fb;">Servidores</span>
                       <p class="texto3 q-mt-md">
                         Todo proyecto digital necesita un lugar en donde vivir 
@@ -167,10 +239,9 @@
                       <div class="texto3 row text-justify q-gutter-sm">
                         <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Dedicados" class="col-3 q-mt-md" size="md" no-caps />
                         <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Hosting" class="col-3 q-mt-md" size="md" no-caps />
-                        <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Hosting" class="col-3 q-mt-md" size="md" no-caps />
                       </div>
                     </div>   
-                    <div class="uix-tabs__content">
+                    <div class="ser_ocho uix-tabs__content">
                       <span class="texto1 text-h4 text-weight-bold" style="color: #ffad4a;">Marketing Digital</span>
                       <p class="texto3 q-mt-md">
                         Las campañas de marketing digital juegan un papel importante en la
@@ -184,7 +255,7 @@
                         <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="GoogleAdd" class="col-3" size="md" no-caps />
                       </div>
                     </div>   
-                      <div class="uix-tabs__content">
+                      <div class="ser_nive uix-tabs__content">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #f0c54f;">Branding</span>
                         <p class="texto3 q-mt-md">
                           La forma como el mundo te ve y te percibe es decisivo
@@ -196,7 +267,7 @@
                           <q-btn outline style="color: #fdfdfd; max-width:30%; width:33%; border-radius: 10px;" label="Portafolio Grafico" class="col-3" size="md" no-caps />
                         </div>
                       </div>    
-                     <div class="uix-tabs__content">
+                     <div class="ser_ten uix-tabs__content">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #45ff45;">3D</span>
                         <p class="texto3 q-mt-md">
                           Llegar una a impacto publicitario mas alto es la mejor opción
@@ -208,16 +279,23 @@
                           <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Animación" class="col-3" size="md" no-caps />
                         </div>
                       </div>
-                      <div class="uix-tabs__content">
-                        <span class="texto1 text-h4 text-weight-bold" style="color: #45ff45;">D-S</span>
+                      <div class="ser_tree uix-tabs__content">
+                        <span class="texto1 text-h4 text-weight-bold" style="color: #ff7f00;">Drop Shipping</span>
                         <p class="texto3 q-mt-md">
-                          Llegar una a impacto publicitario mas alto es la mejor opción
+                          El dropshipping se consiste de la venta de productos en línea que aún no se
+                          poseen en físico o inventario. En este modelo, cuando la tienda dropshipping
+                          logra la venta, el fabricante o distribuidor es quien se encarga de realizar el
                         </p>
-                        <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                        <span class="texto1 text-h6 text-grey-8 q-mb-md">Caracteristicas</span>
                         <div class="texto3 row text-justify q-gutter-sm">
-                          <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Modelado" class="col-3" size="md" no-caps />
-                          <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Render" class="col-3" size="md" no-caps />
-                          <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Animación" class="col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Triangulación E-Commerce" class="col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Venta sin inventario" class="col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Inversión mínima" class="col-3" size="md" no-caps />
+                        </div>
+                        <div class="texto3 row text-justify q-gutter-sm">
+                          <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Portafolio Amplio" class="col-3 q-mt-md" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Comercialización Internacional" class="col-3 q-mt-md" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; max-width:30%; width:30%; border-radius: 10px;" label="Integración a procesos" class="col-3 q-mt-md" size="md" no-caps />
                         </div>
                       </div>
                     </div>
@@ -245,7 +323,7 @@
               <div class="col-sm-12">
                 <div class="uix-tabs uix-tabs--rotation" 
                 data-rotation="true" 
-                data-rotation-display="9" 
+                data-rotation-display="10" 
                 data-rotation-radius="130" 
                 data-rotation-wrapper-angle="130">
                   <div class="row justify-center">
@@ -253,43 +331,50 @@
                     <div class="uix-tabs__nav">
                       <ul :style="style">
                         <div>
-                          <img src="../statics/Promedios/pro_med.png" style="width: 45%; height: 120px; position:relative; top:60px; left:75px; transform: rotate(231deg)">
+                          <img src="../statics/Promedios/pro_med.png" style="width: 120px; height: 120px; position:relative; top:54px; left:65px; transform: rotate(231deg)">
                         </div>
-                        <li class="active a" v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = true;">
-                          <a href="javascript:void(0);" :style=" color9 == true ? 'background-color: #2bfdb1;' : 'background-color: #2b3035;' ">C</a>
-                        </li>
 
-                        <li v-on:click="color1 = true; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;">
-                          <a href="javascript:void(0);" :style=" color1 == true ? 'background-color: #429dff;' : 'background-color: #2b3035;' ">A-W</a>
-                        </li>
+                        <li class="active a" v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color10 = false; color9 = true;">
+                            <a href="javascript:void(0);" :style=" color9 == true ? 'background-color: #2bfdb1;' : 'background-color: #2b3035;' ">C</a>
+                          </li>
 
-                        <li v-on:click="color1 = false; color2 = true; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;" >
-                          <a href="javascript:void(0); text-whtie" :style=" color2 == true ? 'background-color: #ff4343;' : 'background-color: #2b3035;' ">E-C</a>
-                        </li>
+                          <li v-on:click="color1 = true; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false; color10=false;">
+                            <a href="javascript:void(0);" :style=" color1 == true ? 'background-color: #429dff;' : 'background-color: #2b3035;' ">A-W</a>
+                          </li>
 
-                        <li v-on:click="color1 = false; color2 = false; color3 = true; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;">
-                          <a href="javascript:void(0); text-whtie" :style=" color3 == true ? 'background-color: #48ffe0;' : 'background-color: #2b3035;' ">S</a>
-                        </li>
+                          <li v-on:click="color1 = false; color2 = true; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false; color10=false;" >
+                            <a href="javascript:void(0); text-whtie" :style=" color2 == true ? 'background-color: #ff4343;' : 'background-color: #2b3035;' ">E-C</a>
+                          </li>
 
-                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = true; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;">
-                          <a href="javascript:void(0); text-whtie" :style=" color4 == true ? 'background-color: #be43ff;' : 'background-color: #2b3035;' ">A</a>
-                        </li>
+                          <li v-on:click="color1 = false; color2 = false; color3 = true; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false; color10=false;">
+                            <a href="javascript:void(0); text-whtie" :style=" color3 == true ? 'background-color: #48ffe0;' : 'background-color: #2b3035;' ">S</a>
+                          </li>
 
-                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = true; color6 = false; color7 = false; color8 = false; color9 = false;">
-                          <a href="javascript:void(0); text-whtie" :style=" color5 == true ? 'background-color: #ff45fb;' : 'background-color: #2b3035;' ">S</a>
-                        </li>
+                          <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = true; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false; color10=false;">
+                            <a href="javascript:void(0); text-whtie" :style=" color4 == true ? 'background-color: #be43ff;' : 'background-color: #2b3035;' ">A</a>
+                          </li>
 
-                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = true; color7 = false; color8 = false; color9 = false;">
-                          <a href="javascript:void(0); text-whtie" :style=" color6 == true ? 'background-color: #ffad4a;' : 'background-color: #2b3035;' ">M-D</a>
-                        </li>
+                          <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = true; color6 = false; color7 = false; color8 = false; color9 = false; color10=false;">
+                            <a href="javascript:void(0); text-whtie" :style=" color5 == true ? 'background-color: #ff45fb;' : 'background-color: #2b3035;' ">S</a>
+                          </li>
 
-                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = true; color8 = false; color9 = false;">
-                          <a href="javascript:void(0); text-whtie" :style=" color7 == true ? 'background-color: #f0c54f;' : 'background-color: #2b3035;' ">B</a>
-                        </li>
+                          <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = true; color7 = false; color8 = false; color9 = false; color10=false;">
+                            <a href="javascript:void(0); text-whtie" :style=" color6 == true ? 'background-color: #ffad4a;' : 'background-color: #2b3035;' ">M-D</a>
+                          </li>
 
-                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = true; color9 = false;">
-                          <a href="javascript:void(0); text-whtie" :style=" color8 == true ? 'background-color: #45ff45;' : 'background-color: #2b3035;' ">3-D</a>
-                        </li>
+                          <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = true; color8 = false; color9 = false; color10=false;">
+                            <a href="javascript:void(0); text-whtie" :style=" color7 == true ? 'background-color: #f0c54f;' : 'background-color: #2b3035;' ">B</a>
+                          </li>
+
+                          <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = true; color9 = false; color10=false;">
+                            <a href="javascript:void(0); text-whtie" :style=" color8 == true ? 'background-color: #45ff45;' : 'background-color: #2b3035;' ">3-D</a>
+                          </li>
+
+                          <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false; color10=true;">
+                            <a href="javascript:void(0); text-whtie" :style=" color10 == true ? 'background-color: #ff7f00;;' : 'background-color: #2b3035;' ">D-S</a>
+                          </li>
+                        
+
                       </ul>
                     </div><!-- /.uix-tabs__nav -->
                   </div>
@@ -456,6 +541,25 @@
                           <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Animación" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                         </div>
                       </div>  
+                      <div class="q-mt-xl uix-tabs__content">
+                        <q-card-section class=" row q-mx-sm">
+                          <span class="texto1 text-h4 text-weight-bold" style="color: #ff7f00;">Drop Shipping</span>
+                          <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
+                            El dropshipping se consiste de la venta de productos en línea que aún no se
+                            poseen en físico o inventario. En este modelo, cuando la tienda dropshipping
+                            logra la venta, el fabricante o distribuidor es quien se encarga de realizar el 
+                          </p>
+                          <span class="texto1 text-h6 text-grey-8">Caracteristicas</span>
+                        </q-card-section>
+                        <div class="texto3 row justify-center">
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Triangulación E-Commerce" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Venta sin inventario" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Inversión mínima" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Portafolio Amplio" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Comercialización Internacional" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Integración a procesos" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        </div>
+                      </div>
                   </div>
                   </div>
                 </div>                  
@@ -481,7 +585,7 @@
               <div class="col-xs-12">
                 <div class="uix-tabs uix-tabs--rotation" 
                 data-rotation="true" 
-                data-rotation-display="9"
+                data-rotation-display="10"
                 data-rotation-radius="130" 
                 data-rotation-wrapper-angle="130">
                   <div class="row justify-center q-ml-xl">
@@ -489,43 +593,50 @@
                       <div class="uix-tabs__nav">
                         <ul :style="style">
                           <div>
-                            <img src="../statics/Promedios/pro_med.png" style="width: 120px; height: 120px; position:relative; top:60px; left:75px; transform: rotate(231deg)">
+                            <img src="../statics/Promedios/pro_med.png" style="width: 120px; height: 120px; position:relative; top:50px; left:70px; transform: rotate(231deg)">
                           </div>
-                          <li class="active a" v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = true;">
+
+                          <li class="active a" v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color10 = false; color9 = true;">
                             <a href="javascript:void(0);" :style=" color9 == true ? 'background-color: #2bfdb1;' : 'background-color: #2b3035;' ">C</a>
                           </li>
 
-                          <li v-on:click="color1 = true; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;">
+                          <li v-on:click="color1 = true; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false; color10=false;">
                             <a href="javascript:void(0);" :style=" color1 == true ? 'background-color: #429dff;' : 'background-color: #2b3035;' ">A-W</a>
                           </li>
 
-                          <li v-on:click="color1 = false; color2 = true; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;" >
+                          <li v-on:click="color1 = false; color2 = true; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false; color10=false;" >
                             <a href="javascript:void(0); text-whtie" :style=" color2 == true ? 'background-color: #ff4343;' : 'background-color: #2b3035;' ">E-C</a>
                           </li>
 
-                          <li v-on:click="color1 = false; color2 = false; color3 = true; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;">
+                          <li v-on:click="color1 = false; color2 = false; color3 = true; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false; color10=false;">
                             <a href="javascript:void(0); text-whtie" :style=" color3 == true ? 'background-color: #48ffe0;' : 'background-color: #2b3035;' ">S</a>
                           </li>
 
-                          <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = true; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;">
+                          <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = true; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false; color10=false;">
                             <a href="javascript:void(0); text-whtie" :style=" color4 == true ? 'background-color: #be43ff;' : 'background-color: #2b3035;' ">A</a>
                           </li>
 
-                          <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = true; color6 = false; color7 = false; color8 = false; color9 = false;">
+                          <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = true; color6 = false; color7 = false; color8 = false; color9 = false; color10=false;">
                             <a href="javascript:void(0); text-whtie" :style=" color5 == true ? 'background-color: #ff45fb;' : 'background-color: #2b3035;' ">S</a>
                           </li>
 
-                          <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = true; color7 = false; color8 = false; color9 = false;">
+                          <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = true; color7 = false; color8 = false; color9 = false; color10=false;">
                             <a href="javascript:void(0); text-whtie" :style=" color6 == true ? 'background-color: #ffad4a;' : 'background-color: #2b3035;' ">M-D</a>
                           </li>
 
-                          <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = true; color8 = false; color9 = false;">
+                          <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = true; color8 = false; color9 = false; color10=false;">
                             <a href="javascript:void(0); text-whtie" :style=" color7 == true ? 'background-color: #f0c54f;' : 'background-color: #2b3035;' ">B</a>
                           </li>
 
-                          <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = true; color9 = false;">
+                          <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = true; color9 = false; color10=false;">
                             <a href="javascript:void(0); text-whtie" :style=" color8 == true ? 'background-color: #45ff45;' : 'background-color: #2b3035;' ">3-D</a>
                           </li>
+
+                          <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false; color10=true;">
+                            <a href="javascript:void(0); text-whtie" :style=" color10 == true ? 'background-color: #ff7f00;;' : 'background-color: #2b3035;' ">D-S</a>
+                          </li>
+                          
+
                         </ul>
                       </div>
                     </div>
@@ -661,38 +772,57 @@
                           <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="GoogleAdd" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                         </div>
                       </div>   
-                        <div class="q-mt-xl uix-tabs__content">
-                          <q-card-section class=" row q-mx-sm">
-                            <span class="texto1 text-h4 text-weight-bold" style="color: #ffad4a;">Branding</span>
-                            <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
-                              La forma como el mundo te ve y te percibe es decisivo
-                            </p>
-                            <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
-                          </q-card-section>
-                          <div class="texto3 row justify-center">
-                            <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Diseño Publicitario" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                            <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Construcción de Marca" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                          </div>
-                          <div class="texto3 row justify-center">
-                            <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Portafolio Grafico" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                          </div>
-                        </div>    
                       <div class="q-mt-xl uix-tabs__content">
-                          <q-card-section class=" row q-mx-sm">
-                            <span class="texto1 text-h4 text-weight-bold" style="color: #45ff45;">3D</span>
-                            <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
-                              Llegar una a impacto publicitario mas alto es la mejor opción
-                            </p>
-                            <span class="texto1 text-h6 text-grey-8">Nuestras habilidades</span>
-                          </q-card-section>
-                          <div class="texto3 row justify-center">
-                            <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Modelado" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                            <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Render" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                          </div>
-                          <div class="texto3 row justify-center">
-                            <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Animación" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
-                          </div>
-                        </div>  
+                        <q-card-section class=" row q-mx-sm">
+                          <span class="texto1 text-h4 text-weight-bold" style="color: #ffad4a;">Branding</span>
+                          <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
+                            La forma como el mundo te ve y te percibe es decisivo
+                          </p>
+                          <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                        </q-card-section>
+                        <div class="texto3 row justify-center">
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Diseño Publicitario" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Construcción de Marca" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        </div>
+                        <div class="texto3 row justify-center">
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Portafolio Grafico" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        </div>
+                      </div>    
+                      <div class="q-mt-xl uix-tabs__content">
+                        <q-card-section class=" row q-mx-sm">
+                          <span class="texto1 text-h4 text-weight-bold" style="color: #45ff45;">3D</span>
+                          <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
+                            Llegar una a impacto publicitario mas alto es la mejor opción
+                          </p>
+                          <span class="texto1 text-h6 text-grey-8">Nuestras habilidades</span>
+                        </q-card-section>
+                        <div class="texto3 row justify-center">
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Modelado" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Render" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        </div>
+                        <div class="texto3 row justify-center">
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Animación" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        </div>
+                      </div>
+                      <div class="q-mt-xl uix-tabs__content">
+                        <q-card-section class=" row q-mx-sm">
+                          <span class="texto1 text-h4 text-weight-bold" style="color: #ff7f00;">Drop Shipping</span>
+                          <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
+                            El dropshipping se consiste de la venta de productos en línea que aún no se
+                            poseen en físico o inventario. En este modelo, cuando la tienda dropshipping
+                            logra la venta, el fabricante o distribuidor es quien se encarga de realizar el 
+                          </p>
+                          <span class="texto1 text-h6 text-grey-8">Caracteristicas</span>
+                        </q-card-section>
+                        <div class="texto3 row justify-center">
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Triangulación E-Commerce" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Venta sin inventario" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Inversión mínima" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Portafolio Amplio" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Comercialización Internacional" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Integración a procesos" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
+                        </div>
+                      </div> 
                     </div>
                   </div>
                 </div>                  
@@ -736,6 +866,7 @@ export default {
       color6: false,
       color7: false,
       color8: false,
+      color10: false,
       color9: true,
       text:"",
       hooperSettings: {
