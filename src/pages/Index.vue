@@ -80,16 +80,17 @@ section {
 	.uix-tabs__nav {
 		> ul {
 			padding: 0;
-			margin: 0;
+			margin: 20px;
 			> li {
-				position: relative;
-				display: block;
-				transition: 0.1s ease-in-out;
-				list-style: none;
+				//position: relative;
+				//display: block;
+        list-style: none;
+				/* transition: 0.1s ease-in-out;
+				
 				float: left;
 				//box-shadow: inset 1px 0px 0px 0px rgba(230, 230, 230, 1);
 				background: #f7f7f7;
-				min-width: 7.5rem;
+				min-width: 7.5rem; */
 
 				> a {
 					position: relative;
@@ -106,28 +107,6 @@ section {
 				content: "";
 				display: block;
 				clear: both;
-			}
-		}
-	}
-
-	&.uix-tabs--center {
-		box-shadow: none;
-
-		.uix-tabs__nav {
-			> ul {
-				font-size: 0; /*Fighting the Space Between Inline Block Elements*/
-				display: block;
-				width: 100%;
-				text-align: center;
-				/*require*/
-				//@include outer-shadow();
-
-				li {
-					font-size: 1rem; /*Fighting the Space Between Inline Block Elements*/
-					display: inline-block;
-					/*require*/
-					float: none;
-				}
 			}
 		}
 	}
@@ -149,8 +128,8 @@ section {
 			> ul {
 				box-sizing: border-box;
 				position: relative;
-				width: 300px;
-				height: 300px;
+				width: 350px;
+				height: 350px;
 				border: none;
 				border-radius: 50%;
 				margin: 0;
@@ -173,10 +152,10 @@ section {
 					min-width: inherit; /* Required */
 
 					> a {
-						font-size:2em;
+						font-size:1.6em;
 						color: #7e8083;
-						width: 80px;
-						height: 80px;
+						width: 70px;
+						height: 70px;
 						line-height: 60px;
             text-decoration: none;
 						background: #2b3035;

@@ -8,7 +8,7 @@
           <div class="container uix-t-c">
             <div class="row justify-between">
               <div class="col-12">
-                <div class="uix-tabs uix-tabs--rotation" data-rotation="true" data-rotation-display="9" data-rotation-radius="130" data-rotation-wrapper-angle="130">
+                <div class="uix-tabs uix-tabs--rotation" data-rotation="true" data-rotation-display="10" data-rotation-radius="130" data-rotation-wrapper-angle="130">
                   <div class="row">
                     <div class="col-5 q-mt-md q-mb-md">
                     <div class="uix-tabs__nav">
@@ -51,6 +51,9 @@
 
                         <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = true; color9 = false;">
                           <a href="javascript:void(0); text-whtie" :style=" color8 == true ? 'background-color: #45ff45;' : 'background-color: #2b3035;' ">3-D</a>
+                        </li>
+                        <li v-on:click="color1 = false; color2 = false; color3 = false; color4 = false; color5 = false; color6 = false; color7 = false; color8 = false; color9 = false;color10 = true">
+                          <a href="javascript:void(0); text-whtie" :style=" color10 == true ? 'background-color: #112456;' : 'background-color: #2b3035;' ">OT</a>
                         </li>
                       </ul>
                     </div><!-- /.uix-tabs__nav -->
@@ -203,6 +206,18 @@
                           <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Animación" class="col-3" size="md" no-caps />
                         </div>
                       </div>
+                      <div class="uix-tabs__content">
+                        <span class="texto1 text-h4 text-weight-bold" style="color: #45ff45;">OT</span>
+                        <p class="texto3 q-mt-md">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus deserunt nisi officiis
+                        </p>
+                        <span class="texto1 text-h6 text-grey-8 q-mb-md">Nuestras habilidades</span>
+                        <div class="texto3 row text-justify q-gutter-sm">
+                          <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Modelado" class="col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; max-width:90%; width:30%; border-radius: 10px;" label="Render" class="col-3" size="md" no-caps />
+                          <q-btn outline style="color: #fdfdfd; max-width:90%; width:33%; border-radius: 10px;" label="Animación" class="col-3" size="md" no-caps />
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>                  
@@ -228,7 +243,7 @@
               <div class="col-xs-12 col-sm-10">
                 <div class="uix-tabs uix-tabs--rotation" 
                 data-rotation="true" 
-                data-rotation-display="9" 
+                 
                 data-rotation-radius="130" 
                 data-rotation-wrapper-angle="130">
                   <div class="row justify-center">
@@ -480,6 +495,7 @@ export default {
       color7: false,
       color8: false,
       color9: true,
+      color10: false,
       text:"",
       hooperSettings: {
       infiniteScroll: true,
