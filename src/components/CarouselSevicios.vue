@@ -381,7 +381,7 @@
                   <div class="col-xs-12 col-sm-12">                   
 
                     <div class="q-mt-xl uix-tabs__content active">
-                      <q-card-section class=" row q-mx-sm">
+                      <q-card-section class="ser_one row q-mx-sm">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #2bfdb1;">Consultoria</span>
                           <p class="texto3 q-mt-md text-justify" style="font-size:17px;">
                             El mundo hoy esta en un inminente cambio, por eso, es necesario
@@ -403,7 +403,7 @@
                       </div>
                     </div>
                     <div class="q-mt-xl q-ml uix-tabs__content">
-                      <q-card-section class=" row q-mx-sm">
+                      <q-card-section class="ser_two row q-mx-sm">
                         <span class="texto1 text-h4 q-mt-xl text-weight-bold" style="color: #429dff;">Api Whatsapp</span>
                         <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
                           Whatsapp hoy en día es el medio de comunicación numero uno en el mundo,
@@ -420,7 +420,7 @@
                       </div>
                     </div>
                     <div class="q-mt-xl uix-tabs__content">
-                      <q-card-section class=" row q-mx-sm">
+                      <q-card-section class="ser_four row q-mx-sm">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #ff4343;">E-Commerce</span>
                           <p class=" text-justify texto3 q-mt-md" style="font-size:17px;">
                             El cambio que vive el mundo el día de hoy esta impulsando el comercio
@@ -439,7 +439,7 @@
                       </div>
                     </div> 
                     <div class="q-mt-xl uix-tabs__content">
-                      <q-card-section class=" row q-mx-sm">
+                      <q-card-section class="ser_five row q-mx-sm">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #48ffe0;">Sistemas</span>
                         <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
                           Los sistemas hoy en día son la fuente de la transformación digital, quienes
@@ -460,7 +460,7 @@
                       </div>
                     </div>
                     <div class="q-mt-xl uix-tabs__content">
-                      <q-card-section class=" row q-mx-sm">
+                      <q-card-section class="ser_six row q-mx-sm">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #be43ff;">Apps</span>
                         <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
                           Las Aplicaciones móviles juegan un papel importante en nuestras vidas, hoy
@@ -477,7 +477,7 @@
                       </div>
                     </div>   
                     <div class="q-mt-xl uix-tabs__content">
-                      <q-card-section class=" row q-mx-sm">
+                      <q-card-section class="ser_seven row q-mx-sm">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #ff45fb;">Servidores</span>
                         <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
                           Todo proyecto digital necesita un lugar en donde vivir 
@@ -494,7 +494,7 @@
                       </div>
                     </div>   
                     <div class="q-mt-xl uix-tabs__content">
-                      <q-card-section class=" row q-mx-sm">
+                      <q-card-section class="ser_ocho row q-mx-sm">
                         <span class="texto1 text-h4 text-weight-bold" style="color: #ffad4a;">Marketing Digital</span>
                         <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
                           Las campañas de marketing digital juegan un papel importante en la
@@ -510,7 +510,7 @@
                       </div>
                     </div>   
                       <div class="q-mt-xl uix-tabs__content">
-                        <q-card-section class=" row q-mx-sm">
+                        <q-card-section class="ser_nive row q-mx-sm">
                           <span class="texto1 text-h4 text-weight-bold" style="color: #ffad4a;">Branding</span>
                           <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
                             La forma como el mundo te ve y te percibe es decisivo
@@ -526,7 +526,7 @@
                         </div>
                       </div>    
                      <div class="q-mt-xl uix-tabs__content">
-                        <q-card-section class=" row q-mx-sm">
+                        <q-card-section class="ser_ten row q-mx-sm">
                           <span class="texto1 text-h4 text-weight-bold" style="color: #45ff45;">3D</span>
                           <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
                             Llegar una a impacto publicitario mas alto es la mejor opción
@@ -542,7 +542,7 @@
                         </div>
                       </div>  
                       <div class="q-mt-xl uix-tabs__content">
-                        <q-card-section class=" row q-mx-sm">
+                        <q-card-section class="ser_tree row q-mx-sm">
                           <span class="texto1 text-h4 text-weight-bold" style="color: #ff7f00;">Drop Shipping</span>
                           <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
                             El dropshipping se consiste de la venta de productos en línea que aún no se
@@ -643,8 +643,8 @@
                   </div>
                   <div class="row justify-center">
                     <div class="col-xs-12">
-                      <div class="q-mt-xl uix-tabs__content active">
-                        <q-card-section class=" row q-mx-sm">
+                      <div class="ser_one q-mt-xl uix-tabs__content active">
+                        <q-card-section class="row q-mx-sm">
                           <span class="texto1 text-h4 text-weight-bold" style="color: #2bfdb1;">Consultoria</span>
                             <p class="texto3 q-mt-md text-justify" style="font-size:17px;">
                               El mundo hoy esta en un inminente cambio, por eso, es necesario
@@ -665,7 +665,7 @@
                           <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Asesoria Especializada" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="sm" no-caps />
                         </div>
                       </div>
-                      <div class="q-mt-xl q-ml uix-tabs__content">
+                      <div class="ser_two q-mt-xl q-ml uix-tabs__content">
                         <q-card-section class=" row q-mx-sm">
                           <span class="texto1 text-h4 text-weight-bold" style="color: #429dff;">Api Whatsapp</span>
                           <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
@@ -682,7 +682,7 @@
                           <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Venta Simplificada" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                         </div>
                       </div>
-                      <div class="q-mt-xl uix-tabs__content">
+                      <div class="ser_four q-mt-xl uix-tabs__content">
                         <q-card-section class=" row q-mx-sm">
                           <span class="texto1 text-h4 text-weight-bold" style="color: #ff4343;">E-Commerce</span>
                             <p class=" text-justify texto3 q-mt-md" style="font-size:17px;">
@@ -701,7 +701,7 @@
                           <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Ventas por Conversiones" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                         </div>
                       </div> 
-                      <div class="q-mt-xl uix-tabs__content">
+                      <div class="ser_five q-mt-xl uix-tabs__content">
                         <q-card-section class=" row q-mx-sm">
                           <span class="texto1 text-h4 text-weight-bold" style="color: #48ffe0;">Sistemas</span>
                           <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
@@ -722,7 +722,7 @@
                           <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Flujo de Información" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                         </div>
                       </div>
-                      <div class="q-mt-xl uix-tabs__content">
+                      <div class="ser_six q-mt-xl uix-tabs__content">
                         <q-card-section class=" row q-mx-sm">
                           <span class="texto1 text-h4 text-weight-bold" style="color: #be43ff;">Apps</span>
                           <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
@@ -739,7 +739,7 @@
                           <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Nativas" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                         </div>
                       </div>   
-                      <div class="q-mt-xl uix-tabs__content">
+                      <div class="ser_seven q-mt-xl uix-tabs__content">
                         <q-card-section class=" row q-mx-sm">
                           <span class="texto1 text-h4 text-weight-bold" style="color: #ff45fb;">Servidores</span>
                           <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
@@ -756,7 +756,7 @@
                           <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Hosting" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                         </div>
                       </div>   
-                      <div class="q-mt-xl uix-tabs__content">
+                      <div class="ser_ocho q-mt-xl uix-tabs__content">
                         <q-card-section class=" row q-mx-sm">
                           <span class="texto1 text-h4 text-weight-bold" style="color: #ffad4a;">Marketing Digital</span>
                           <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
@@ -772,7 +772,7 @@
                           <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="GoogleAdd" class="q-mr-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                         </div>
                       </div>   
-                      <div class="q-mt-xl uix-tabs__content">
+                      <div class="ser_nive q-mt-xl uix-tabs__content">
                         <q-card-section class=" row q-mx-sm">
                           <span class="texto1 text-h4 text-weight-bold" style="color: #ffad4a;">Branding</span>
                           <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
@@ -788,7 +788,7 @@
                           <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Portafolio Grafico" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                         </div>
                       </div>    
-                      <div class="q-mt-xl uix-tabs__content">
+                      <div class="ser_ten q-mt-xl uix-tabs__content">
                         <q-card-section class=" row q-mx-sm">
                           <span class="texto1 text-h4 text-weight-bold" style="color: #45ff45;">3D</span>
                           <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
@@ -804,7 +804,7 @@
                           <q-btn outline style="color: #fdfdfd; border-radius: 10px;" label="Animación" class="q-mr-sm q-mt-sm col-xs-5 col-sm-5 col-3" size="md" no-caps />
                         </div>
                       </div>
-                      <div class="q-mt-xl uix-tabs__content">
+                      <div class="ser_tree q-mt-xl uix-tabs__content">
                         <q-card-section class=" row q-mx-sm">
                           <span class="texto1 text-h4 text-weight-bold" style="color: #ff7f00;">Drop Shipping</span>
                           <p class="text-justify texto3 q-mt-md" style="font-size:17px;">
