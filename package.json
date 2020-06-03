@@ -19,6 +19,8 @@
     "@quasar/extras": "^1.0.0",
     "hooper": "^0.3.4",
     "jquery": "^3.5.0",
+    "mailgun-js": "^0.22.0",
+    "mailgun.js": "^2.0.1",
     "quasar": "^1.0.0",
     "vue-carousel": "^0.18.0"
   },

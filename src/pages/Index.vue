@@ -152,11 +152,11 @@ section {
 					min-width: inherit; /* Required */
 
 					> a {
-						font-size:1.6em;
+						font-size:1.8em;
 						color: #7e8083;
 						width: 70px;
 						height: 70px;
-						line-height: 60px;
+						line-height: 50px;
             text-decoration: none;
 						background: #2b3035;
 						border: 2px solid #7e8083;
@@ -247,9 +247,9 @@ section {
                 </q-toolbar-title>
               </div>
               <div class="texto3 q-ml-sm text-h6">
-                Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is <br>
-                advertised as the most popular gun in American crime. do you believe that <br>
-                shit? It actually says that in the little book that comes whit it: the most popular.
+                Con nuestro portafolio tendrás un sin fin de posibilidades para tu idea, <br>
+                empresa o negocio, queremos estar contigo en ese proceso de evolución <br>
+                crecimiento ;)
               </div>
             </div>
 
@@ -261,9 +261,9 @@ section {
               </div>
               <div class="texto3 q-ml-lg text-h6">
                 <span>
-                  Now that there is the Tec-9, a crappy spray gun from South Miami. This gun  is
-                  advertised as the most popular gun in American crime. do you believe that
-                  shit? It actually says that in the little book that comes whit it: the most popular.
+                  Con nuestro portafolio tendrás un sin fin de posibilidades para tu idea, <br>
+                  empresa o negocio, queremos estar contigo en ese proceso de evolución <br>
+                  crecimiento ;)
                 </span>
               </div>
             </div>
@@ -273,55 +273,61 @@ section {
             
             <slide>
               <div class="row bg-none justify-between">
-                <img class="col-xs-12" src="../statics/pro/servicio_1.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_1.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
             <slide>
               <div class="row bg-none">
-                <img class="col-xs-12" src="../statics/pro/servicio_2.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_2.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
             <slide>
               <div class="row bg-none justify-between">
-                <img class="col-xs-12" src="../statics/pro/servicio_3.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_3.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
             <slide>
               <div class="row bg-none justify-between">
-                <img class="col-xs-12" src="../statics/pro/servicio_4.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_4.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
             <slide>
               <div class="row bg-none justify-between">
-                <img class="col-xs-12" src="../statics/pro/servicio_5.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_5.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
             <slide>
               <div class="row bg-none justify-between">
-                <img class="col-xs-12" src="../statics/pro/servicio_6.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_6.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
             <slide>
               <div class="row bg-none justify-between">
-                <img class="col-xs-12" src="../statics/pro/servicio_7.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_7.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
             <slide>
               <div class="row bg-none justify-between">
-                <img class="col-xs-12" src="../statics/pro/servicio_8.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_8.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
             <slide>
               <div class="row bg-none justify-between my-card">
-                <img class="col-xs-12" src="../statics/pro/servicio_9.svg" style="max-width:100%; height: 400px;">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_9.svg" style="max-width:100%; height: 400px;">
+              </div>
+            </slide>
+
+            <slide>
+              <div class="row bg-none justify-between my-card">
+                <img class="col-xs-12" src="../statics/Promedios/servicio_10.svg" style="max-width:100%; height: 400px;">
               </div>
             </slide>
 
@@ -419,163 +425,205 @@ export default {
       playSpeed: 3000,
       breakpoints: {
           2400: {
-              itemsToShow: 6.2
+              itemsToShow: 6.3
           },
           1800: {
-              itemsToShow: 5.2
+              itemsToShow: 5.3
           },
           1761: {
-            itemsToShow: 4.9
+            itemsToShow: 5
           },
           1722: {
-            itemsToShow: 4.8
+            itemsToShow: 4.9
           },
           1664: {
-            itemsToShow: 4.6
+            itemsToShow: 4.7
           },
           1622: {
-            itemsToShow: 4.5
+            itemsToShow: 4.6
           },
           1500: {
-              itemsToShow: 4.4
+              itemsToShow: 4.5
           },
           1486: {
-            itemsToShow: 4.2
+            itemsToShow: 4.3
           },
           1422: {
-            itemsToShow: 3.9
+            itemsToShow: 4
           },
           1400: {
-            itemsToShow: 4.2
+            itemsToShow: 4.3
           },
           1345: {
-            itemsToShow: 3.7
+            itemsToShow: 3.8
           },
           1297:{
             itemsToShow: 3.6
           },
           1238: {
-            itemsToShow: 3.4
+            itemsToShow: 3.5
           },
           1214: {
-            itemsToShow: 3.3
+            itemsToShow: 3.4
           },
           1100: {
-              itemsToShow: 3.2
+              itemsToShow: 3.3
           },
           1092: {
-            itemsToShow: 3
+            itemsToShow: 3.1
           },
           1089: {
-            itemsToShow: 3
+            itemsToShow: 3.1
           },
           1064: {
-            itemsToShow: 3
+            itemsToShow: 3.1
           },
           1058: {
-            itemsToShow: 3
+            itemsToShow: 3.1
           },
           1024: {
-            itemsToShow: 2.8
+            itemsToShow: 2.9
           },
           1002: {
-            itemsToShow: 2.8
+            itemsToShow: 2.9
+          },
+          986: {
+            itemsToShow: 2.9
           },
           993: {
-            itemsToShow: 2.7
+            itemsToShow: 2.8
           },
           992: {
-            itemsToShow: 2.7
+            itemsToShow: 2.8
+          },
+          970: {
+            itemsToShow: 2.9
+          },
+          962: {
+            itemsToShow: 2.9
           },
           959: {
-            itemsToShow: 2.6
+            itemsToShow: 2.8
+          },
+          950: {
+            itemsToShow: 2.8
           },
           942: {
-            itemsToShow: 2.6
+            itemsToShow: 2.8
+          },
+          934: {
+            itemsToShow: 2.8
+          },
+          918: {
+            itemsToShow: 2.7
           },
           882: {
-              itemsToShow: 2.5
+              itemsToShow: 2.6
           },
           878: {
-            itemsToShow: 2.4
+            itemsToShow: 2.5
+          },
+          862: {
+            itemsToShow: 2.6
+          },
+          858: {
+            itemsToShow: 2.5
+          },
+          838: {
+            itemsToShow: 2.5
           },
           834: {
-            itemsToShow: 2.3
+            itemsToShow: 2.4
+          },
+          830: {
+            itemsToShow: 2.4
           },
           803: {
-            itemsToShow: 2.2
+            itemsToShow: 2.3
+          },
+          796: {
+            itemsToShow: 2.4
           },
           768: {
-            itemsToShow: 2.1
+            itemsToShow: 2.3
           },
           764: {
-              itemsToShow: 2.2
+              itemsToShow: 2.3
           },
           762: {
-            itemsToShow: 2.2
+            itemsToShow: 2.3
           },
           725: {
-            itemsToShow: 2.1
+            itemsToShow: 2.2
           },
           723: {
-            itemsToShow: 2
-          },
-          720: {
-            itemsToShow: 2
-          },
-          714:{
             itemsToShow: 2.1
           },
+          720: {
+            itemsToShow: 2.1
+          },
+          714:{
+            itemsToShow: 2.2
+          },
           689: {
-            itemsToShow: 1.9
+            itemsToShow: 2.1
+          },
+          688: {
+            itemsToShow: 2.0
           },
           668: {
-              itemsToShow: 1.8
+              itemsToShow: 1.9
           },
           649: {
-            itemsToShow: 1.8
+            itemsToShow: 1.9
           },
           645: {
-            itemsToShow: 1.8
+            itemsToShow: 1.9
           },
           628: {
-            itemsToShow: 1.7
+            itemsToShow: 1.8
           },
           620: {
-            itemsToShow: 1.7
+            itemsToShow: 1.8
           },
           600: {
-            itemsToShow: 1.6
+            itemsToShow: 1.7
           },
           595: {
-            itemsToShow: 1.6
+            itemsToShow: 1.7
           },
           586: {
-            itemsToShow: 1.6
+            itemsToShow: 1.7
           },
           531: {
-            itemsToShow: 1.5
+            itemsToShow: 1.6
           },
           500: {
-              itemsToShow: 1.4
+            itemsToShow: 1.5
           },
           492: {
-              itemsToShow: 1.3
+              itemsToShow: 1.4
           },
           452: {
             itemsToShow: 1.3
+          },
+          430: {
+              itemsToShow: 1.2
           },
           420: {
               itemsToShow: 1.2
           },
           411: {
-              itemsToShow: 1.1
+              itemsToShow: 1.2
           },
           375: {
-              itemsToShow: 1
+              itemsToShow: 1.1
+          },
+          320: {
+              itemsToShow: 1.1
           },
           0: {
-              itemsToShow: 1
+              itemsToShow: 1.1
           }
         }
       }  
