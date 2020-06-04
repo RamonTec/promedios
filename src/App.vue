@@ -26,6 +26,9 @@ export default {
       twitterDescription: { property: 'twitter:description', content: 'Somos un equipo dedicado al crecimiento, desarrollo y optimización de los procesos en el ámbito digital, convertimos las ideas en realidad intangible para el mundo.' },
       twitterImage: { property: 'twitter:image', content: 'https://promedios.now.sh/img/pro_med.6fe88173.png' }
     },
+  },
+  created () {
+    this.$q.addressbarColor.set('#25292e')
   }
 }
 </script>
