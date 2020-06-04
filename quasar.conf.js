@@ -202,22 +202,6 @@ module.exports = function (/* ctx */) {
             type: 'image/png'
           }
         ]
-      },
-      metaVariablesFn (manifest) {
-        // ...
-        return [
-          {
-            // this entry will generate:
-            // <meta name="theme-color" content="ff0">
-    
-            tagName: 'link',
-            attributes: {
-              rel: 'shortcut icon',
-              sizes: '128x128',
-              href: 'statics/icons/android-chrome-192x192.png'
-            }
-          }
-        ]
       }
     },
 
