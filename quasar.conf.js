@@ -168,7 +168,6 @@ module.exports = function (/* ctx */) {
         name: 'Pro Medios Digitales',
 
         short_name: 'Pro Medios Digitales',
-        description: 'Empresa de Desarrollo',
         display: 'standalone',
         orientation: 'portrait',
 
