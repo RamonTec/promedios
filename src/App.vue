@@ -17,7 +17,6 @@ export default {
     // meta tags
     meta: {
       description: { name: 'description', content: 'Somos un equipo dedicado al crecimiento, desarrollo y optimización de los procesos en el ámbito digital, convertimos las ideas en realidad intangible para el mundo.' },
-      ogType: { property: 'og:type', content: 'website' },
       ogUrl: { property: 'og:url', content: 'http://promediosdigitales.com/#/' },
       ogTitle: { property: 'og:title', content: 'Promedios Digitales' },
       ogDescription: { property: 'og:description', content: 'Somos un equipo dedicado al crecimiento, desarrollo y optimización de los procesos en el ámbito digital, convertimos las ideas en realidad intangible para el mundo.' },
