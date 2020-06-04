@@ -21,11 +21,11 @@ export default {
       ogUrl: { property: 'og:url', content: 'http://promediosdigitales.com/#/' },
       ogTitle: { property: 'og:title', content: 'Promedios Digitales' },
       ogDescription: { property: 'og:description', content: 'Somos un equipo dedicado al crecimiento, desarrollo y optimización de los procesos en el ámbito digital, convertimos las ideas en realidad intangible para el mundo.' },
-      ogImage: { property: 'og:image', content: '../statics/Promedios/pro_med.png' },
+      ogImage: { property: 'og:image', content: 'https://promedios.now.sh/img/pro_med.6fe88173.png' },
       twitterUrl: { property: 'twitter:url', content: 'http://promediosdigitales.com/#/' },
       twitterTitle: { property: 'twitter:title', content: 'Promedios Digitales' },
       twitterDescription: { property: 'twitter:description', content: 'Somos un equipo dedicado al crecimiento, desarrollo y optimización de los procesos en el ámbito digital, convertimos las ideas en realidad intangible para el mundo.' },
-      twitterImage: { property: 'twitter:image', content: '../statics/Promedios/pro_med.png' }
+      twitterImage: { property: 'twitter:image', content: 'https://promedios.now.sh/img/pro_med.6fe88173.png' }
     },
   }
 }
