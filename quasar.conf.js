@@ -167,7 +167,7 @@ module.exports = function (/* ctx */) {
       workboxOptions: {}, // only for GenerateSW
       manifest: {
         name: 'Pro Medios Digitales',
-
+        description: 'Somos un equipo dedicado al crecimiento, desarrollo y optimización de los procesos en el ámbito digital, convertimos las ideas en realidad intangible para el mundo.',
         short_name: 'Pro Medios Digitales',
         display: 'standalone',
         orientation: 'portrait',
