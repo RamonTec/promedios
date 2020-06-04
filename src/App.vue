@@ -28,7 +28,7 @@ export default {
     },
   },
   created () {
-    this.$q.addressbarColor.set('#25292e')
+    this.$q.addressbarColor.set('#2bfdb1')
   }
 }
 </script>
